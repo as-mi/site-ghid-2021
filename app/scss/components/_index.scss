@@ -1,0 +1,24 @@
+.header {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(325deg, var(--header-blue-1), var(--header-blue-2));
+
+  &__text {
+    font-family: 'Fraunces', serif;
+    font-weight: 800;
+    font-size: 3.5rem;
+    color: var(--header-text);
+  }
+
+  &__line {
+    width: 420px;
+    height: 0.8rem;
+    background-color: white;
+  }
+}
