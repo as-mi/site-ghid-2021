@@ -29,7 +29,7 @@
         font-size: rem(45);
         text-transform: uppercase;
         font-family: var(--font-fraunces);
-        margin-bottom: rem(20);
+        margin-bottom: rem(10);
         color: var(--section-light-green);
         text-align: center;
 
@@ -50,7 +50,7 @@
         color: var(--footer-small-text);
         text-align: center;
         max-width: 30em;
-        margin-bottom: rem(30);
+        margin-bottom: rem(40);
 
         @include breakpoint-down(medium) {
           font-size: 0.9rem;
@@ -62,7 +62,7 @@
       }
 
       button {
-        margin-bottom: rem(50);
+        margin-bottom: rem(30);
         background-color: var(--section-light-green);
         color: var(--white);
         padding: 0.8rem 2rem;
