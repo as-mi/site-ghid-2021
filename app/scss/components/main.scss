@@ -9,7 +9,7 @@
 
   &__sections {
     @include breakpoint-up(x-medium) {
-      padding: 0rem 4rem;
+      padding: 0rem 4rem rem(125) 4rem;
     }
 
     &__section {
@@ -21,7 +21,7 @@
 
       @include breakpoint-up(large) {
         max-width: rem(1400);
-        margin: rem(125) auto;
+        margin: rem(125) auto 0 auto;
       }
 
       h1 {
