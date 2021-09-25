@@ -1,13 +1,17 @@
 // CSS Vars
 :root {
-  --green: green;
-  // header
+  // GLOBALS
+  --white: #fff;
+
+  // Header
   --header-blue-1: #226dcf;
   --header-blue-2: #198fdf;
   --header-text: #ffffff;
-  // section
+
+  // Sections
   --section-button: #023047;
-  // footer
+
+  // Footer
   --footer-background: #023047;
   --footer-small-text: #c8c8cb;
 }

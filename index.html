@@ -1,29 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="./dist/css/style.css">
+    
+    <!-- Title -->
     <title>Ghid ASMI</title>
 
-    <link rel="stylesheet" href="./dist/css/style.css">
-    <!-- fonts -->
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@200;400;600;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Overpass:wght@200;400&display=swap" rel="stylesheet">
 </head>
 <body>
-
     <section class="header">
-        <h1 class="header__text">BINE AI VENIT</h1>
-        <h1 class="header__text">PE</h1>
+        <h1 class="header__text">bine ai venit <span>pe</span></h1>
         <div class="header__line"></div>
-        <h1 class="header__text">GHIDUL</h1>
-        <h1 class="header__text">BOBOCULUI</h1>
+        <h1 class="header__text">ghidul <span>bobocului</span></h1>
     </section>
 
-    <section class="main">
+    <!-- <section class="main">
         <div class="main__cuprins">
         </div>
         <div class="main__line"></div>
@@ -35,21 +36,34 @@
                 <img src="images/section/burse.jpg"></img>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <footer class="footer">
-        <div class="footer__left">
-            <h1>ASMI</h1>
-            <a href="https://www.facebook.com/asmi.ub"><img class="footer__left__img" src="images/assets/footer/facebook-square-brands.svg" alt="instagram"></img></a>
-            <a href="https://www.instagram.com/asmi.ub/?hl=ro"><img class="footer__left__img" src="images/assets/footer/instagram-square-brands.svg" alt="instagram"></img></a>
-            <a href="link la linkedin"><img class="footer__left__img" src="images/assets/footer/linkedin-brands.svg" alt="instagram"></img></a>
-        </div>
-        <div class="footer__right">
-            <h1>Facultatea de Matematică și Informatică</h1>
-            <p>Str. Academiei, nr.14, 010014, București</p>
-            <p>secretariat@fmi.unibuc.ro</p>
-            <p>(+40)21 314 3508</p>
-        </div>
+        <section class="footer__contact">
+            <div class="footer__contact__left">
+                <h1>ASMI</h1>
+            
+                <a href="https://www.facebook.com/asmi.ub" target="_blank">
+                    <img class="footer__contact__left__img" src="images/assets/footer/facebook-square-brands.svg" alt="facebook"></img>
+                </a>
+                <a href="https://www.instagram.com/asmi.ub/?hl=ro" target="_blank">
+                    <img class="footer__contact__left__img" src="images/assets/footer/instagram-square-brands.svg" alt="instagram"></img>
+                </a>
+                <a href="https://www.facebook.com/asmi.ub" target="_blank">
+                    <img class="footer__contact__left__img" src="images/assets/footer/linkedin-brands.svg" alt="linked"></img>
+                </a>
+                
+            </div>
+            <div class="footer__contact__right">
+                <h1>Facultatea de Matematică și Informatică</h1>
+                <p>Str. Academiei, nr.14, 010014, București</p>
+                <p>secretariat@fmi.unibuc.ro</p>
+                <p>(+40)21 314 3508</p>
+            </div>
+        </section>
+        <section class="footer__credits">
+            <p>Copyright &copy; ASMI 2021. All Rights Reserverd.</p>
+        </section>
     </footer>
 
     <script src="dist/js/script.js"></script>

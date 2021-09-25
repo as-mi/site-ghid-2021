@@ -1,0 +1,58 @@
+@use "../util/" as *;
+
+.header {
+  height: 100vh;
+
+  @include breakpoint-up(medium) {
+    min-height: 900px;
+  }
+  @include breakpoint-up(small) {
+    min-height: 600px;
+  }
+
+  background-image: linear-gradient(
+    325deg,
+    var(--header-blue-1),
+    var(--header-blue-2)
+  );
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__text {
+    font-family: var(--font-fraunces);
+    font-size: 4.5rem;
+    color: var(--header-text);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: rem(2);
+
+    span {
+      display: block;
+    }
+
+    @include breakpoint-down(medium) {
+      font-size: 3.75rem;
+    }
+
+    @include breakpoint-down(small) {
+      font-size: 3rem;
+    }
+  }
+
+  &__line {
+    width: rem(490);
+    height: rem(6);
+    border-radius: 5px;
+    background-color: var(--white);
+    margin: 1.25rem 0;
+
+    @include breakpoint-down(small) {
+      margin: 0.8rem 0;
+      width: rem(420);
+      height: rem(5.5);
+    }
+  }
+}
