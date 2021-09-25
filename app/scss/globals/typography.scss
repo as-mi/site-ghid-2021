@@ -15,3 +15,13 @@ a {
 p {
   font-family: var(--font-nunito);
 }
+
+button {
+  font-family: var(--font-nunito);
+  font-weight: 700;
+  background-color: transparent;
+  border: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
