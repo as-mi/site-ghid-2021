@@ -2,9 +2,9 @@ const scrollBtn = document.querySelector(".scrollButton");
 
 scrollBtn.addEventListener("click", () => {
   let cuprins = document.getElementById("start_point");
-  cuprins.scrollIntoView({
+  window.scrollTo({
     behavior: 'smooth',
-    block: 'nearest'
+    top: cuprins.offsetHeight
   });
 });
 

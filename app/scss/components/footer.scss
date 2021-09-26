@@ -92,10 +92,17 @@
         font-size: 0.7rem;
         color: var(--footer-small-text);
         margin-bottom: 0.2rem;
+        text-decoration: none;
 
         @include breakpoint-down(medium) {
           margin-bottom: 0.4rem;
           font-size: 0.75rem;
+        }
+
+        a{
+          // pt Iphone something something
+          color: var(--footer-small-text);
+          text-decoration: none;
         }
       }
     }
