@@ -1,14 +1,15 @@
 const scrollBtn = document.querySelector(".scrollButton");
 
 scrollBtn.addEventListener("click", () => {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth",
+  let cuprins = document.getElementById("start_point");
+  cuprins.scrollIntoView({
+    behavior: 'smooth',
+    block: 'nearest'
   });
 });
 
 window.addEventListener("scroll", () => {
-  if (window.scrollY > 400) {
+  if (window.scrollY > 1200) {
     scrollBtn.classList.add("show");
   } else {
     scrollBtn.classList.remove("show");
