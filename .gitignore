@@ -6,5 +6,3 @@ node_modules
 
 # Exclude all css and js files used for minimazation
 dist
-
-fontawesome
