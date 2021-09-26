@@ -22,6 +22,11 @@
       padding: 0 2rem;
     }
 
+    @include breakpoint-down(mobile) {
+      margin: 3.5rem 0;
+      padding: 0 2rem;
+    }
+
     h1 {
       font-family: var(--font-fraunces);
       text-transform: uppercase;
@@ -32,6 +37,23 @@
       @include breakpoint-down(x-medium) {
         text-align: center;
       }
+
+      @include breakpoint-down(medium) {
+        font-size: 2.5rem;
+      }
+
+      @include breakpoint-down(small) {
+        font-size: 2.25rem;
+      }
+
+      @include breakpoint-down(mobile) {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+      }
+
+      @include breakpoint-down(s-mobile) {
+        font-size: 1.75rem;
+      }
     }
 
     &__content {
@@ -40,7 +62,7 @@
         justify-content: space-between;
         align-items: center;
 
-        padding: 0.25rem 0.5rem;
+        padding: 0.25rem 0rem;
         margin-bottom: 1rem;
         transition: all 0.3s ease-in-out;
 
@@ -64,6 +86,14 @@
           @include breakpoint-down(small) {
             font-size: 1.02rem;
           }
+
+          @include breakpoint-down(mobile) {
+            font-size: 0.95rem;
+          }
+
+          @include breakpoint-down(s-mobile) {
+            font-size: 0.8rem;
+          }
         }
 
         h2 {
@@ -78,6 +108,14 @@
 
           @include breakpoint-down(small) {
             font-size: 1.05rem;
+          }
+
+          @include breakpoint-down(mobile) {
+            font-size: 1rem;
+          }
+
+          @include breakpoint-down(s-mobile) {
+            font-size: 0.85rem;
           }
         }
       }
@@ -101,6 +139,36 @@
         margin: rem(125) auto 0 auto;
       }
 
+      @include breakpoint-down(small) {
+        &:not(:first-child) {
+          margin-top: rem(100);
+        }
+
+        &:first-child {
+          margin-top: 2rem;
+        }
+      }
+
+      @include breakpoint-down(l-mobile) {
+        &:not(:first-child) {
+          margin-top: rem(75);
+        }
+
+        &:first-child {
+          margin-top: 2rem;
+        }
+      }
+
+      @include breakpoint-down(s-mobile) {
+        &:not(:first-child) {
+          margin-top: rem(75);
+        }
+
+        &:first-child {
+          margin-top: 1rem;
+        }
+      }
+
       h1 {
         padding: 0 2rem;
         font-size: rem(45);
@@ -119,6 +187,16 @@
           font-size: rem(30);
           margin-bottom: rem(16);
         }
+
+        @include breakpoint-down(mobile) {
+          font-size: rem(20);
+          margin-bottom: rem(10);
+        }
+
+        @include breakpoint-down(s-mobile) {
+          font-size: rem(18);
+          margin-bottom: rem(6);
+        }
       }
 
       p {
@@ -135,6 +213,13 @@
 
         @include breakpoint-down(small) {
           font-size: 0.85rem;
+        }
+
+        @include breakpoint-down(mobile) {
+          font-size: 0.8rem;
+          max-width: none;
+          padding: 0 1.75rem;
+          margin-bottom: rem(30);
         }
       }
 
@@ -153,6 +238,11 @@
         @include breakpoint-down(small) {
           padding: 0.7rem 1.8rem;
         }
+
+        @include breakpoint-down(mobile) {
+          padding: 0.65rem 1.5rem;
+          font-size: 0.7rem;
+        }
       }
 
       &__image {
@@ -163,6 +253,10 @@
           height: rem(400);
           display: flex;
           justify-content: center;
+        }
+
+        @include breakpoint-down(mobile) {
+          height: rem(275);
         }
 
         img {

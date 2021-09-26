@@ -11,6 +11,10 @@
     min-height: 310px;
   }
 
+  @include breakpoint-down(l-mobile) {
+    padding: 2.75rem 0;
+  }
+
   &__contact {
     display: flex;
     justify-content: space-between;
@@ -63,6 +67,11 @@
         align-items: center;
       }
 
+      @include breakpoint-down(s-mobile) {
+        padding: 0 2rem;
+        text-align: center;
+      }
+
       h1 {
         font-family: var(--font-overpass);
         font-size: 1rem;
@@ -71,6 +80,11 @@
 
         @include breakpoint-down(medium) {
           margin-bottom: 0.75rem;
+          letter-spacing: 0.85px;
+        }
+
+        @include breakpoint-down(s-mobile) {
+          font-size: 0.95rem;
         }
       }
 
@@ -81,6 +95,7 @@
 
         @include breakpoint-down(medium) {
           margin-bottom: 0.4rem;
+          font-size: 0.75rem;
         }
       }
     }
@@ -95,10 +110,22 @@
       font-size: 0.75rem;
       color: var(--footer-small-text);
       opacity: 0.4;
+
+      @include breakpoint-down(l-mobile) {
+        font-size: 0.7rem;
+      }
     }
 
     @include breakpoint-down(medium) {
       margin-top: 1.5rem;
+    }
+
+    @include breakpoint-down(mobile) {
+      margin-top: 1.6rem;
+    }
+
+    @include breakpoint-down(s-mobile) {
+      margin-top: 1rem;
     }
   }
 }

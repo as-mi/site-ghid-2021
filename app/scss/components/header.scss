@@ -40,19 +40,49 @@
     @include breakpoint-down(small) {
       font-size: 3rem;
     }
+
+    @include breakpoint-down(l-mobile) {
+      font-size: 2.5rem;
+    }
+
+    @include breakpoint-down(mobile) {
+      font-size: 2rem;
+      padding: 0 2rem;
+    }
+
+    @include breakpoint-down(s-mobile) {
+      font-size: 1.6rem;
+    }
   }
 
   &__line {
-    width: rem(490);
+    width: rem(560);
     height: rem(6);
     border-radius: 5px;
     background-color: var(--white);
     margin: 1.25rem 0;
 
+    @include breakpoint-down(medium) {
+      width: rem(480);
+    }
+
     @include breakpoint-down(small) {
       margin: 0.8rem 0;
-      width: rem(420);
+      width: rem(390);
       height: rem(5.5);
+    }
+
+    @include breakpoint-down(l-mobile) {
+      width: rem(330);
+      height: rem(4.5);
+    }
+
+    @include breakpoint-down(mobile) {
+      width: rem(270);
+    }
+
+    @include breakpoint-down(s-mobile) {
+      width: rem(225);
     }
   }
 }

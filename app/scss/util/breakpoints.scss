@@ -1,13 +1,19 @@
-// 650px, 850px, 1400px
+// 340px, 390px, 500px, 650px, 850px, 1400px
 $breakpoints-up: (
+  "s-mobile": "21.25em",
+  "mobile": "24.375em",
+  "l-mobile": "31.25em",
   "small": "40.625em",
   "medium": "53.125em",
   "x-medium": "57em",
   "large": "87.4376em",
 );
 
-// 649px, 849px, 1399px
+// 339px, 389px, 499px, 649px, 849px, 1399px
 $breakpoints-down: (
+  "s-mobile": "21.1875em",
+  "mobile": "24.3125em",
+  "l-mobile": "31.1875em",
   "small": "40.5625em",
   "medium": "53.0625em",
   "x-medium": "54em",
