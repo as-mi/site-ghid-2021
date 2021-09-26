@@ -1,0 +1,142 @@
+@use "../util/" as *;
+
+.section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  &__header {
+      h1 {
+        padding: 0 2rem;
+        font-size: rem(45);
+        text-transform: uppercase;
+        font-family: var(--font-fraunces);
+        margin: rem(70) 0 rem(10) 0;
+        color: var(--section-light-green);
+        text-align: center;
+
+        @include breakpoint-down(medium) {
+          font-size: rem(35);
+          margin-bottom: rem(16);
+        }
+
+        @include breakpoint-down(small) {
+          font-size: rem(30);
+          margin-bottom: rem(16);
+        }
+
+        @include breakpoint-down(mobile) {
+          font-size: rem(20);
+          margin-bottom: rem(10);
+        }
+
+        @include breakpoint-down(s-mobile) {
+          font-size: rem(18);
+          margin-bottom: rem(6);
+        }
+      }
+
+      p {
+        font-size: 1.3rem;
+        font-family: var(--font-nunito);
+        color: var(--footer-small-text);
+        text-align: center;
+        max-width: 30em;
+        margin-bottom: rem(40);
+
+        @include breakpoint-down(medium) {
+          font-size: 0.9rem;
+        }
+
+        @include breakpoint-down(small) {
+          font-size: 0.85rem;
+        }
+
+        @include breakpoint-down(mobile) {
+          font-size: 0.8rem;
+          max-width: none;
+          padding: 0 1.75rem;
+          margin-bottom: rem(30);
+        }
+      }
+  }
+
+  &__content {
+    display: inline-block;
+    position: relative;
+    width: 80%;
+    margin: rem(10) 0 rem(50) 0;
+
+    @include breakpoint-up(large) {
+      padding: 1%;
+    }
+
+    @include breakpoint-down(large) {
+      padding: 2%;
+    }
+
+    @include breakpoint-down(small) {
+      padding: 3%;
+    }
+
+    @include breakpoint-down(mobile) {
+      padding: 4%;
+    }
+
+    --border-size: 2px;
+
+    .square {
+      display: block;
+      width: rem(25);
+      height: rem(25);
+      position: absolute;
+      border-radius: 3px;
+    }
+
+    .border {
+      background-color: var(--border-background);
+      z-index: 1;
+    }
+
+    .mask {
+      background-color: #fff;
+      z-index: 2;
+    }
+
+    .top_b {
+      left: calc(-1 * var(--border-size));
+      top: calc(-1 * var(--border-size));
+    }
+
+    .top_m {
+      left: 0;
+      top: 0;
+    }
+
+    .bottom_b {
+      right: calc(-1 * var(--border-size));
+      bottom: calc(-1 * var(--border-size));
+    }
+
+    .bottom_m {
+      right: 0;
+      bottom: 0;
+    }
+
+    p {
+      font-family: var(--font-nunito);
+      font-size: 1.2rem;
+      position: relative;
+      z-index: 3;
+      margin-top: 0;
+      margin-bottom: rem(30);
+    }
+
+    p:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
