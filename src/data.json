@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "nume":"1. DICȚIONAR STUDENȚESC",
+        "descriere":"Text provizoriu",
+        "imagineALT":"dictionar_image"
+    },
+    {
+        "id": 2,
+        "nume":"2. Domeniul Informatică",
+        "descriere":"Invitație către viitor!",
+        "imagineALT":"informatica_image"
+    },
+    {
+        "id": 3,
+        "nume":"3. Domeniul Matematică",
+        "descriere":"Învață să îți depășești limitele!",
+        "imagineALT":"matematica_image"
+    },
+    {
+        "id": 4,
+        "nume":"4. Domeniul CTI",
+        "descriere":"Un alt tip de rețea.",
+        "imagineALT":"cti_image"
+    },
+    {
+        "id": 5,
+        "nume":"5. Asociația studenților la matematică și Informatică - asmi",
+        "descriere":"De la studenți, pentru studenți.",
+        "imagineALT":"asmi_image"
+    },
+    {
+        "id": 6,
+        "nume":"6. Activitatea Didactică",
+        "descriere":"Mic ghid de supraviețuire de-a lungul anilor.",
+        "imagineALT":"activitate_didactica_image"
+    },
+    {
+        "id": 7,
+        "nume":"7. Conducerea Facultății",
+        "descriere":"Linia de prim ajutor.",
+        "imagineALT":"conducere_image"
+    },
+    {
+        "id": 8,
+        "nume":"8. Regulamente FMI",
+        "descriere":"Student la FMI până la sfârșit.",
+        "imagineALT":"regulament_image"
+    },
+    {
+        "id": 9,
+        "nume":"9. Burse",
+        "descriere":"A zis cineva bani?",
+        "imagineALT":"burse_image"
+    },
+    {
+        "id": 10,
+        "nume":"10. Reprezentare Studențească",
+        "descriere":"Despre și pentru studenți!",
+        "imagineALT":"reprezentare_studenteasca_image"
+    },
+    {
+        "id": 11,
+        "nume":"11. Facilități",
+        "descriere":"Dacă tot sunt student...",
+        "imagineALT":"facilitati_image"
+    },
+    {
+        "id": 12,
+        "nume":"12. Cariere și internship",
+        "descriere":"Planuri de viitor!",
+        "imagineALT":"cariere_si_internship_image"
+    },
+    {
+        "id": 13,
+        "nume":"13. Extracurriculare",
+        "descriere":"Prea mult timp liber? Nu mai ai.",
+        "imagineALT":"extracurriculare_image"
+    },
+    {
+        "id": 14,
+        "nume":"14. Echipa ghidul bobocului 2021",
+        "descriere":"Regia, traducerea și subtitrarea",
+        "imagineALT":"echipa_image"
+    }
+]

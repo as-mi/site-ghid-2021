@@ -1,0 +1,138 @@
+@use "../util/" as *;
+@use "../globals/" as *;
+
+.footer {
+  height: 20vh;
+  min-height: 210px;
+  padding: 3.5rem 8rem;
+  background-color: $footer-background;
+
+  @include breakpoint-down(medium) {
+    padding: 3.5rem 0;
+    min-height: 320px;
+  }
+
+  @include breakpoint-down(l-mobile) {
+    padding: 2.75rem 0;
+  }
+
+  &__contact {
+    display: flex;
+    justify-content: space-between;
+
+    @include breakpoint-up(large) {
+      max-width: rem(1400);
+      margin: 0 auto;
+    }
+
+    @include breakpoint-down(medium) {
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    &__left {
+      h1 {
+        font-family: $font-overpass;
+        color: $white;
+        font-size: 1.5rem;
+        margin-bottom: 0.4rem;
+        letter-spacing: rem(4);
+
+        @include breakpoint-down(medium) {
+          text-align: center;
+          margin-bottom: 0.75rem;
+        }
+      }
+
+      &__img {
+        width: 25px;
+        filter: invert(90%);
+      }
+
+      a:not(:last-child) {
+        margin-right: 0.4rem;
+
+        @include breakpoint-down(small) {
+          margin-right: 0.8rem;
+        }
+      }
+    }
+
+    &__right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+
+      @include breakpoint-down(medium) {
+        align-items: center;
+      }
+
+      @include breakpoint-down(s-mobile) {
+        padding: 0 2rem;
+        text-align: center;
+      }
+
+      h1 {
+        font-family: var(--font-overpass);
+        font-size: 1rem;
+        color: $white;
+        margin-bottom: 0.4rem;
+
+        @include breakpoint-down(medium) {
+          margin-bottom: 0.75rem;
+          letter-spacing: 0.85px;
+        }
+
+        @include breakpoint-down(s-mobile) {
+          font-size: 0.95rem;
+        }
+      }
+
+      p {
+        font-size: 0.7rem;
+        color: $footer-small-text;
+        margin-bottom: 0.2rem;
+        text-decoration: none;
+
+        @include breakpoint-down(medium) {
+          margin-bottom: 0.4rem;
+          font-size: 0.75rem;
+        }
+
+        a {
+          color: $footer-small-text;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  &__credits {
+    margin-top: 1.6rem;
+    display: flex;
+    justify-content: center;
+
+    p {
+      font-size: 0.75rem;
+      color: $footer-small-text;
+      opacity: 0.4;
+
+      @include breakpoint-down(l-mobile) {
+        font-size: 0.7rem;
+      }
+    }
+
+    @include breakpoint-down(medium) {
+      margin-top: 1.5rem;
+    }
+
+    @include breakpoint-down(mobile) {
+      margin-top: 1.6rem;
+    }
+
+    @include breakpoint-down(s-mobile) {
+      margin-top: 1rem;
+    }
+  }
+}

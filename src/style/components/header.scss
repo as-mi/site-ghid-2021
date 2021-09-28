@@ -1,0 +1,85 @@
+@use "../util/" as *;
+@use "../globals/" as *;
+
+.header {
+  height: 100vh;
+
+  @include breakpoint-up(medium) {
+    min-height: 900px;
+  }
+  @include breakpoint-up(small) {
+    min-height: 600px;
+  }
+
+  background-image: linear-gradient(325deg, $header-blue-1, $header-blue-2);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__text {
+    font-family: $font-fraunces;
+    font-size: 4.5rem;
+    color: $header-text;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: rem(2);
+
+    span {
+      display: block;
+    }
+
+    @include breakpoint-down(medium) {
+      font-size: 3.75rem;
+    }
+
+    @include breakpoint-down(small) {
+      font-size: 3rem;
+    }
+
+    @include breakpoint-down(l-mobile) {
+      font-size: 2.5rem;
+    }
+
+    @include breakpoint-down(mobile) {
+      font-size: 2rem;
+      padding: 0 2rem;
+    }
+
+    @include breakpoint-down(s-mobile) {
+      font-size: 1.6rem;
+    }
+  }
+
+  &__line {
+    width: rem(560);
+    height: rem(6);
+    border-radius: 5px;
+    background-color: $white;
+    margin: 1.25rem 0;
+
+    @include breakpoint-down(medium) {
+      width: rem(480);
+    }
+
+    @include breakpoint-down(small) {
+      margin: 0.8rem 0;
+      width: rem(390);
+      height: rem(5.5);
+    }
+
+    @include breakpoint-down(l-mobile) {
+      width: rem(330);
+      height: rem(4.5);
+    }
+
+    @include breakpoint-down(mobile) {
+      width: rem(270);
+    }
+
+    @include breakpoint-down(s-mobile) {
+      width: rem(225);
+    }
+  }
+}
