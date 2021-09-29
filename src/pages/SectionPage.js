@@ -6,6 +6,7 @@ import data from "../data.json";
 
 // Import Components
 import PageToTop from "../components/PageToTop";
+import FooterComponent from "../components/FooterComponent";
 
 // Import Animations
 import { motion } from "framer-motion";
@@ -44,6 +45,7 @@ const SectionPage = () => {
         <motion.div variants={slider} className="frame2"></motion.div>
         <motion.div variants={slider} className="frame3"></motion.div>
         <motion.div variants={slider} className="frame4"></motion.div>
+        <motion.div variants={slider} className="frame5"></motion.div>
       </motion.div>
 
       <motion.div variants={contentContainer} className="section__container">
@@ -68,18 +70,12 @@ const SectionPage = () => {
             variants={sectionSquareFade}
             className="square border top_b"
           ></motion.div>
-          <motion.div
-            variants={sectionSquareFade}
-            className="square mask top_m"
-          ></motion.div>
+          <div className="square mask top_m" ></div>
           <motion.div
             variants={sectionSquareFade}
             className="square border bottom_b"
           ></motion.div>
-          <motion.div
-            variants={sectionSquareFade}
-            className="square mask bottom_m"
-          ></motion.div>
+          <div className="square mask bottom_m" ></div>
 
           <motion.div variants={sectionContentContainer} className="hide">
             {content &&
@@ -89,6 +85,7 @@ const SectionPage = () => {
           </motion.div>
         </section>
       </motion.div>
+      <FooterComponent />
     </motion.main>
   );
 };

@@ -255,7 +255,7 @@
 
       &__image {
         width: 100%;
-        height: rem(460);
+        height: 45vh;
         overflow: hidden;
 
         @include breakpoint-down(medium) {
