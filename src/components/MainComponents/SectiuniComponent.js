@@ -7,9 +7,13 @@ import SectiuneComponent from "./SectiuneComponent";
 const SectiuniComponent = () => {
   return (
     <section className="main__sections">
-      {data.map((sectiune) => {
+      {data.map((sectiune, index) => {
         return (
-          <SectiuneComponent sectiune={sectiune} key={sectiune.imagineURL} />
+          <SectiuneComponent
+            sectiune={sectiune}
+            index={index}
+            key={sectiune.id}
+          />
         );
       })}
     </section>

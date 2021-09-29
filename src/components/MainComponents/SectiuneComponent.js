@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 // Import Assets
 import dictionar from "../../assets/main/png/dictionar.png";
 import informatica from "../../assets/main/png/informatica.png";
@@ -14,7 +16,20 @@ import facilitati from "../../assets/main/png/facilitati.png";
 import regulament from "../../assets/main/png/regulament.png";
 import reprezentare_studenteasca from "../../assets/main/png/reprezentare_studenteasca.png";
 
-const SectiuneComponent = ({ sectiune }) => {
+// Import Animations
+import { motion } from "framer-motion";
+import { useScroll } from "../animations/useScroll";
+import {
+  mainFadeAnim,
+  mainTextDownAnim,
+  mainTextUpAnim,
+  mainButtonAnim,
+  mainImageAnim,
+} from "../animations/mainAnimations";
+
+const SectiuneComponent = ({ sectiune, index }) => {
+  const [element, controls] = useScroll();
+
   const getImage = (url) => {
     if (url === 1) {
       return dictionar;
@@ -48,22 +63,35 @@ const SectiuneComponent = ({ sectiune }) => {
   };
 
   return (
-    <div className="main__sections__section">
-      <h1>{sectiune.nume}</h1>
+    <motion.div
+      className="main__sections__section"
+      variants={mainFadeAnim}
+      animate={controls}
+      initial="hidden"
+      ref={element}
+    >
+      <div className="hide">
+        <motion.h1 variants={mainTextUpAnim}>{sectiune.nume}</motion.h1>
+      </div>
 
-      <p>{sectiune.descriere}</p>
+      <div className="hide">
+        <motion.p variants={mainTextDownAnim}>{sectiune.descriere}</motion.p>
+      </div>
 
       <div className="main__sections__section__btn">
-          <button>Vezi tot</button>
+        <Link to={"/pages/" + sectiune.href}>
+          <motion.button variants={mainButtonAnim}>Vezi tot</motion.button>
+        </Link>
       </div>
 
       <div className="main__sections__section__image">
-        <img
+        <motion.img
+          variants={mainImageAnim}
           src={getImage(sectiune.id)}
           alt={sectiune.imagineALT}
         />
       </div>
-    </div>
+    </motion.div>
   );
 };
 

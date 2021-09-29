@@ -6,12 +6,12 @@ import ScrollToTop from "../components/ScrollToTop";
 
 const LandingPage = () => {
   return (
-    <>
+    <div>
       <HeaderComponent />
       <MainComponent />
       <FooterComponent />
       <ScrollToTop />
-    </>
+    </div>
   );
 };
 

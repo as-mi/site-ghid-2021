@@ -1,3 +1,4 @@
+// Import Components
 import CuprinsComponent from "./MainComponents/CuprinsComponent";
 import SectiuniComponent from "./MainComponents/SectiuniComponent";
 

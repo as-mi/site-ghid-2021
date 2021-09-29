@@ -45,6 +45,14 @@
         }
       }
 
+      &__card {
+        display: flex;
+
+        .hide {
+          margin-right: 0.5rem;
+        }
+      }
+
       &__img {
         width: 25px;
         filter: invert(90%);
