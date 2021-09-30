@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 // Import Assets
+import softbinator from "../../assets/main/png/softbinator.jpg";
 import dictionar from "../../assets/main/png/dictionar.png";
 import informatica from "../../assets/main/png/informatica.png";
 import matematica from "../../assets/main/png/matematica.png";
@@ -32,64 +33,68 @@ const SectiuneComponent = ({ sectiune, index }) => {
 
   const getImage = (url) => {
     if (url === 1) {
-      return dictionar;
+      return softbinator;
     } else if (url === 2) {
-      return informatica;
+      return dictionar;
     } else if (url === 3) {
-      return matematica;
+      return informatica;
     } else if (url === 4) {
-      return cti;
+      return matematica;
     } else if (url === 5) {
-      return asmi;
+      return cti;
     } else if (url === 6) {
-      return activitate;
+      return asmi;
     } else if (url === 7) {
-      return conducere;
+      return activitate;
     } else if (url === 8) {
-      return regulament;
+      return conducere;
     } else if (url === 9) {
-      return burse;
+      return regulament;
     } else if (url === 10) {
-      return reprezentare_studenteasca;
+      return burse;
     } else if (url === 11) {
-      return facilitati;
+      return reprezentare_studenteasca;
     } else if (url === 12) {
-      return cariere_si_internship;
+      return facilitati;
     } else if (url === 13) {
-      return extracurriculare;
+      return cariere_si_internship;
     } else if (url === 14) {
+      return extracurriculare;
+    } else if (url === 15) {
       return echipa;
     }
   };
 
   const getID = (index) => {
     if (index === 0) {
-      return "dictionar";
+      return "softbinator";
     } else if (index === 1) {
-      return "informatica";
+      return "dictionar";
     } else if (index === 2) {
-      return "matematica";
+      return "informatica";
     } else if (index === 3) {
-      return "cti";
+      return "matematica";
     } else if (index === 4) {
-      return "asmi";
+      return "cti";
     } else if (index === 5) {
-      return "activitate-didactica";
+      return "asmi";
     } else if (index === 6) {
-      return "conducere";
+      return "activitate-didactica";
     } else if (index === 7) {
-      return "regulament";
+      return "conducere";
     } else if (index === 8) {
-      return "burse";
+      return "regulament";
     } else if (index === 9) {
-      return "reprezentare-studenteasca";
+      return "burse";
     } else if (index === 10) {
-      return "facilitati";
+      return "reprezentare-studenteasca";
     } else if (index === 11) {
-      return "cariere-si-internship";
+      return "facilitati";
     } else if (index === 12) {
-      return "extracurriculare";
+      return "cariere-si-internship";
     } else if (index === 13) {
+      return "extracurriculare";
+    } else if (index === 14) {
       return "echipa";
     }
   };

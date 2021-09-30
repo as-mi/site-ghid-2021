@@ -49,6 +49,7 @@ const SectionPage = () => {
           <motion.div variants={slider} className="frame2"></motion.div>
           <motion.div variants={slider} className="frame3"></motion.div>
           <motion.div variants={slider} className="frame4"></motion.div>
+          <motion.div variants={slider} className="frame5"></motion.div>
         </motion.div>
 
         <motion.div variants={contentContainer} className="section__container">

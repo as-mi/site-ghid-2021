@@ -1,7 +1,25 @@
 [
   {
     "id": 1,
-    "nume": "1. DICȚIONAR STUDENȚESC",
+    "nume": "1. SOFTBINATOR",
+    "descriere": "Text Provizoriu",
+    "imagineALT": "dictionar_image",
+    "href": "softbinator",
+    "titlu": "Softbinator",
+    "text": [
+      {
+        "type": "p",
+        "content": "Una dintre cele mai importante companii care recrutează activ studenți de la FMI este  Softbinator Technologies. Mai jos găsiți prezentarea acestora:"
+      },
+      {
+        "type": "list",
+        "content": "<ul type=\"circle\"><li><p>Există o singură misiune pentru noi: să scriem cod pentru a crea schimbări în bine și pentru a ajuta lumea să țină pasul cu progresul pozitiv. Întotdeauna suntem la curent cu ultimele tendințe în tehnologie, deoarece aceasta este singura modalitate de a crea viitorul... și suntem creatori de viitor.</p></li><li><p>Ce puteți găsi la Softbinator Technologies? User Experience, Design, Software Development, DevOps process, Agile testing, servicii de consultanță</p></li><li><p>Care este povestea noastră? Un concept care a început în 2011. Softbinator nu este doar o companie tech, este un concept care a fost început cu scopul de a demonstra că dezvoltatorii nu sunt doar niște geeks care lucrează într-o fabrică de software - sunt creatori și reprezintă una dintre cele mai importante forțe în transformarea lumii</p></li></ul>"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nume": "2. DICȚIONAR STUDENȚESC",
     "descriere": "Un scurt ghid de cuvinte",
     "imagineALT": "dictionar_image",
     "href": "dictionar",
@@ -106,8 +124,8 @@
     ]
   },
   {
-    "id": 2,
-    "nume": "2. Domeniul Informatică",
+    "id": 3,
+    "nume": "3. Domeniul Informatică",
     "descriere": "Invitație către viitor!",
     "imagineALT": "informatica_image",
     "href": "informatica",
@@ -136,8 +154,8 @@
     ]
   },
   {
-    "id": 3,
-    "nume": "3. Domeniul Matematică",
+    "id": 4,
+    "nume": "4. Domeniul Matematică",
     "descriere": "Învață să îți depășești limitele!",
     "imagineALT": "matematica_image",
     "href": "matematica",
@@ -174,8 +192,8 @@
     ]
   },
   {
-    "id": 4,
-    "nume": "4. Domeniul CTI",
+    "id": 5,
+    "nume": "5. Domeniul CTI",
     "descriere": "Un alt tip de rețea.",
     "imagineALT": "cti_image",
     "href": "cti",
@@ -204,8 +222,8 @@
     ]
   },
   {
-    "id": 5,
-    "nume": "5. Asociația studenților la matematică și Informatică - asmi",
+    "id": 6,
+    "nume": "6. Asociația studenților la matematică și Informatică - asmi",
     "descriere": "De la studenți, pentru studenți.",
     "imagineALT": "asmi_image",
     "href": "asmi",
@@ -286,8 +304,8 @@
     ]
   },
   {
-    "id": 6,
-    "nume": "6. Activitatea Didactică",
+    "id": 7,
+    "nume": "7. Activitatea Didactică",
     "descriere": "Mic ghid de supraviețuire de-a lungul anilor.",
     "imagineALT": "activitate_didactica_image",
     "href": "activitate-didactica",
@@ -348,8 +366,8 @@
     ]
   },
   {
-    "id": 7,
-    "nume": "7. Conducerea Facultății",
+    "id": 8,
+    "nume": "8. Conducerea Facultății",
     "descriere": "Linia de prim ajutor.",
     "imagineALT": "conducere_image",
     "href": "conducere-fmi",
@@ -422,8 +440,8 @@
     ]
   },
   {
-    "id": 8,
-    "nume": "8. Regulamente FMI",
+    "id": 9,
+    "nume": "9. Regulamente FMI",
     "descriere": "Student la FMI până la sfârșit.",
     "imagineALT": "regulament_image",
     "href": "regulament-fmi",
@@ -444,8 +462,8 @@
     ]
   },
   {
-    "id": 9,
-    "nume": "9. Burse",
+    "id": 10,
+    "nume": "10. Burse",
     "descriere": "A zis cineva bani?",
     "imagineALT": "burse_image",
     "href": "burse",
@@ -482,8 +500,8 @@
     ]
   },
   {
-    "id": 10,
-    "nume": "10. Reprezentare Studențească",
+    "id": 11,
+    "nume": "11. Reprezentare Studențească",
     "descriere": "Despre și pentru studenți!",
     "imagineALT": "reprezentare_studenteasca_image",
     "href": "reprezentare-studenteasca",
@@ -536,8 +554,8 @@
     ]
   },
   {
-    "id": 11,
-    "nume": "11. Facilități",
+    "id": 12,
+    "nume": "12. Facilități",
     "descriere": "Dacă tot sunt student...",
     "imagineALT": "facilitati_image",
     "href": "facilitati",
@@ -715,8 +733,8 @@
     ]
   },
   {
-    "id": 12,
-    "nume": "12. Cariere și internship",
+    "id": 13,
+    "nume": "13. Cariere și internship",
     "descriere": "Planuri de viitor!",
     "imagineALT": "cariere_si_internship_image",
     "href": "cariere-si-internship",
@@ -777,8 +795,8 @@
     ]
   },
   {
-    "id": 13,
-    "nume": "13. Extracurriculare",
+    "id": 14,
+    "nume": "14. Extracurriculare",
     "descriere": "Prea mult timp liber? Nu mai ai.",
     "imagineALT": "extracurriculare_image",
     "href": "extracurriculare",
@@ -823,8 +841,8 @@
     ]
   },
   {
-    "id": 14,
-    "nume": "14. Echipa ghidul bobocului 2021",
+    "id": 15,
+    "nume": "15. Echipa ghidul bobocului 2021",
     "descriere": "Regia, traducerea și subtitrarea",
     "imagineALT": "echipa_image",
     "href": "echipa",

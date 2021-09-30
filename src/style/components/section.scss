@@ -250,22 +250,26 @@
   top: 0;
   width: 100%;
   height: 100vh;
-  background: #fffebf;
+  background: #38aefc;
   z-index: 999;
 }
 
 .frame2 {
   @extend .frame1;
-  background: #ff8efb;
+  background: #4e96c7;
 }
 
 .frame3 {
   @extend .frame1;
-  background: #8ed2ff;
+  background: #3ab5f2;
 }
 .frame4 {
   @extend .frame1;
-  background: #8effa0;
+  background: #034363;
+}
+.frame5 {
+  @extend .frame1;
+  background: #35a1e9;
 }
 
 .sectiuneAnchor {
