@@ -16,38 +16,40 @@
   }
 
   &__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     h1 {
-      padding: 0 2rem;
+      padding: 0 5rem;
       font-size: rem(45);
       text-transform: uppercase;
       font-family: $font-fraunces;
-      margin: rem(70) 0 rem(10) 0;
+      margin: rem(70) auto rem(10) auto;
       color: $section-light-green;
       text-align: center;
+      width: 98%;
 
       @include breakpoint-down(medium) {
-        font-size: rem(35);
-        margin-bottom: rem(16);
-      }
-
-      @include breakpoint-down(small) {
-        font-size: rem(30);
-        margin-bottom: rem(16);
-      }
-
-      @include breakpoint-down(mobile) {
-        font-size: rem(20);
+        font-size: rem(40);
         margin-bottom: rem(10);
       }
 
+      @include breakpoint-down(small) {
+        font-size: rem(35);
+      }
+
+      @include breakpoint-down(mobile) {
+        font-size: rem(30);
+      }
+
       @include breakpoint-down(s-mobile) {
-        font-size: rem(18);
+        font-size: rem(27);
         margin-bottom: rem(6);
       }
     }
 
     p {
-      font-size: 1.3rem;
+      font-size: 1.15rem;
       font-family: $font-nunito;
       color: $footer-small-text;
       text-align: center;
@@ -55,15 +57,15 @@
       margin-bottom: rem(40);
 
       @include breakpoint-down(medium) {
-        font-size: 0.9rem;
+        font-size: 1.02rem;
       }
 
       @include breakpoint-down(small) {
-        font-size: 0.85rem;
+        font-size: 0.95rem;
       }
 
       @include breakpoint-down(mobile) {
-        font-size: 0.8rem;
+        font-size: 0.85rem;
         max-width: none;
         padding: 0 1.75rem;
         margin-bottom: rem(30);
@@ -79,6 +81,8 @@
 
     @include breakpoint-up(large) {
       padding: 1%;
+      max-width: rem(1750);
+      margin: 1rem auto 3rem auto;
     }
 
     @include breakpoint-down(large) {
@@ -147,6 +151,96 @@
     p:last-of-type {
       margin-bottom: 0;
     }
+
+    &__text {
+      .imageCard {
+        width: 100%;
+        margin: 2rem 0;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      h2 {
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+      }
+
+      h4 {
+        font-family: $font-overpass;
+        font-weight: 400;
+        font-size: 1.45rem;
+        margin-top: 2.5rem;
+
+        @include breakpoint-down(small) {
+          font-size: 1.25rem;
+        }
+
+        @include breakpoint-down(mobile) {
+          font-size: 1.1rem;
+        }
+      }
+
+      p {
+        margin: 0;
+        margin-top: 1.25rem;
+
+        @include breakpoint-down(small) {
+          font-size: 1.1rem;
+        }
+
+        @include breakpoint-down(mobile) {
+          font-size: 1rem;
+          max-width: none;
+          padding-right: 1rem;
+          margin-bottom: rem(10);
+          //margin-top: 0.5rem;
+        }
+      }
+
+      ul {
+        @include breakpoint-down(small) {
+          padding: 0;
+          margin: 0;
+          padding-left: 1.2rem;
+        }
+
+        li {
+          margin-top: 0.75rem;
+
+          @include breakpoint-down(small) {
+            margin-top: 0.5rem;
+          }
+
+          a {
+            font-size: 1.3rem;
+
+            @include breakpoint-down(small) {
+              font-size: 1.1rem;
+            }
+          }
+
+          p {
+            margin-top: 0.5rem;
+
+            span {
+              font-weight: bold;
+              font-size: 1.15rem;
+
+              @include breakpoint-down(small) {
+                font-size: 1.08rem;
+              }
+
+              @include breakpoint-down(mobile) {
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 
@@ -172,4 +266,8 @@
 .frame4 {
   @extend .frame1;
   background: #8effa0;
+}
+
+.sectiuneAnchor {
+  font-size: 1.2rem;
 }

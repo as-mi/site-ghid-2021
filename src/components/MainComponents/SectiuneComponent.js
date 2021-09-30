@@ -62,6 +62,38 @@ const SectiuneComponent = ({ sectiune, index }) => {
     }
   };
 
+  const getID = (index) => {
+    if (index === 0) {
+      return "dictionar";
+    } else if (index === 1) {
+      return "informatica";
+    } else if (index === 2) {
+      return "matematica";
+    } else if (index === 3) {
+      return "cti";
+    } else if (index === 4) {
+      return "asmi";
+    } else if (index === 5) {
+      return "activitate-didactica";
+    } else if (index === 6) {
+      return "conducere";
+    } else if (index === 7) {
+      return "regulament";
+    } else if (index === 8) {
+      return "burse";
+    } else if (index === 9) {
+      return "reprezentare-studenteasca";
+    } else if (index === 10) {
+      return "facilitati";
+    } else if (index === 11) {
+      return "cariere-si-internship";
+    } else if (index === 12) {
+      return "extracurriculare";
+    } else if (index === 13) {
+      return "echipa";
+    }
+  };
+
   return (
     <motion.div
       className="main__sections__section"
@@ -69,6 +101,7 @@ const SectiuneComponent = ({ sectiune, index }) => {
       animate={controls}
       initial="hidden"
       ref={element}
+      id={getID(index)}
     >
       <div className="hide">
         <motion.h1 variants={mainTextUpAnim}>{sectiune.nume}</motion.h1>

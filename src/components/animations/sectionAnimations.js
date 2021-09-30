@@ -45,12 +45,38 @@ export const contentContainer = {
   show: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.25,
+      staggerChildren: 0.75,
+    },
+  },
+};
+
+export const headerContainer = {
+  hidden: {
+    opacity: 0,
+  },
+  show: {
+    opacity: 1,
+    transition: {
+      duration: 1,
     },
   },
 };
 
 export const sectionHeaderAnim = {
+  hidden: {
+    y: -200,
+    opacity: 0,
+  },
+  show: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.5,
+    },
+  },
+};
+
+export const sectionHeaderDownAnim = {
   hidden: {
     y: 200,
     opacity: 0,
@@ -59,19 +85,7 @@ export const sectionHeaderAnim = {
     y: 0,
     opacity: 1,
     transition: {
-      duration: 0.75,
-    },
-  },
-};
-
-export const sectionSquareFade = {
-  hidden: {
-    opacity: 0,
-  },
-  show: {
-    opacity: 1,
-    transition: {
-      duration: 0.75,
+      duration: 0.5,
     },
   },
 };
@@ -83,19 +97,7 @@ export const sectionContentContainer = {
   show: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.5,
-    },
-  },
-};
-
-export const sectionText = {
-  hidden: {
-    opacity: 0,
-  },
-  show: {
-    opacity: 1,
-    transition: {
-      duration: 0.5,
+      duration: 0.75,
     },
   },
 };

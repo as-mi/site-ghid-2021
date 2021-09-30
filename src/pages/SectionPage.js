@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useLocation, Link } from "react-router-dom";
+import ReactHtmlParser from "react-html-parser";
 
 // Import Data
 import data from "../data.json";
@@ -15,10 +16,13 @@ import {
   sliderContainer,
   slider,
   sectionHeaderAnim,
-  sectionSquareFade,
   sectionContentContainer,
-  sectionText,
+  sectionHeaderDownAnim,
+  headerContainer,
 } from "../components/animations/sectionAnimations";
+
+// Import Images
+import transport from "../assets/sectiune/transport.png";
 
 const SectionPage = () => {
   const location = useLocation();
@@ -31,65 +35,77 @@ const SectionPage = () => {
   }, [location.pathname]);
 
   return (
-    <motion.main
-      className="section"
-      variants={sectionAnim}
-      initial="hidden"
-      animate="show"
-    >
-      <PageToTop />
+    <>
+      <motion.main
+        className="section"
+        variants={sectionAnim}
+        initial="hidden"
+        animate="show"
+      >
+        <PageToTop />
 
-      <motion.div variants={sliderContainer}>
-        <motion.div variants={slider} className="frame1"></motion.div>
-        <motion.div variants={slider} className="frame2"></motion.div>
-        <motion.div variants={slider} className="frame3"></motion.div>
-        <motion.div variants={slider} className="frame4"></motion.div>
-      </motion.div>
+        <motion.div variants={sliderContainer}>
+          <motion.div variants={slider} className="frame1"></motion.div>
+          <motion.div variants={slider} className="frame2"></motion.div>
+          <motion.div variants={slider} className="frame3"></motion.div>
+          <motion.div variants={slider} className="frame4"></motion.div>
+        </motion.div>
 
-      <motion.div variants={contentContainer} className="section__container">
-        <section className="section__header">
-          <Link to="/">
+        <motion.div variants={contentContainer} className="section__container">
+          <motion.section
+            variants={headerContainer}
+            className="section__header"
+          >
+            <Link to="/">
+              <div className="hide">
+                <motion.h1 variants={sectionHeaderDownAnim}>
+                  {content && content.titlu}
+                </motion.h1>
+              </div>
+            </Link>
+
             <div className="hide">
-              <motion.h1 variants={sectionHeaderAnim}>
-                {content && content.titlu}
-              </motion.h1>
+              <motion.p variants={sectionHeaderAnim}>
+                {content && content.descriere}
+              </motion.p>
             </div>
-          </Link>
+          </motion.section>
 
-          <div className="hide">
-            <motion.p variants={sectionHeaderAnim}>
-              {content && content.descriere}
-            </motion.p>
-          </div>
-        </section>
+          <motion.section
+            variants={sectionContentContainer}
+            className="section__content"
+          >
+            <div className="square border top_b"></div>
+            <div className="square mask top_m"></div>
+            <div className="square border bottom_b"></div>
+            <div className="square mask bottom_m"></div>
 
-        <section className="section__content">
-          <motion.div
-            variants={sectionSquareFade}
-            className="square border top_b"
-          ></motion.div>
-          <motion.div
-            variants={sectionSquareFade}
-            className="square mask top_m"
-          ></motion.div>
-          <motion.div
-            variants={sectionSquareFade}
-            className="square border bottom_b"
-          ></motion.div>
-          <motion.div
-            variants={sectionSquareFade}
-            className="square mask bottom_m"
-          ></motion.div>
+            <div className="section__content__text">
+              {content &&
+                content.text.map((each) => {
+                  if (each.type === "p") {
+                    return <p>{ReactHtmlParser(each.content)}</p>;
+                  } else if (each.type === "img") {
+                    return (
+                      <div className="imageCard">
+                        <img
+                          src={each.name === "transport" && transport}
+                          alt={each.alt}
+                        />
+                      </div>
+                    );
+                  } else {
+                    return ReactHtmlParser(each.content);
+                  }
+                })}
 
-          <motion.div variants={sectionContentContainer} className="hide">
-            {content &&
-              content.text.map((each) => {
-                return <motion.p key={each}>{each}</motion.p>;
-              })}
-          </motion.div>
-        </section>
-      </motion.div>
-    </motion.main>
+              <div></div>
+            </div>
+          </motion.section>
+        </motion.div>
+      </motion.main>
+      {/* <FooterComponent /> */}
+    </>
   );
 };
 
