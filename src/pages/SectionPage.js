@@ -7,6 +7,7 @@ import data from "../data.json";
 
 // Import Components
 import PageToTop from "../components/PageToTop";
+import FooterComponent from "../components/FooterComponent";
 
 // Import Animations
 import { motion } from "framer-motion";
@@ -63,7 +64,6 @@ const SectionPage = () => {
                 </motion.h1>
               </div>
             </Link>
-
             <div className="hide">
               <motion.p variants={sectionHeaderAnim}>
                 {content && content.descriere}
@@ -104,7 +104,7 @@ const SectionPage = () => {
           </motion.section>
         </motion.div>
       </motion.main>
-      {/* <FooterComponent /> */}
+      <FooterComponent />
     </>
   );
 };
