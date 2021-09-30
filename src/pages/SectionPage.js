@@ -37,14 +37,14 @@ const SectionPage = () => {
 
   return (
     <>
+      <PageToTop />
+
       <motion.main
         className="section"
         variants={sectionAnim}
         initial="hidden"
         animate="show"
       >
-        <PageToTop />
-
         <motion.div variants={sliderContainer}>
           <motion.div variants={slider} className="frame1"></motion.div>
           <motion.div variants={slider} className="frame2"></motion.div>
