@@ -2,7 +2,7 @@
   {
     "id": 1,
     "nume": "1. SOFTBINATOR",
-    "descriere": "Text Provizoriu",
+    "descriere": "Companiile aproape de studenți",
     "imagineALT": "dictionar_image",
     "href": "softbinator",
     "titlu": "Softbinator",
@@ -292,14 +292,6 @@
       {
         "type": "p",
         "content": "Mult succes în primul pas către viitor!"
-      },
-      {
-        "type": "p",
-        "content": "Dawod Paul-Nasser"
-      },
-      {
-        "type": "p",
-        "content": "Președintele Asociației Studenților la Matematică și Informatică"
       }
     ]
   },
@@ -846,6 +838,7 @@
     "descriere": "Regia, traducerea și subtitrarea",
     "imagineALT": "echipa_image",
     "href": "echipa",
+    "titlu": "Echipa ghidul bobocului 2021",
     "text": []
   }
 ]
