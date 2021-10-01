@@ -1,7 +1,4 @@
 export const footerMainAnim = {
-  hidden: {
-    opacity: 0,
-  },
   show: {
     opacity: 1,
     transition: {

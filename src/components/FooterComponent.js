@@ -19,14 +19,19 @@ const FooterComponent = () => {
     <motion.footer
       className="footer"
       variants={footerMainAnim}
-      initial="hidden"
+      initial="show"
       animate={controls}
       ref={element}
     >
       <section className="footer__contact">
         <div className="footer__contact__left">
           <div className="hide">
-            <motion.h1 variants={footerTextAnim}>ASMI</motion.h1>
+            <motion.a
+              href="https://www.asmi.ro/"
+              target="_blank"
+              rel="noreferrer"
+            > <motion.h1 variants={footerTextAnim}>ASMI</motion.h1>
+            </motion.a>
           </div>
 
           <div className="footer__contact__left__card">
