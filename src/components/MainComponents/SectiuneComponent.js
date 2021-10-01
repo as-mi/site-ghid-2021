@@ -1,21 +1,21 @@
 import { Link } from "react-router-dom";
 
 // Import Assets
-import softbinator from "../../assets/main/png/softbinator.jpg";
-import dictionar from "../../assets/main/png/dictionar.png";
-import informatica from "../../assets/main/png/informatica.png";
-import matematica from "../../assets/main/png/matematica.png";
-import cti from "../../assets/main/png/cti.png";
-import activitate from "../../assets/main/png/activitate.png";
-import asmi from "../../assets/main/png/asmi.png";
-import burse from "../../assets/main/png/burse.png";
-import cariere_si_internship from "../../assets/main/png/cariere_si_internship.png";
-import conducere from "../../assets/main/png/conducere.png";
-import echipa from "../../assets/main/png/echipa.png";
-import extracurriculare from "../../assets/main/png/extracurriculare.png";
-import facilitati from "../../assets/main/png/facilitati.png";
-import regulament from "../../assets/main/png/regulament.png";
-import reprezentare_studenteasca from "../../assets/main/png/reprezentare_studenteasca.png";
+import softbinator from "../../assets/main/webp/softbinator.webp";
+import dictionar from "../../assets/main/webp/dictionar.webp";
+import informatica from "../../assets/main/webp/informatica.webp";
+import matematica from "../../assets/main/webp/matematica.webp";
+import cti from "../../assets/main/webp/cti.webp";
+import activitate from "../../assets/main/webp/activitate.webp";
+import asmi from "../../assets/main/webp/asmi.webp";
+import burse from "../../assets/main/webp/burse.webp";
+import cariere_si_internship from "../../assets/main/webp/cariere_si_internship.webp";
+import conducere from "../../assets/main/webp/conducere.webp";
+import echipa from "../../assets/main/webp/echipa.webp";
+import extracurriculare from "../../assets/main/webp/extracurriculare.webp";
+import facilitati from "../../assets/main/webp/facilitati.webp";
+import regulament from "../../assets/main/webp/regulament.webp";
+import reprezentare_studenteasca from "../../assets/main/webp/reprezentare_studenteasca.webp";
 
 // Import Animations
 import { motion } from "framer-motion";
