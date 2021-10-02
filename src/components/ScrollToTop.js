@@ -25,7 +25,7 @@ const ScrollToTop = () => {
 
     return (
         <>
-            <button className={"scrollButton " + (offset > document.getElementById("start_point").offsetHeight * 2 && "show")} onClick={toTopHandler}>
+            <button className={"scrollButton " + (offset > 1200 && "show")} onClick={toTopHandler}>
                  <FontAwesomeIcon icon={faAngleUp} className="scroll" />
             </button>
         </>
