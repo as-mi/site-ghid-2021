@@ -10,23 +10,22 @@ import PageToTop from "../components/PageToTop";
 import FooterComponent from "../components/FooterComponent";
 
 // Import Images
-import apostuAlexandru from "../assets/sectiune/echipa/ApostuAlexandru.jpg";
-import ApostuMihaiAdrian from "../assets/sectiune/echipa/ApostuMihaiAdrian.jpg";
-import BadescuMadalina from "../assets/sectiune/echipa/BadescuMadalina.jpg";
-import BuzamatIonut from "../assets/sectiune/echipa/BuzamatIonut.jpg";
-import CordunDiana from "../assets/sectiune/echipa/CordunDiana.jpg";
-import DragomirAlexandra from "../assets/sectiune/echipa/DragomirAlexandra.jpg";
-import GutuStefania from "../assets/sectiune/echipa/GutuStefania.jpeg";
-import IosifMaria from "../assets/sectiune/echipa/IosifMaria.jpg";
-import lazaroiuTeodora from "../assets/sectiune/echipa/lazaroiuTeodora.jpg";
-import mihaitaRazvan from "../assets/sectiune/echipa/mihaitaRazvan.jpg";
-import NicoiAlexandru from "../assets/sectiune/echipa/NicoiAlexandru.jpg";
-import NimaraDan from "../assets/sectiune/echipa/NimaraDan.jpg";
-import PopescuAlina from "../assets/sectiune/echipa/PopescuAlina.jpg";
-import StanaTheodora from "../assets/sectiune/echipa/StanaTheodora.jpg";
-import StanaVlad from "../assets/sectiune/echipa/StanaVlad.jpg";
-import DumitracheFlorentin from "../assets/sectiune/echipa/DumitracheFlorentin.jpeg";
-import DawodPaul from "../assets/sectiune/echipa/DawodPaul.jpg";
+import apostuAlexandru from "../assets/sectiune/echipa/ApostuAlexandru.webp";
+import ApostuMihaiAdrian from "../assets/sectiune/echipa/ApostuMihaiAdrian.webp";
+import BadescuMadalina from "../assets/sectiune/echipa/BadescuMadalina.webp";
+import BuzamatIonut from "../assets/sectiune/echipa/BuzamatIonut.webp";
+import CordunDiana from "../assets/sectiune/echipa/CordunDiana.webp";
+import DragomirAlexandra from "../assets/sectiune/echipa/DragomirAlexandra.webp";
+import GutuStefania from "../assets/sectiune/echipa/GutuStefania.webp";
+import IosifMaria from "../assets/sectiune/echipa/IosifMaria.webp";
+import lazaroiuTeodora from "../assets/sectiune/echipa/lazaroiuTeodora.webp";
+import mihaitaRazvan from "../assets/sectiune/echipa/mihaitaRazvan.webp";
+import NicoiAlexandru from "../assets/sectiune/echipa/NicoiAlexandru.webp";
+import NimaraDan from "../assets/sectiune/echipa/NimaraDan.webp";
+import PopescuAlina from "../assets/sectiune/echipa/PopescuAlina.webp";
+import StanaTheodora from "../assets/sectiune/echipa/StanaTheodora.webp";
+import StanaVlad from "../assets/sectiune/echipa/StanaVlad.webp";
+import DumitracheFlorentin from "../assets/sectiune/echipa/DumitracheFlorentin.webp";
 
 // Import Animations
 import { motion } from "framer-motion";
@@ -42,7 +41,7 @@ import {
 } from "../components/animations/sectionAnimations";
 
 // Import Images
-import transport from "../assets/sectiune/transport.png";
+import transport from "../assets/sectiune/transport.webp";
 
 const SectionPage = () => {
   const location = useLocation();
