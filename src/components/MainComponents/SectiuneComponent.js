@@ -1,21 +1,21 @@
 import { Link } from "react-router-dom";
 
 // Import Assets
-import softbinator from "../../assets/main/webp/softbinator.webp";
-import dictionar from "../../assets/main/webp/dictionar.webp";
-import informatica from "../../assets/main/webp/informatica.webp";
-import matematica from "../../assets/main/webp/matematica.webp";
-import cti from "../../assets/main/webp/cti.webp";
-import activitate from "../../assets/main/webp/activitate.webp";
-import asmi from "../../assets/main/webp/asmi.webp";
-import burse from "../../assets/main/webp/burse.webp";
-import cariere_si_internship from "../../assets/main/webp/cariere_si_internship.webp";
-import conducere from "../../assets/main/webp/conducere.webp";
-import echipa from "../../assets/main/webp/echipa.webp";
-import extracurriculare from "../../assets/main/webp/extracurriculare.webp";
-import facilitati from "../../assets/main/webp/facilitati.webp";
-import regulament from "../../assets/main/webp/regulament.webp";
-import reprezentare_studenteasca from "../../assets/main/webp/reprezentare_studenteasca.webp";
+import softbinator from "../../assets/main/softbinator.webp";
+import dictionar from "../../assets/main/dictionar.webp";
+import informatica from "../../assets/main/informatica.webp";
+import matematica from "../../assets/main/matematica.webp";
+import cti from "../../assets/main/cti.webp";
+import activitate from "../../assets/main/activitate.webp";
+import asmi from "../../assets/main/asmi.webp";
+import burse from "../../assets/main/burse.webp";
+import cariere_si_internship from "../../assets/main/cariere_si_internship.webp";
+import conducere from "../../assets/main/conducere.webp";
+import echipa from "../../assets/main/echipa.webp";
+import extracurriculare from "../../assets/main/extracurriculare.webp";
+import facilitati from "../../assets/main/facilitati.webp";
+import regulament from "../../assets/main/regulament.webp";
+import reprezentare_studenteasca from "../../assets/main/reprezentare_studenteasca.webp";
 
 // Import Animations
 import { motion } from "framer-motion";
