@@ -159,6 +159,9 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 2rem;
+        align-items: center;
+        justify-content: center;
+
 
         @include breakpoint-down(large) {
           grid-template-columns: repeat(2, 1fr);
@@ -223,9 +226,6 @@
             @include breakpoint-down(s-mobile) {
               max-height: 17em;
             }
-          }
-
-          p {
           }
         }
       }
@@ -327,40 +327,6 @@
     }
   }
 }
-
-// V1 - cu putin rosu la inceput
-// background: #F8F1FF;
-// background: #E9DCF9;
-// background: #9C6D82;
-//pica
-
-// V2 - cu alternanta inchisa
-// background: #643287;
-// background: #244156;
-// background: #9786E9;
-//pica
-
-// V3 - pale kaki la inceput + mov
-// background: #4F5D2F;
-// background: #7D7E75;
-// background: #BC96E6;
-//pica
-
-// V4 rozuri + alb
-// background: #832161;
-// background: #DA4167;
-// background: #F0EFF4;
-
-// V5 purple
-// background: #330036;
-// background: #38182F;
-// background: #EEE1B3;
-// pica
-
-// V6 blue
-// background: #38AEFC;
-// background: #4E96C7;
-// background: #3AB5F2;
 
 .frame1 {
   position: fixed;

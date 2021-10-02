@@ -26,6 +26,7 @@ import PopescuAlina from "../assets/sectiune/echipa/PopescuAlina.webp";
 import StanaTheodora from "../assets/sectiune/echipa/StanaTheodora.webp";
 import StanaVlad from "../assets/sectiune/echipa/StanaVlad.webp";
 import DumitracheFlorentin from "../assets/sectiune/echipa/DumitracheFlorentin.webp";
+import StefanRadu from "../assets/sectiune/echipa/StefanRadu.webp";
 
 // Import Animations
 import { motion } from "framer-motion";
@@ -193,12 +194,16 @@ const SectionPage = () => {
                     <p className="imageText">Popescu Alina</p>
                   </div>
                   <div className="image">
-                    <img src={StanaTheodora} alt="Stană Theodora" />
-                    <p className="imageText">Stană Theodora</p>
+                    <img src={StanaTheodora} alt="Stana Theodora" />
+                    <p className="imageText">Stana Theodora</p>
                   </div>
                   <div className="image">
-                    <img src={StanaVlad} alt="Stană Vlad" />
-                    <p className="imageText">Stană Vlad</p>
+                    <img src={StanaVlad} alt="Stana Vlad" />
+                    <p className="imageText">Stana Vlad</p>
+                  </div>
+                  <div className="image">
+                    <img src={StefanRadu} alt="Stana Vlad" />
+                    <p className="imageText">Ștefan Radu</p>
                   </div>
                 </motion.div>
               )}
