@@ -9,9 +9,9 @@ const ScrollToTop = () => {
 
     const toTopHandler = (e) => {
         e.preventDefault();
-
+        let start_point = document.getElementById("start_point");
         window.scrollTo({
-            top: 0,
+            top: start_point.offsetHeight * 1.1,
             behavior: "smooth",
         });
     }
@@ -19,14 +19,13 @@ const ScrollToTop = () => {
     useEffect(() => {
         window.onscroll = () => {
           setOffset(window.scrollY);
-
         }
       }, []);
 
 
     return (
         <>
-            <button className={"scrollButton " + (offset > 300 && "show")} onClick={toTopHandler}>
+            <button className={"scrollButton " + (offset > document.getElementById("start_point").offsetHeight * 2 && "show")} onClick={toTopHandler}>
                  <FontAwesomeIcon icon={faAngleUp} className="scroll" />
             </button>
         </>
