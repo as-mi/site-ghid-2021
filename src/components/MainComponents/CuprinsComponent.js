@@ -62,7 +62,7 @@ const CuprinsComponent = ({ sectiuni }) => {
           onClick={() => window.location.replace("/#asmi")}
         >
           <h3>
-            Asociația studenților la
+            Asociația Studenților la
             <span> Matematică și Informatică - ASMI</span>
           </h3>
           <h2>6</h2>
