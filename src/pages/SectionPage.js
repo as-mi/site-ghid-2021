@@ -210,8 +210,8 @@ const SectionPage = () => {
             </div>
           </motion.section>
         </motion.div>
-        <FooterComponent />
       </motion.main>
+      <FooterComponent />
     </>
   );
 };
