@@ -162,8 +162,11 @@ const SectionPage = () => {
                     <p className="imageText">Dragomir Alexandra</p>
                   </div>
                   <div className="image">
-                    <img src={DumitracheFlorentin} alt="DumitracheFlorentin" />
-                    <p className="imageText">Dumitrache Florentin</p>
+                    <img
+                      src={DumitracheFlorentin}
+                      alt="Dumitrache Florentin-Cristian"
+                    />
+                    <p className="imageText">Dumitrache Florentin-Cristian</p>
                   </div>
                   <div className="image">
                     <img src={GutuStefania} alt="Guțu Ștefania" />

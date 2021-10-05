@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 // Import Assets
-import softbinator from "../../assets/main/softbinator.webp";
+import softbinator from "../../assets/main/softbinator.jpg";
 import dictionar from "../../assets/main/dictionar.webp";
 import informatica from "../../assets/main/informatica.webp";
 import matematica from "../../assets/main/matematica.webp";
