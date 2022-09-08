@@ -1,0 +1,51 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.scrollButton {
+  background-color: #0a3a52;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .scroll {
+    font-size: 1.1rem;
+    color: white;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.hide {
+  overflow: hidden;
+}

@@ -1,0 +1,279 @@
+@use "../util/" as *;
+@use "../globals/" as *;
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__cuprins {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    @include breakpoint-up(large) {
+      max-width: rem(1400);
+    }
+
+    @include breakpoint-down(large) {
+      padding: 0 4rem;
+    }
+
+    @include breakpoint-down(small) {
+      padding: 0 2rem;
+    }
+
+    @include breakpoint-down(mobile) {
+      margin: 3.5rem 0;
+      padding: 0 2rem;
+    }
+
+    h1 {
+      font-family: $font-fraunces;
+      text-transform: uppercase;
+      font-size: 2.75rem;
+      color: $section-light-green;
+      margin-bottom: 4rem;
+
+      @include breakpoint-down(x-medium) {
+        text-align: center;
+      }
+
+      @include breakpoint-down(medium) {
+        font-size: 2.5rem;
+      }
+
+      @include breakpoint-down(small) {
+        font-size: 2.25rem;
+      }
+
+      @include breakpoint-down(mobile) {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+      }
+
+      @include breakpoint-down(s-mobile) {
+        font-size: 1.75rem;
+      }
+    }
+
+    &__content {
+      &__element {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.3rem;
+        margin-bottom: 0.5rem;
+        transition: all 0.2s ease-out;
+        border-radius: 0.3rem;
+
+        &:hover {
+          background-color: rgba(128, 128, 128, 0.1);
+          cursor: pointer;
+        }
+
+        h3 {
+          font-family: $font-nunito;
+          color: #006276;
+          font-size: 1.28rem;
+          span {
+            display: block;
+          }
+
+          @include breakpoint-down(medium) {
+            font-size: 1.15rem;
+          }
+
+          @include breakpoint-down(small) {
+            font-size: 1.02rem;
+          }
+
+          @include breakpoint-down(mobile) {
+            font-size: 0.95rem;
+          }
+
+          @include breakpoint-down(s-mobile) {
+            font-size: 0.8rem;
+          }
+        }
+
+        h2 {
+          font-family: $font-nunito;
+          color: #006276;
+          font-size: 1.25rem;
+          font-weight: 700;
+
+          @include breakpoint-down(medium) {
+            font-size: 1.15rem;
+          }
+
+          @include breakpoint-down(small) {
+            font-size: 1.05rem;
+          }
+
+          @include breakpoint-down(mobile) {
+            font-size: 1rem;
+          }
+
+          @include breakpoint-down(s-mobile) {
+            font-size: 0.85rem;
+          }
+        }
+      }
+    }
+  }
+
+  &__sections {
+    @include breakpoint-up(x-medium) {
+      padding: 0rem 4rem rem(125) 4rem;
+    }
+
+    &__section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: rem(125);
+      padding-top: rem(100);
+      //box-shadow: 0px 7px 3px -4px rgba(50, 50, 50, 0.75);
+
+      @include breakpoint-up(large) {
+        max-width: rem(1400);
+        margin: rem(125) auto 0 auto;
+      }
+
+      @include breakpoint-down(small) {
+        &:not(:first-child) {
+          margin-top: rem(100);
+        }
+
+        &:first-child {
+          margin-top: 2rem;
+        }
+      }
+
+      @include breakpoint-down(l-mobile) {
+        &:not(:first-child) {
+          margin-top: rem(75);
+        }
+
+        &:first-child {
+          margin-top: 2rem;
+        }
+      }
+
+      @include breakpoint-down(s-mobile) {
+        &:not(:first-child) {
+          margin-top: rem(75);
+        }
+
+        &:first-child {
+          margin-top: 1rem;
+        }
+      }
+
+      h1 {
+        padding: 0 2rem;
+        font-size: rem(45);
+        text-transform: uppercase;
+        font-family: $font-fraunces;
+        margin-bottom: rem(10);
+        color: $section-light-green;
+        text-align: center;
+
+        @include breakpoint-down(medium) {
+          font-size: rem(35);
+          margin-bottom: rem(16);
+        }
+
+        @include breakpoint-down(small) {
+          font-size: rem(30);
+          margin-bottom: rem(16);
+        }
+
+        @include breakpoint-down(mobile) {
+          font-size: rem(20);
+          margin-bottom: rem(10);
+        }
+
+        @include breakpoint-down(s-mobile) {
+          font-size: rem(18);
+          margin-bottom: rem(6);
+        }
+      }
+
+      p {
+        font-size: 1rem;
+        font-family: $font-nunito;
+        color: $footer-small-text;
+        text-align: center;
+        max-width: 30em;
+        margin-bottom: rem(40);
+
+        @include breakpoint-down(medium) {
+          font-size: 0.9rem;
+        }
+
+        @include breakpoint-down(small) {
+          font-size: 0.85rem;
+        }
+
+        @include breakpoint-down(mobile) {
+          font-size: 0.8rem;
+          max-width: none;
+          padding: 0 1.75rem;
+          margin-bottom: rem(30);
+        }
+      }
+
+      button {
+        margin-bottom: rem(30);
+        background-color: $section-light-green;
+        color: $white;
+        padding: 0.8rem 2rem;
+        border-radius: rem(10);
+        transition: all 0.3s ease-in-out;
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 1.4px;
+        font-size: 1rem;
+
+        &:hover {
+          opacity: 0.85;
+        }
+
+        @include breakpoint-down(small) {
+          padding: 0.7rem 1.8rem;
+        }
+
+        @include breakpoint-down(mobile) {
+          padding: 0.65rem 1.5rem;
+          font-size: 0.7rem;
+        }
+      }
+
+      &__image {
+        width: 100%;
+        height: 45vh;
+        overflow: hidden;
+
+        @include breakpoint-down(medium) {
+          height: rem(400);
+          display: flex;
+          justify-content: center;
+        }
+
+        @include breakpoint-down(mobile) {
+          height: rem(275);
+        }
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}

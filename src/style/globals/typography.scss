@@ -1,0 +1,28 @@
+@use "../util" as *;
+@use "./fonts" as *;
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+p {
+  font-family: $font-nunito;
+}
+
+button {
+  font-family: $font-nunito;
+  font-weight: 700;
+  background-color: transparent;
+  border: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
