@@ -9,24 +9,6 @@ import data from "../data.json";
 import PageToTop from "../components/PageToTop";
 import FooterComponent from "../components/FooterComponent";
 
-// Import Images
-import apostuAlexandru from "../assets/sectiune/echipa/ApostuAlexandru.webp";
-import ApostuMihaiAdrian from "../assets/sectiune/echipa/ApostuMihaiAdrian.webp";
-import BadescuMadalina from "../assets/sectiune/echipa/BadescuMadalina.webp";
-import BuzamatIonut from "../assets/sectiune/echipa/BuzamatIonut.webp";
-import CordunDiana from "../assets/sectiune/echipa/CordunDiana.webp";
-import DragomirAlexandra from "../assets/sectiune/echipa/DragomirAlexandra.webp";
-import GutuStefania from "../assets/sectiune/echipa/GutuStefania.webp";
-import IosifMaria from "../assets/sectiune/echipa/IosifMaria.webp";
-import lazaroiuTeodora from "../assets/sectiune/echipa/lazaroiuTeodora.webp";
-import mihaitaRazvan from "../assets/sectiune/echipa/mihaitaRazvan.webp";
-import NicoiAlexandru from "../assets/sectiune/echipa/NicoiAlexandru.webp";
-import NimaraDan from "../assets/sectiune/echipa/NimaraDan.webp";
-import PopescuAlina from "../assets/sectiune/echipa/PopescuAlina.webp";
-import StanaTheodora from "../assets/sectiune/echipa/StanaTheodora.webp";
-import StanaVlad from "../assets/sectiune/echipa/StanaVlad.webp";
-import DumitracheFlorentin from "../assets/sectiune/echipa/DumitracheFlorentin.webp";
-import StefanRadu from "../assets/sectiune/echipa/StefanRadu.webp";
 
 // Import Animations
 import { motion } from "framer-motion";
@@ -119,95 +101,28 @@ const SectionPage = () => {
                   }
                 })}
 
-              {content && content.id === 6 && (
-                <div>
-                  <div className="paulImage"></div>
-                  <div className="textPaul">
-                    <p>
-                      Președintele Asociației Studenților la Matematică și
-                      Informatică
-                    </p>
-                    <p>Dawod Paul-Nasser</p>
-                  </div>
-                </div>
-              )}
+              
 
               {content && content.id === 15 && (
                 <motion.div className="cardImages">
-                  <div className="image">
-                    <img src={apostuAlexandru} alt="Apostu Alexandru" />
-                    <p className="imageText">Apostu Alexandru</p>
-                  </div>
-                  <div className="image">
-                    <img
-                      src={ApostuMihaiAdrian}
-                      alt="Apostu Mihai Adrian Image"
-                    />
-                    <p className="imageText">Apostu Mihai Adrian</p>
-                  </div>
-                  <div className="image">
-                    <img src={BadescuMadalina} alt="Bădescu Mădălina" />
-                    <p className="imageText">Bădescu Mădălina</p>
-                  </div>
-                  <div className="image">
-                    <img src={BuzamatIonut} alt="Buzamat Ionuț" />
-                    <p className="imageText">Buzamat Ionuț</p>
-                  </div>
-                  <div className="image">
-                    <img src={CordunDiana} alt="Cordun Diana" />
-                    <p className="imageText">Cordun Diana</p>
-                  </div>
-                  <div className="image">
-                    <img src={DragomirAlexandra} alt="Dragomir Alexandra" />
-                    <p className="imageText">Dragomir Alexandra</p>
-                  </div>
-                  <div className="image">
-                    <img
-                      src={DumitracheFlorentin}
-                      alt="Dumitrache Florentin-Cristian"
-                    />
-                    <p className="imageText">Dumitrache Florentin-Cristian</p>
-                  </div>
-                  <div className="image">
-                    <img src={GutuStefania} alt="Guțu Ștefania" />
-                    <p className="imageText">Guțu Ștefania</p>
-                  </div>
-                  <div className="image">
-                    <img src={IosifMaria} alt="Iosif Maria" />
-                    <p className="imageText">Iosif Maria</p>
-                  </div>
-                  <div className="image">
-                    <img src={lazaroiuTeodora} alt="Lăzăroiu Teodora" />
-                    <p className="imageText">Lăzăroiu Teodora</p>
-                  </div>
-                  <div className="image">
-                    <img src={mihaitaRazvan} alt="Mihăiță Răzvan" />
-                    <p className="imageText">Mihăiță Răzvan</p>
-                  </div>
-                  <div className="image">
-                    <img src={NicoiAlexandru} alt="Nicoi Alexandru" />
-                    <p className="imageText">Nicoi Alexandru</p>
-                  </div>
-                  <div className="image">
-                    <img src={NimaraDan} alt="Nimară Dan" />
-                    <p className="imageText">Nimară Dan</p>
-                  </div>
-                  <div className="image">
-                    <img src={PopescuAlina} alt="Popescu Alina" />
-                    <p className="imageText">Popescu Alina</p>
-                  </div>
-                  <div className="image">
-                    <img src={StanaTheodora} alt="Stana Theodora" />
-                    <p className="imageText">Stana Theodora</p>
-                  </div>
-                  <div className="image">
-                    <img src={StanaVlad} alt="Stana Vlad" />
-                    <p className="imageText">Stana Vlad</p>
-                  </div>
-                  <div className="image">
-                    <img src={StefanRadu} alt="Stana Vlad" />
-                    <p className="imageText">Ștefan Radu</p>
-                  </div>
+                  <p className="imageText">Alpetri Iulita</p>
+                  <p className="imageText">Ghinea Alexandra</p>
+                  <p className="imageText">Andriciuc Andreea</p>
+                  <p className="imageText">Badea Bianca</p>
+                  <p className="imageText">Bârsan Andreia</p>
+                  <p className="imageText">Bouruc Liviu</p>
+                  <p className="imageText">Ciurescu Andreea</p>
+                  <p className="imageText">Cordun Diana</p>
+                  <p className="imageText">Lăzăroiu Teodora</p>
+                  <p className="imageText">Moarcăs  Cosmin</p>
+                  <p className="imageText">Nedelcu Radu</p>
+                  <p className="imageText">Muscalu Diana</p>
+                  <p className="imageText">Nechita Maria Ilinca</p>
+                  <p className="imageText">Nimară Dan</p>
+                  <p className="imageText">Pătrânjel David</p>
+                  <p className="imageText">Păun Liviu</p>
+                  <p className="imageText">Sorescu Mihai</p>
+                  <p className="imageText">Timotei Andrei</p>
                 </motion.div>
               )}
             </div>
