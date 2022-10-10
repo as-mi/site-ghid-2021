@@ -15,6 +15,7 @@ import echipa from "../../assets/main/echipa.webp";
 import extracurriculare from "../../assets/main/extracurriculare.webp";
 import facilitati from "../../assets/main/facilitati.webp";
 import regulament from "../../assets/main/regulament.webp";
+import cazare from "../../assets/main/camine.png";
 import reprezentare_studenteasca from "../../assets/main/reprezentare_studenteasca.webp";
 
 // Import Animations
@@ -33,23 +34,23 @@ const SectiuneComponent = ({ sectiune, index }) => {
 
   const getImage = (url) => {
     if (url === 1) {
-      return softbinator;
-    } else if (url === 2) {
       return dictionar;
-    } else if (url === 3) {
+    } else if (url === 2) {
       return informatica;
-    } else if (url === 4) {
+    } else if (url === 3) {
       return matematica;
-    } else if (url === 5) {
+    } else if (url === 4) {
       return cti;
-    } else if (url === 6) {
+    } else if (url === 5) {
       return asmi;
-    } else if (url === 7) {
+    } else if (url === 6) {
       return activitate;
-    } else if (url === 8) {
+    } else if (url === 7) {
       return conducere;
-    } else if (url === 9) {
+    } else if (url === 8) {
       return regulament;
+    } else if (url === 9) {
+      return cazare;
     } else if (url === 10) {
       return burse;
     } else if (url === 11) {
@@ -62,28 +63,30 @@ const SectiuneComponent = ({ sectiune, index }) => {
       return extracurriculare;
     } else if (url === 15) {
       return echipa;
+    }else if (url === 16) {
+      return softbinator;
     }
   };
 
   const getID = (index) => {
     if (index === 0) {
-      return "softbinator";
-    } else if (index === 1) {
       return "dictionar";
-    } else if (index === 2) {
+    } else if (index === 1) {
       return "informatica";
-    } else if (index === 3) {
+    } else if (index === 2) {
       return "matematica";
-    } else if (index === 4) {
+    } else if (index === 3) {
       return "cti";
-    } else if (index === 5) {
+    } else if (index === 4) {
       return "asmi";
-    } else if (index === 6) {
+    } else if (index === 5) {
       return "activitate-didactica";
-    } else if (index === 7) {
+    } else if (index === 6) {
       return "conducere";
-    } else if (index === 8) {
+    } else if (index === 7) {
       return "regulament";
+    } else if (index === 8) {
+      return "cazare";
     } else if (index === 9) {
       return "burse";
     } else if (index === 10) {
@@ -96,6 +99,8 @@ const SectiuneComponent = ({ sectiune, index }) => {
       return "extracurriculare";
     } else if (index === 14) {
       return "echipa";
+    }if (index === 15) {
+      return "softbinator";
     }
   };
 
