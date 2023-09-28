@@ -1,145 +1,140 @@
 [
-  
   {
     "id": 1,
-    "nume": "1. DICȚIONAR STUDENȚESC",
-    "descriere": "Un scurt ghid de cuvinte",
+    "nume": "1. Mesajul Președintelui ASMI",
+    "imagineALT":"mesaj-liviu",
+    "href":"mesajul-presedintelui-asmi",
+    "titlu":"Mesajul Președintelui ASMI",
+    "text": [
+      {
+        "type": "p",
+        "content": "Dragi colegi,"
+      },
+      {
+        "type": "p",
+        "content": "Bine ați venit la Facultatea de Matematică și Informatică! Printre sutele de emoții și felicitări, care vi se cuvin pe deplin acum odată ajunși la facultate, și care prea curând vor deveni doar amintiri, încep aceste rânduri prin a vă spune că acum ia startul de fapt o cu totul nouă etapă, diferită față de ceea ce erați obișnuiți."
+      },
+      {
+        "type": "p",
+        "content": "Cumva, cel mai bun sfat pentru un student la început de drum, și nu numai, ar fi să nu intre în panică. Am ajuns cu toții la momentul în care trebuie să ne descurcăm singuri, și, ca de obicei, începutul poate fi cel mai greu. Cereți mereu ajutorul de la colegi, de la profesori sau de la ASMI, întrucât toți am trecut la un moment dat prin experiența de boboc și am văzut cât de mult poate face asta diferența. Exprimarea opiniei, feedback-ul constructiv și simpla dorință de a schimba ceva sau a ajuta pe cei din jurul nostru pot sta la baza dezvoltării acestei facultăți."
+      },
+      {
+        "type": "p",
+        "content": "În final, sunt convins că succesul constă în capacitatea de a cunoaște cât mai multe din tot ceea ce vă înconjoară și a alege ce vă place. Să acumulați cât mai multe cunoștințe de la facultate, dar să nu ignorați celelalte aspecte ale vieții de student. Să mergeți la toate petrecerile, dar să nu plecați neștiind de voi. Să vă dezvoltați în cât mai multe companii sau instituții, pe varii domenii, până găsiți ceea ce vă place, dar să nu faceți din muncă o obsesie. Să legați prietenii și să formați amintiri, cât mai multe și diverse, dar să nu faceți din asta un scop, ci o consecință."
+      },
+      {
+        "type": "div",
+        "content": "<p>Cu prietenie,</p><p>Liviu</p>"
+      }
+    ]
+    
+  },
+  {
+    "id": 2,
+    "nume": "2. Mesajul Decanatului",
+    "href":"mesajul-decanatului",
+    "titlu":"Mesajul Decanatului",
+    "text": [
+      {
+        "type": "p",
+        "content": "Dragi studenți,"
+      },
+      {
+        "type": "p",
+        "content": "Bine ați venit la Facultatea de Matematică și Informatică, Universitatea din București. A face parte din comunitatea facultății noastre este o provocare pe care sperăm să o transformați într-o experiență de neuitat! În domeniile noastre de licență, master și doctorat ne asumăm misiunea de a pregăti specialiști ce pot face diferența într-o societate în continuă schimbare. Sperăm că viața de student la Facultatea de Matematică și Informatică vă va aduce multe împliniri atât pe plan profesional cât și pe plan personal. "
+      },
+      {
+        "type": "div",
+        "content": "<p>Mult succes,</p><p>Decanatul FMI.</p>"
+      }
+    ]
+    
+  },
+  {
+    "id": 3,
+    "nume": "3. DICȚIONAR STUDENȚESC",
     "imagineALT": "dictionar_image",
     "href": "dictionar",
     "titlu": "Dicționar Studențesc",
     "text": [
       {
         "type": "p",
-        "content": "<h4>CONTRACTUL DE STUDII</h4> În fiecare an, Universitatea semnează cu fiecare student un contract de studii în care se specifică drepturile și obligaţiile părţilor. Acestea nu se modifică în timpul anului, iar tu primești o copie. Cine se ocupă de acesta? Secretariatul facultăţii tale care colaborează cu șefii de grupă pentru a ajunge la tine. În contextul actual vei fi informat cum poți avea acces la acesta, precum și la celelalte documente."
+        "content": "<h4>CARNETUL DE STUDENT</h4> Actul academic de identitate prin intermediul căruia demonstrezi că ești student."
       },
       {
         "type": "p",
-        "content": "<h4>CARNETUL DE STUDENT</h4> Actul academic de identitate prin intermediul căruia demonstrezi că ești student al Facultății de Matematică și Informatică."
+        "content": "<h4>LEGITIMAȚIA DE STUDENT</h4> Documentul prin care dispui de reduceri la transport."
       },
       {
         "type": "p",
-        "content": "<h4>LEGITIMAȚIA DE STUDENT</h4> Documentul prin care dispui de reduceri la transport (METROREX, STB, CFR etc.)."
+        "content": "<h4>ADEVERINȚA DE STUDENT</h4> Se eliberează oricând ai nevoie pentru a atesta faptul că ești student al Facultăţii/Universităţii în baza unei cereri către secretariatul facultăţii, online sau fizic."
+      },
+      {
+        "type":"p",
+        "content":"<h4>CREDITE</h4>Fiecărei discipline i se alocă un număr de credite, în funcţie de gradul de dificultate al materiei. Dacă ai promovat o disciplină, primești toate creditele alocate acesteia. Pentru a trece în anul următor, ai nevoie de minim jumătate +1 din numărul de credite din anul/anii anteriori"
+      },
+      {
+        "type":"p",
+        "content":"<h4>PUNCTE DE CREDIT</h4>În vederea reclasificării anuale a studenților la buget/taxă și repartiției la cămin, se realizează un clasament descrescător. Dacă nu ai promovat examenul, numărul punctelor de credit va fi egal cu 0. Punctajele se calculează astfel:"
+      },
+      {
+        "type":"p",
+        "content":"<b>nota obținută la materie</b>  *  <b>numărul de credite din planul de învățământ</b>"
       },
       {
         "type": "p",
-        "content": "<h4>ADEVERINȚA DE STUDENT</h4> Se eliberează oricând ai nevoie pentru a atesta faptul că ești student al Facultăţii/Universităţii în baza unei cereri pe care tu o adresezi decanului, ce se depune la secretariatului facultăţii. Vei avea nevoie de aceasta pentru a beneficia de reducerea transportului până când îţi vei primi legitimaţia și carnetul de student (la tren numai dacă facultatea ți-a confirmat online la CFR calitatea de student)."
+        "content": "<h4>ȘEF DE GRUPĂ</h4>Studentul care face legătura între studenții unei grupe și profesori la nivel de grupă. Acesta programează examenele împreună cu colegii, oferă informații și rezolvă probleme."
+      },
+      {
+        "type":"p",
+        "content":"<h4>CURS FACULTATIV</h4>Sunt cursuri la care vă puteți înscrie doar dacă doriți și nu influențează situația academică."
+      },
+      {
+        "type":"p",
+        "content":"<h4>CURS OPȚIONAL</h4>Din anul II sau III veți alege una sau mai multe discipline din lista de cursuri opționale stabilită anual în funcție de domeniu, iar acestea influențează situația academică."
       },
       {
         "type": "p",
-        "content": "<h4>ORARUL</h4> Se stabilește în prima săptămână de facultate și va fi afișat pe site-ul facultăţii la secțiunea dedicată. Acesta poate suferi modificări în primele săptămâni, deci să-l verifici cât mai des!"
+        "content": "<h4>PARȚIAL</h4> O evaluare ce este susținută la jumătatea semestrului și reprezintă un procent din nota finală, dar care nu este obligatorie să existe la toate disciplinele."
       },
       {
         "type": "p",
-        "content": "În el vei regăsi:"
+        "content": "<h4>SESIUNEA</h4> Cele trei săptămâni de foc după încheierea activității didactice a semestrului, în care vei susține examenele la disciplinele studiate."
       },
       {
-        "type": "list",
-        "content": "<ul><li><p><span>Cursurile</span> – orele în care profesorul ţine diferite prelegeri și prezentări, informându-te asupra subiectelor pe care va trebui să le cunoști în momentul în care vei fi evaluat.</p></li><li><p><span>Seminarele</span> – partea practică și interactivă care te va ajuta să înţelegi mai bine materia de la cursuri.</p></li><li><p><span>Laboratoarele</span> – sunt extrem de practice și se aplică informațiile învățate de la curs. Obligativitatea tuturor acestora diferă de la profesor la profesor, însă în mare parte laboratoarele sunt obligatorii.</p></li><ul>"
-      },
-      {
-        "type": "p",
-        "content": "Pe lângă cursurile din program, poţi opta pentru:"
-      },
-      {
-        "type": "list",
-        "content": "<ul><li><p><span>Opţionale</span> – pe care le poţi alege dintr-un pachet de cursuri opţionale și care vin în completarea pregătirii tale în domeniu sau cu un plus de cunoștinţe. În cazul în care nu îți vei alege unul dintre opționale vei fi repartizat automat.</p></li><li><p><span>Facultative</span> – nu sunt cursuri obligatorii și le poţi alege dacă dorești să acumulezi informaţii noi din cadrul altor discipline. Notarea se face doar dacă participi la examinarea finală, altfel poți renunța oricând fără consecințe.</p></li></ul>"
+        "type":"p",
+        "content":"<h4>PRESESIUNEA</h4>Reprezintă ultimele două săptămâni ale semestrului (înainte de sesiune), în care sunt susținute colocvii și verificări."
       },
       {
         "type": "p",
-        "content": "<h4>FIȘA DISCIPLINEI</h4> Fiecare materie pe care o vei studia are o fișă a disciplinei pe care o poți consulta pe site-ul facultății în secțiunea Planuri de Învățământ. În ea vei găsi: tematica fiecărui curs, bibliografia obligatorie și opţională, precum și modalitatea de evaluare."
+        "content": "<h4>COLOCVIU</h4>O formă de examinare a cunoștinţelor teoretice și practice antrenate în special în cadrul laboratoarelor."
       },
       {
         "type": "p",
-        "content": "<h4>SESIUNEA</h4> Cele trei săptămâni de foc de la finalul celor două semestre, în care va trebui să demonstrezi cunoștinţele pe care le-ai acumulat pentru fiecare disciplină parcursă. Cafeluța și energizantele îţi vor fi cei mai buni prieteni!"
+        "content": "<h4>EXAMEN</h4> Modalitatea de evaluare a cunoștinţelor acumulate, oral sau scris."
       },
       {
         "type": "p",
-        "content": "<h4>COLOCVIU</h4> O formă de examinare a cunoștinţelor teoretice și practice antrenate în special în cadrul laboratoarelor."
+        "content": "<h4>RESTANŢĂ</h4> În cazul în care nu ai reușit să obţii nota de trecere la unul dintre examene, vei avea posibilitatea de a fi reevaluat în sesiunile de restanţe. Primele două încercări la care te prezinți la examen sunt gratuite, dar de la a treia reexaminare trebuie plătită o taxă de 100 RON. Restanțele din anii anteriori se plătesc. O restanță este echivalentul a 0 puncte credit pentru materia respectivă."
       },
       {
         "type": "p",
-        "content": "<h4>LICENŢĂ</h4> Lucrarea scrisă, cuprinzând rezultatul unor investigaţii independente, întreprinse sub îndrumarea unui profesor, susţinută în faţa unei comisii constituite cu ocazia examenului de licenţă (învăţământ de lungă durată) sau de absolvire (învăţământ de scurtă durată)."
+        "content": "<h4>MĂRIRI</h4> Ai posibilitatea de susține un examen de mărire în septembrie doar în anul respectiv și nu poţi participa decât dacă ești integralist (fără nicio restanță). Poţi merge la maxim 6 examene de mărire pe an, primele 3 fiind gratuite, iar pentru celelalte 3 taxa este de 50RON. În catalog va rămâne ÎNTOTDEAUNA nota mai mare. "
       },
       {
         "type": "p",
-        "content": "<h4>EXAMENELE</h4> Modalitatea de evaluare a cunoștinţelor acumulate, oral sau scris. Data pentru fiecare examen este stabilită împreună cu profesorul și colegii."
+        "content": "<h4>MODULUL PSIHOPEDAGOGIC</h4> curs facultativ, la care se poate înscrie oricine își dorește să urmeze o carieră în mediul didactic. Este bine de reținut că studenții de la forma de finanțare cu taxă, vor fi la taxă și la acest curs. Dacă alegi să parcurgi acest curs și îl vei absolvi vei putea preda de la clasa a V-a până la clasa a X-a. "
       },
       {
         "type": "p",
-        "content": "<h4>VERIFICĂRILE</h4> Modalitatea de evaluarea este aceeași ca pentru examene, însă sunt programate în ultimele două săptămâni din semestru, nu în sesiune."
-      },
-      {
-        "type": "p",
-        "content": "<h4>PARȚIAL</h4> Formă de examinare ce are loc pe parcursul semestrului, a cărei pondere la nota finală și materie evaluată sunt stabilite de către profesor."
-      },
-      {
-        "type": "p",
-        "content": "<h4>RESTANŢĂ</h4> În cazul în care nu ai reușit să obţii nota 5 la unul dintre examene, vei avea posibilitatea de a fi reevaluat în sesiunile de restanţe. Prima restanţă este gratuită, însă începând cu a doua reexaminare la aceeași diciplină trebuie să plătești o taxă în valoare de 50 de lei."
-      },
-      {
-        "type": "p",
-        "content": "<h4>MĂRIRI</h4> În situaţia în care nu ești mulţumit de nota pe care ai obţinut-o, ai ocazia să dai un examen de mărire. Acestea au loc în septembrie și nu poţi participa decât dacă ești integralist în anul respectiv (nu ai nicio restanţă în momentul măririlor). Poţi merge la maxim 6 examene de mărire, primele 3 fiind gratuite, iar pentru celelalte 3 taxa este de 50 de lei. În catalog va rămâne ÎNTOTDEAUNA nota mai mare."
-      },
-      {
-        "type": "p",
-        "content": "<h4>REPREZENTANT DE AN</h4> Studentul care face legătura directă între studenți și profesor la nivel de an. Acesta programează examenele, oferă informații, discută cu profesorii și rezolvă probleme."
-      },
-      {
-        "type": "p",
-        "content": "<h4>TAXA DE STUDIU</h4> Trebuie achitată anual de studenţii înmatriculaţi la taxă. Studentul are obligaţia să achite taxa pentru a nu fi exmatriculat. În funcţie de notele obţinute pe parcursul anului universitar, poţi trece de la taxă la buget, dar și invers."
-      },
-      {
-        "type": "p",
-        "content": "<h4>PRACTICA</h4> O disciplină obligatorie pentru care vei primi notă și care trebuie efectuată până la finalizarea studiilor. Pentru Informatică sunt necesare 160 de ore, pentru Matematică sunt 125 de ore, iar pentru CTI 240 ore."
-      },
-      {
-        "type": "p",
-        "content": "<h4>MODULUL PSIHOPEDAGOGIC</h4> Facultativ, iar dacă alegi să-l parcurgi și îl absolvi îţi va da dreptul să fii profesor de gimnaziu sau liceu, până la nivelul clasei a X-a. Dacă dorești să urmezi modulul II, în timpul cursurilor de la masterat, vei putea preda în mediul universitar. Acesta este gratuit pentru studenţii de la buget."
-      },
-      {
-        "type": "p",
-        "content": "<h4>PLAGIERE/PLAGIAT</h4> Însușirea ideilor, metodelor, procedurilor, tehnologiilor, rezultatelor sau textelor aparţinând altei persoane, indiferent de calea prin care acestea au fost obţinute și prezentându-le drept creaţie personală. Plagierea constituie furt intelectual. Pentru mai multe detalii, puteți consulta Regulamentul de Etică al FMI <a href=\"http://old.fmi.unibuc.ro/ro/pdf/2015/consiliu/Regulament_etica_FMI.pdf\" target=\"_blank\" rel=\"noreferrer\">aici</a>."
-      },
-      {
-        "type": "p",
-        "content": "<h4>VIZA DE FLOTANT</h4> Un sticker care se aplică pe spatele buletinului și care atestă faptul că timp de cel puţin 15 zile pe an locuiești la o altă adresă decât cea din buletin. Procedura în sine e simplă și se face în baza contractului de cazare semnat de către UB sau a contractului de închiriere. Cu aceasta în original și în copie mergi la Evidenţa Populaţiei din sectorul de care aparţine locuinţa ta, iar eliberarea actului ia în jur de o săptămână. La ce îţi folosește? Dacă vrei să votezi la alegerile locale, dacă vrei să îţi iei permisul de conducere, comunicările oficiale îţi vor veni pe noua adresă la care stai."
+        "content": "<h4>LUCRARE DE LICENŢĂ</h4> Lucrarea scrisă care cuprinde rezultatul unor studii independente, întreprinse sub îndrumarea unui profesor și susţinută în faţa unei comisii."
       }
     ]
   },
   {
-    "id": 2,
-    "nume": "2. Domeniul Informatică",
-    "descriere": "Invitație către viitor!",
-    "imagineALT": "informatica_image",
-    "href": "informatica",
-    "titlu": "Informatică",
-    "text": [
-      {
-        "type": "p",
-        "content": "Poate primele zile de facultate vor părea intimidante, căci e, de fapt, un nou capitol din viața ta. Urmează perioada în care te vei maturiza cel mai mult, vei cunoaște diverși oameni cu interese comune, așa că sfatul nostru este să profiți din plin de această experiență."
-      },
-      {
-        "type": "p",
-        "content": "Ca student la Info, vei începe prin a aprofunda câteva materii de matematică (în anul întâi) care vor servi drept fundamente nu doar pentru materiile mai „tehnice” pe care le vei avea în anii următori, ci și pentru dezvoltarea unei gândiri abstracte, logice, pe care o vei folosi și în viața de zi cu zi."
-      },
-      {
-        "type": "p",
-        "content": "Primul limbaj de programare studiat va fi Python (în semestrul întâi), care va înlocui cu brio C++-ul sau Pascalul-ul, studiate în liceu. În plus, tot acum vei afla și despre partea de hardware a calculatorului și cum funcționează componentele între ele la cursul de Arhitectura Sistemelor de Calcul. Mai apoi, vei putea începe să pui bazele propriei tale aplicații cu ajutorul noțiunilor studiate la Programare Orientată pe Obiecte și la Baze de Date. Dacă ești pasionat de front-end vei avea ocazia să înveți Tehnici Web și să pui în practică noțiunile prin crearea unui site."
-      },
-      {
-        "type": "p",
-        "content": "Așa cum a fost și în liceu, fiecare își alege cât de greu sau cât de ușor îi va fi în facultate. Recomandăm să mergi la laboratoare, seminare și cursuri pentru că, pe lângă punctele bonus pe care le poți obține pe activitate (răspunsuri corecte, participare activă etc), aici se sedimentează noțiunile de care vei avea nevoie pe parcursul anilor și vei vedea că toate au  legătură între ele. Și mai este un aspect foarte important: e mai ușor să-ți faci prieteni dacă ești prezent alături de ei la ore, decât să le scrii pe WhatsApp. Gândește-te că oamenii pe care-i vei vedea pe holurile facultății vor fi oamenii pe care-i vei vedea în 5 ani la job-ul tău!"
-      },
-      {
-        "type": "p",
-        "content": "Dacă vei simți după primele săptămâni că este posibil să rămâi în urmă cu materia sau pur și simplu dorești să o înțelegi mai bine, colegii tăi din anii mai mari îți sar în ajutor! Poți participa la tutoriate, niște ore unde cei mai mari îți vor explica mai pe înțelesul tău toate noțiunile de la cursuri."
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "nume": "3. Domeniul Matematică",
-    "descriere": "Învață să îți depășești limitele!",
+    "id": 4,
+    "nume": "4.Matematică",
+    "descriere": "fie x un număr real…",
     "imagineALT": "matematica_image",
     "href": "matematica",
     "titlu": "Matematică",
@@ -150,41 +145,59 @@
       },
       {
         "type": "p",
-        "content": "Să discutăm puțin despre materii: predarea începe exact din punctul în care s-a terminat la liceu. Remarcăm, astfel, structurile algebrice și polinoamele la Algebră I, continuitatea și convergența la Analiză I și noțiuni vectoriale în Geometria I. Treptat, lucrurile se detașează de noțiunile familiare din liceu, dar observăm în continuare legăturile dintre diverse materii. De exemplu, Algebra Liniară din semestrul I pune bazele Elementelor de Calcul Științific din semestrul II, iar Programarea Procedurală și noul limbaj de programare abordat, Python, te vor ajuta pentru materiile viitoare de la specializarea matematică-informatică."
+        "content": "Să discutăm puțin despre materii: predarea începe exact din punctul în care s-a terminat la liceu. Remarcăm, astfel, structurile algebrice și polinoamele la Algebră I, continuitatea și convergența la Analiză I și noțiuni vectoriale în Geometria I. Treptat, lucrurile se detașează de noțiunile familiare din liceu, dar observăm în continuare legăturile dintre diverse materii. De exemplu, Algebra Liniară din semestrul I pune bazele Elementelor de Calcul Științific din semestrul II. Iar Programarea Procedurală și noul limbaj de programare abordat, Python,  deschid alte noi uși."
       },
       {
         "type": "p",
-        "content": "Predarea în anul I este în trunchi comun, urmând o regrupare pe specialități în anul II: Matematică, Matematică-Informatică și Matematici Aplicate. Toate trei specializările oferă aceleași posibilități de viitor, deși diferențele dintre ele sunt esențiale. Vor fi 3-4 cursuri de bază, întâlnite indiferent de alegere, diversitatea fiind în cursurile specifice și opționale."
-      },
-      {
-        "type": "p",
-        "content": "Matematica este dedicată viitorilor cercetători în domeniu, aprofundând noțiunile prin alte materii, precum: Teoria Numerelor și Analiza Funcțională. Specializarea Matematică-Informatică te pregătește în cele două domenii numite. Chiar dacă absolventul acesteia va fi licențiat doar în matematică, informațiile dobândite în domeniul programării sunt incontestabile. Materii precum Baze de Date, Programare Orientată pe Obiecte și Sisteme de Operare vor fi cheia către marile companii."
-      },
-      {
-        "type": "p",
-        "content": "Într-un final, Matematică Aplicată reușește să îmbine atât materiile generale, având ore comune cu Matematica, dar și să aducă opționale care pot ajuta studenții să găsească utilitatea lor în diferite procese/ situații."
+        "content": "Predarea în anul I este în trunchi comun, urmând o regrupare pe specialități în anul II: Matematică, Matematică-Informatică și Matematici Aplicate. Toate trei specializările oferă aceleași posibilități de viitor, deși diferențele dintre ele sunt esențiale. Vor fi 3-4 cursuri de bază, întâlnite indiferent de alegere, diversitatea fiind în cursurile specifice și opționale. Studenții ce vor urma specializarea Matematică-Informatică vor obține licența în domeniul Matematică la absolvirea facultății. "
       }
     ]
   },
   {
-    "id": 4,
-    "nume": "4. Domeniul CTI",
-    "descriere": "Un alt tip de rețea.",
+    "id": 5,
+    "nume": "5.Informatică",
+    "descriere": "print(„Bun venit la FMI!”)",
+    "imagineALT": "informatica_image",
+    "href": "informatica",
+    "titlu": "Informatică",
+    "text": [
+      {
+        "type": "p",
+        "content": "Poate primele zile de facultate vor părea intimidante, căci este, de fapt, un nou capitol din viața ta. Urmează perioada în care te vei maturiza cel mai mult, vei cunoaște diverși oameni cu interese comune, așa că sfatul nostru este să profiți din plin de această experiență."
+      },
+      {
+        "type": "p",
+        "content": "Studenția la Info începe cu aprofundarea câtorva materii de matematică (în anul I) care vor servi drept fundamente nu doar pentru materiile mai „tehnice” pe care le vei avea în anii următori, ci și pentru dezvoltarea unei gândiri abstracte, logice, pe care o vei folosi și în viața de zi cu zi."
+      },
+      {
+        "type": "p",
+        "content": "Primul limbaj de programare pe care îl vei studia va fi Python (în semestrul I), care va înlocui cu brio C++-ul sau Pascalul-ul studiate în liceu. În plus, tot acum vei afla și despre partea de hardware a calculatorului și cum funcționează componentele între ele la cursul de Arhitectura Sistemelor de Calcul. Mai apoi, vei putea începe deja să pui bazele propriei tale aplicații cu ajutorul noțiunilor studiate la Programare Orientată pe Obiecte și la Baze de Date. Dacă ești pasionat de front-end vei avea ocazia să înveți Tehnici Web și să pui în practică noțiunile prin crearea propriului site"
+      },
+      {
+        "type": "p",
+        "content": "Așa cum a fost și în liceu, fiecare își alege cât de greu sau cât de ușor îi va fi în facultate. Recomandăm să mergi la laboratoare, seminare și cursuri pentru că, pe lângă punctele bonus pe care le poți obține pe activitate (răspunsuri corecte, participare activă, etc.), aici se sedimentează noțiunile de care vei avea nevoie pe parcursul anilor și vei vedea că toate au legătură între ele. Și mai este un aspect foarte important: e mai ușor să-ți faci prieteni dacă ești prezent alături de ei la ore, decât dacă doar scrii pe WhatsApp. Gândește-te că oamenii pe care-i vei vedea pe holurile facultății vor fi oamenii pe care-i vei vedea în 5 ani la job-ul tău!"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "nume": "6.CTI",
+    "descriere": "Un alt tip de rețea",
     "imagineALT": "cti_image",
     "href": "cti",
     "titlu": "CTI",
     "text": [
       {
         "type": "p",
-        "content": "CTI este un domeniu foarte variat, având foarte multe materii cu aplicabilitate practică, așa că te poți baza pe el că vei găsi ceva ce îți place, fie că este legat de programare sau inginerie."
+        "content": "CTI este un domeniu foarte variat, având foarte multe materii cu aplicabilitate practică, așa că te poți baza pe el că o să găsești ceva ce îți place, fie că este legat de programare sau inginerie."
       },
       {
         "type": "p",
-        "content": "La prima vedere, poate părea copleșitor, ținând cont că este și singurul domeniu cu durata de 4 ani, dar acesta este, totuși, un avantaj. Materiile sunt predate pe parcursul unei perioade mai lungi de timp, așa că orarul este destul de convenabil, oferindu-ți mai puțin stres și mai mult timp la dispoziție să te bucuri de studenție. În plus, având un an de facultate în plus față de celelalte domenii, există mai multe oportunități de a câștiga experiență în domeniu, aplicând la mai multe internshipuri."
+        "content": "La prima vedere, poate părea copleșitor, ținând cont că este și singurul domeniu cu durată de 4 ani, dar acesta este, totuși, un avantaj. Materiile sunt predate pe parcursul unei perioade mai lungi de timp, așa că orarul este destul de îngăduitor, oferindu-ți mai puțin stres și mai mult timp la dispoziție să te bucuri de studenție. În plus, având la dispoziție încă un an de facultate față de celelalte domenii, există mai multe oportunități de a câștiga experiență în domeniu, aplicând la mai multe internship-uri."
       },
       {
         "type": "p",
-        "content": "Ceea ce face marea diferență dintre domeniul CTI și celelalte este legătura cu Facultatea de Fizică de la Măgurele, unde se vor ține cursurile, seminarele și laboratoarele de fizică. Vei avea o zi din orar dedicată Facultății de Fizică unde vei face multe lucrări practice și experimente foarte interesante. Fizica nu trebuie să te intimideze, întrucât profesorii sunt înțelegători, reiau noțiunile de la început și îți formează o bază, chiar dacă nu o aveai din liceu, așa că, dacă ești prezent la ore nu o să fie niciun fel de problemă."
+        "content": "Ceea ce face marea diferență dintre domeniul CTI și celelalte este legătura cu Facultatea de Fizică de la Măgurele, unde se vor ține cursurile, seminarele și laboratoarele de fizică. Vei avea o zi din orar dedicată Facultății de Fizică unde vei face multe lucrări practice și experimente foarte interesante. Fizica nu trebuie să te intimideze, întrucât profesorii sunt înțelegători, reiau noțiunile de la început și îți formează o bază, chiar dacă nu o aveai din liceu, așa că, dacă ești prezent la cursuri, seminarii și laboratoare nu o să fie niciun fel de problemă."
       },
       {
         "type": "p",
@@ -192,21 +205,20 @@
       },
       {
         "type": "p",
-        "content": "Te poți aștepta la sfârșitul FMI, ca absolvent al domeniul CTI, pe lângă diploma de inginer, să ai cunoștințe vaste despre programare, proiectare, electronică, rețelistică și multe altele, având astfel un orizont larg și multe oportunități de carieră."
+        "content": "Te poți aștepta la sfârșitul FMI, ca absolvent al domeniul CTI, să ai cunoștințe vaste despre programare, proiectare, electronică, rețelistică și multe altele, având astfel un orizont larg și multe oportunități de carieră."
       }
     ]
   },
   {
-    "id": 5,
-    "nume": "5. Asociația studenților la matematică și Informatică - ASMI",
-    "descriere": "De la studenți, pentru studenți.",
+    "id": 7,
+    "nume": "7. Asociația studenților la matematică și Informatică - ASMI",
     "imagineALT": "asmi_image",
     "href": "asmi",
-    "titlu": "Asociația studenților la matematică și Informatică",
+    "titlu": "Asociația studenților la matematică și Informatică - ASMI",
     "text": [
       {
         "type": "p",
-        "content": "Dacă-ți dorești ca studenția ta să fie mai mult decât un drum între cămin, facultate și cantină, avem o veste foarte bună pentru tine."
+        "content": "Dacă îți dorești ca studenția ta să fie mai mult decât un drum între cămin, facultate și cantină, avem o veste foarte bună pentru tine!"
       },
      
       {
@@ -219,62 +231,46 @@
       },
       {
         "type": "list",
-        "content": "<ul><li><p><span>Dialog Deschis: </span>Ne strângem marți, 4 octombrie pentru ca studenții mai mari să povestească câteva lucruri despre viața de student.</p></li></ul>"
+        "content": "<ul><li><p><span>Dialog Deschis: </span>Ne strângem marți, 3 octombrie pentru ca studenții mai mari să povestească câteva experiențe petrecute până acum din studenție.</p></li></ul>"
       },
       {
         "type": "list",
-        "content": "<ul><li><p><span>Bumtzi: </span>Pentru a sărbători începutul facultății, vă invităm joi, 6 octombrie la prima petrecere în calitate de studenți!</p></li></ul>"
+        "content": "<ul><li><p><span>Bumtzi: </span>Pentru a sărbători începutul facultății, vă invităm joi, 5 octombrie la prima petrecere în calitate de studenți!</p></li></ul>"
       },
       {
         "type": "list",
-        "content": "<ul><li><p><span>Tre' sa caut: </span>„Tre' să caut” este un treasure hunt care se desfășoară în București sâmbătă,  8 octombrie.</p></li></ul>"
+        "content": "<ul><li><p><span>Tre' să caut: </span>reprezintă un treasure hunt care se desfășoară în București, sâmbătă, 7 octombrie, cu scopul de a familiariza noii studenți cu locurile importante din jurul zonei universității.</p></li></ul>"
       },
       {
         "type": "list",
-        "content": "<ul><li><p><span>Meet ASMI: </span> Dacă încă nu ești hotărât dacă vrei să intri în ASMI, stai liniștit deoarece Meet ASMI este o întâlnire ce va avea loc luni, 10 octombrie, unde puteți lua contact direct cu voluntarii ASMI.</p></li></ul>"
+        "content": "<ul><li><p><span>Meet ASMI: </span> Nu ești hotărât dacă vrei să intri în ASMI? Stai liniștit deoarece se apropie Meet ASMI, care este o întâlnire ce va avea loc luni, 9 octombrie, unde puteți lua contact direct cu voluntarii Asociației.</p></li></ul>"
       },
       {
         "type": "list",
-        "content": "<ul><li><p><span>Smarthack: </span>Un hackathon de 24 de ore în care mai multe echipe de 3-4 studenți lucrează la dezvoltarea unui produs software pe baza unei teme, care se finalizează cu jurizarea și premierea celor mai bune echipe. Concursul va avea loc fizic în seara dintre 5 și 6 noiembrie.</p></li></ul>"
+        "content": "<ul><li><p><span>Balul Bobocilor: </span> Reprezintă o petrecere dedicată bobocilor, iar preselecțiile vor avea loc în luna octombrie. </p></li></ul>"
+      },
+      {
+        "type": "list",
+        "content": "<ul><li><p><span>SMARTHACK: </span> Un hackathon de 24 ore în care mai multe echipe lucrează la dezvoltarea unui produs software pe baza unei teme, care se finalizează cu jurizarea și premierea celei mai bune echipe. Competiția se va desfășura în perioada 11-12 noiembrie 2023.</p></li></ul>"
       },
       {
         "type": "p",
-        "content": "Dacă dorești mai multe informații sau încă nu ești convins de Asociația Studenților la Matematică și Informatică, te așteptăm pe <a href=\"https://www.asmi.ro/ \" target=\"_blank\" rel=\"noreferrer\">site-ul nostru</a> sau pe platformele noastre de <a href=\"https://www.facebook.com/asmi.ub \" target=\"_blank\" rel=\"noreferrer\">Facebook</a>, <a href=\"https://www.instagram.com/asmi.ub/ \" target=\"_blank\" rel=\"noreferrer\">Instagram</a> sau <a href=\"https://www.linkedin.com/company/739034/admin/ \" target=\"_blank\" rel=\"noreferrer\">LinkedIn</a> unde poți afla mai multe informații despre ce înseamnă asociația noastră. Te așteptăm cu drag să ni te alături!"
+        "content": "Asociația noastră face parte din ANOSR (Alianța Națională a Organizațiilor Studențești din România), aceasta fiind o federație națională studențească, non-guvernamentală și non-partizană care, de peste 23 de ani, are ca scop principal atât reprezentarea intereselor comune ale studenților din România, apărarea și promovarea drepturilor și obligațiilor acestora, cât și stimularea participării lor la actul educațional și la viața socială, economică și culturală."
       },
       {
         "type": "p",
-        "content": "Asociația noastră face parte din ANOSR (Alianța Națională a Organizațiilor Studențești din România), aceasta fiind o federație națională studențească, non-guvernamentală și non-partizană care, de peste 22 de ani, are ca scop principal atât reprezentarea intereselor comune ale studenților din România, apărarea și promovarea drepturilor și obligațiilor acestora, cât și stimularea participării lor la actul educațional și la viața socială, economică și culturală.Ei reunesc studenți din 19 centre universitare, 30 de universități și 112 organizații studențești. Mai multe informații despre ANOSR găsiți pe <a href=\"https://anosr.ro/  \" target=\"_blank\" rel=\"noreferrer\">site-ul lor oficial</a>"
-      },
-      {
-        "type": "h2",
-        "content": "<h2>Mesajul președintelui ASMI</h2>"
+        "content": "Ei reunesc studenți din 19 centre universitare, 30 de universități și 112 organizații studențești. Mai multe informații despre ANOSR găsiți pe <a href=\"https://anosr.ro/  \" target=\"_blank\" rel=\"noreferrer\">anosr.ro</a>."
       },
       {
         "type": "p",
-        "content": "Dragi colegi,"
-      },
-      {
-        "type": "p",
-        "content": "Bine ați venit la Facultatea de Matematică și Informatică! Printre sutele de emoții și felicitări, care vi se cuvin pe deplin acum odată ajunși la facultate, și care prea curând vor deveni doar amintiri, încep aceste rânduri prin a vă spune că acum ia startul de fapt o cu totul nouă etapă, diferită față de ceea ce erați obișnuiți."
-      },
-      {
-        "type": "p",
-        "content": "Cumva, cel mai bun sfat pentru un student la început de drum, și nu numai, ar fi să nu intre în panică. Am ajuns cu toții la momentul în care trebuie să ne descurcăm singuri, și, ca de obicei, începutul poate fi cel mai greu. Cereți mereu ajutorul de la colegi, de la profesori sau de la ASMI, întrucât toți am trecut la un moment dat prin experiența de boboc și am văzut cât de mult poate face asta diferența. Exprimarea opiniei, feedback-ul constructiv și simpla dorință de a schimba ceva sau de a-i ajuta pe cei din jurul nostru pot sta la baza dezvoltării acestei facultăți."
-      },
-      {
-        "type": "p",
-        "content": "În final, sunt convins că succesul constă în capacitatea de a cunoaște cât mai multe din tot ceea ce vă înconjoară și a alege ce vă place. Să acumulați cât mai multe cunoștințe de la facultate, dar să nu ignorați celelalte aspecte ale vieții de student. Să mergeți la toate petrecerile, dar să nu plecați neștiind de voi. Să vă dezvoltați în cât mai multe companii sau instituții, pe varii domenii, până găsiți ceea ce vă place, dar să nu faceți din muncă o obsesie. Să legați prietenii și să formați amintiri, cât mai multe și diverse, dar să nu faceți din asta un scop, ci o consecință."
-      },
-      {
-        "type": "div",
-        "content": "<p>Cu prietenie,</p><p>Liviu</p>"
+        "content":"Dacă dorești mai multe informații despre Asociația Studenților la Matematică și Informatică, poți vizita <a href=\"https://www.asmi.ro/  \" target=\"_blank\" rel=\"noreferrer\">site-ul nostru</a> și ne poți urmări activitatea pe <a href=\"https://www.facebook.com/asmi.ub/  \" target=\"_blank\" rel=\"noreferrer\">Facebook</a>, dar și pe <a href=\"https://www.instagram.com/asmi.ub/?hl=en  \" target=\"_blank\" rel=\"noreferrer\">Instagram</a>. Te așteptăm cu drag să ni te alături!"
       }
     ]
   },
   {
-    "id": 6,
-    "nume": "6. Activitatea Didactică",
-    "descriere": "Mic ghid de supraviețuire de-a lungul anilor.",
+    "id": 8,
+    "nume": "8. Activitatea Didactică",
+    "descriere": "Mic ghid de supraviețuire de-a lungul anilor",
     "imagineALT": "activitate_didactica_image",
     "href": "activitate-didactica",
     "titlu": "Activitate Didactică",
@@ -285,11 +281,11 @@
       },
       {
         "type": "p",
-        "content": "Diversele informații referitoare la procesul educațional vor fi publicate pe <a href=\"https://fmi.unibuc.ro/\" target=\"_blank\" rel=\"noreferrer\">site-ul facultății</a>, unde se recomandă accesarea în mod regulat pentru a fi la curent cu toate noutățile. Fiecare materie are un anumit număr de credite, iar acesta variază de la una la alta. Pentru descrierea completă a planului de învățământ, consultați <a href=\"https://fmi.unibuc.ro/planuri-de-invatamant//\" target=\"_blank\" rel=\"noreferrer\">această pagină</a>."
+        "content": "Fiecare semestru este împărțit, de obicei, în 14 săptămâni, prima fiind săptămână impară, a doua va fi săptămână pară, alternând.  Semestrul se finalizează cu sesiunea de examene: 3 săptămâni în care au loc evaluările, în date alese de voi. Activitatea didactică se încheie înaintea acesteia, deci tot timpul este dedicat învățării."
       },
       {
         "type": "p",
-        "content": "În vederea reclasificării anuale a studenților la buget și taxă, se realizează un clasament descrescător al sumei punctajelor tuturor materiilor, mai puțin Educația fizică și metodică. Punctajul fiecărei materii se calculează după formula: "
+        "content": "Diversele informații referitoare la procesul educațional vor fi publicate pe <a href=\"https://fmi.unibuc.ro/planuri-de-invatamant/  \" target=\"_blank\" rel=\"noreferrer\">site-ul facultății</a>  și canalul general MS Teams, unde se recomandă accesarea în mod regulat pentru a fi la curent cu toate noutățile. Pentru descrierea completă a planului de învățământ, poți consulta site-ul facultății."
       },
       {
         "type": "p",
@@ -310,9 +306,37 @@
     ]
   },
   {
-    "id": 7,
-    "nume": "7. Conducerea Facultății",
-    "descriere": "Linia de prim ajutor.",
+    "id": 9,
+    "nume": "9. Cazare și cămine",
+    "imagineALT": "camine.png",
+    "href": "cazare",
+    "titlu": "Cazare și cămine",
+    "text": [
+      {
+        "type": "p",
+        "content": "Dacă vă întrebați ce opțiuni de cazare sunt disponibile din partea facultății, iar răspunsul vostru este „căminele”, atunci ați răspuns corect 😊 Lăsând glumele la o parte, facultatea oferă studenților, în funcție de cerere și de locurile disponibile, locuri în căminele UB. Acestea sunt răspândite în tot Bucureștiul, de la Grozăvești și până în Titan. Principalele cămine în care facultatea are locuri atribuite se regăsesc:"
+      },
+      {
+        "type": "list",
+        "content": "<ul><li><p>Grozăvești: A1, A, B, D</p></li><li><p>M. Kogălniceanu A</p></li><li><p>Theodor Pallady: 1, 2</p></li><li><p>Fundeni</p></li><li><p>Stoian Militaru: 1, 2</p></li><li><p>Poligrafie</p></li></ul>"
+      },
+       {
+        "type": "p",
+        "content": "Taxa lunară pentru un loc în cămine variază între 160 și 230 lei pentru studenții bugetați, respectiv între 280 și 320 de lei pentru studenții la taxă."
+      }, 
+      {
+        "type": "p",
+        "content": "Trebuie menționat că, în funcție de cămin, camerele pot fi de 2, 3 sau 4 persoane, așa că mereu vor fi colegi care să ajute oricând este necesar."
+      },
+      {
+        "type":"p",
+        "content": "Dacă nu ați fost repartizați în niciunul dintre căminele menționate deja, există atât mai multe etape de cazare organizate de UB, dar și o subvenție individuală de cazare, oferită de Universitatea din București. Nu în ultimul rând, există și posibilitatea de cazare în cămine private. Acestea sunt ceva mai scumpe decât cele de stat, însă prețul plătit include diverse beneficii. Câteva opțiuni sunt <a href=\"https://arcca.ro/\" target=\"_blank\" rel=\"noreferrer\">ARCCA</a> și <a href=\"https://www.westgatestudios.ro/\" target=\"_blank\" rel=\"noreferrer\">West Gate Studios</a>."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "nume": "10. Conducerea Facultății",
     "imagineALT": "conducere_image",
     "href": "conducere-fmi",
     "titlu": "Conducerea Facultății",
@@ -323,7 +347,11 @@
       },
       {
         "type": "p",
-        "content": "Consiliul Facultății este organismul principal de conducere al facultăţii. El defineşte strategia de dezvoltare, propune numărul de studenţi pe specializări şi forme de învăţământ, aprobă planurile de învăţământ și disciplinele pentru licenţă, masterat şi doctorat. Este format din reprezentanţii catedrelor, ai departamentelor şi ai studenţilor, aceștia din urmă fiind în proporţie de ¼ din totalul membrilor."
+        "content": "Consiliul Facultății este organismul principal de conducere al facultăţii. El defineşte strategia de dezvoltare, propune numărul de studenţi pe specializări şi forme de învăţământ, aprobă planurile de învăţământ și disciplinele pentru licenţă, masterat şi doctorat. Acesta este format din Biroul de Conducere al Consiliului (Decanatul Facultății), Directorii Departamentelor de Matematică și Informatică și studenții reprezentanți ."
+      },
+      {
+        "type":"p",
+        "content":"Reprezentanții studenților sunt aleși la începutul fiecărui an universitar prin vot secret de către toți studenții pe care îi reprezintă. De exemplu, pentru alegerea studentului care va reprezenta anul II de licenţă, specializarea Informatică, vor vota doar studenții anului II la specializarea Informatică."
       },
       {
         "type": "h2",
@@ -331,7 +359,7 @@
       },
       {
         "type": "p",
-        "content": "Decanul facultății, doamna Prof. Dr. Ioana Leuștean, răspunde de calitatea întregului proces de învăţământ şi cercetare din facultate și este preşedinte al Consiliului Facultăţii."
+        "content": "Decanul Facultății, doamna Prof. Dr. Ioana Leuștean, răspunde de calitatea întregului proces de învăţământ şi cercetare din facultate și este preşedinte al Consiliului Facultăţii."
       },
       {
         "type": "h2",
@@ -343,7 +371,7 @@
       },
       {
         "type": "list",
-        "content": "<ul><li><p>Domnul Lect. Dr. Paul Irofti - prodecan pentru cercetare, informatizare, coordonare departament IT, relația cu mediul de afaceri.</p></li><li><p>Domnul Conf. Dr. Cătălin Gherghe - prodecan pentru activitate didactică, resurse umane, relația cu mediul preuniversitar.</p></li><li><p>Domnul Lect. Dr. Alexandru Amărioarei – prodecan pentru acreditări, internaționalizare, practică, raportări anuale.</p></li><li><p>Doamna Lect. dr. Anca Dobrovăț – prodecan pentru studenți, internaționalizare, practică, licență, admitere.</p></li></ul>"
+        "content": "<ul><li><p>Domnul Lect. Dr. Paul Irofti - prodecan pentru cercetare, informatizare, coordonare departament IT, relația cu mediul de afaceri.</p></li><li><p>Domnul Conf. Dr. Cătălin Gherghe - prodecan pentru activitate didactică, resurse umane, relația cu mediul preuniversitar.</p></li><li><p>Domnul Lect. Dr. Alexandru Amărioarei – prodecan pentru acreditări, internaționalizare, practică, raportări anuale.</p></li><li><p>Doamna Lect. Dr. Anca Dobrovăț – prodecan pentru studenți, internaționalizare, practică, licență, admitere.</p></li></ul>"
       },
       {
         "type": "h2",
@@ -351,77 +379,21 @@
       },
       {
         "type": "p",
-        "content": "Senatul Universității reprezintă cel mai înalt for de reprezentare al comunității universitare în mediul academic național și internațional, fiind, totodată, forul de decizie și deliberare de la nivelul universității. Senatul are în componența sa un număr de 119 membri, dintre care 89 cadre didactice și 30 studenți, din care fac parte și membri din partea Facultății de Matematică și Informatică."
+        "content": "Senatul Universității constituie cel mai înalt for de reprezentare al comunității universitare în mediul academic național și internațional, fiind, totodată, forul de decizie și deliberare de la nivelul universității. Senatul are în componența sa și membri din partea Facultății de Matematică și Informatică."
       }
     ]
   },
   {
-    "id": 8,
-    "nume": "8. Regulamente FMI",
-    "descriere": "Student la FMI până la sfârșit.",
-    "imagineALT": "regulament_image",
-    "href": "regulament-fmi",
-    "titlu": "Regulament FMI",
-    "text": [
-      {
-        "type": "p",
-        "content": "Învățământul superior este reglementat la nivel național de Legea Educației Naționale 1/2011. Carta Universității din București este cel mai puternic act normativ emis în Universitate. Studenții vor lua la cunoștință de prevederile Codului Drepturilor și Obligațiilor Studentului și Regulamentul de Activitate Profesională a Studentului."
-      },
-      {
-        "type": "p",
-        "content": "Acestea sunt urmate de regulamentele specifice facultății noastre care se pot găsi pe prima pagină a site-ului FMI:"
-      },
-      {
-        "type": "list",
-        "content": "<ul><li><a href=\"http://old.fmi.unibuc.ro/ro/pdf/2015/consiliu/Regulament_etica_FMI.pdf\" target=\"_blank\" rel=\"noreferrer\">Regulamentul de etică și profesionalism al FMI</a><p>Regulamentul de etică și profesionalism pentru FMI este un îndrumător pentru ambele părți implicate în procesul de învățământ (profesori și studenți), în vederea creării unui astfel de cadru. Regulamentul exemplifică situații ce se doresc a fi evitate și normează modul în care se va acționa în cazul unor conflicte de natură etică.</p></li><li><a href=\"http://old.fmi.unibuc.ro/ro/pdf/2017/examene/Standarde_de_organizare_a_examenelor_FMI_2016-2017.pdf\" target=\"_blank\" rel=\"noreferrer\">Standardele de organizare a examenelor în FMI</a><p>În forma actuală, standardele subsecvente acoperă organizarea evaluării studenților în cadrul sesiunilor de examene organizate de FMI și nu se referă la evaluarea continuă a studenților, pe parcursul semestrelor de studii. Standardele prezente respectă și sunt completate de cerințele impuse de Legea Educației Naționale 1/2011, Carta UB și Regulamentul privind activitatea profesională a studenților din UB.</p></li><li><a href=\"http://old.fmi.unibuc.ro/ro/pdf/2017/secretariat/Anunt-promovare_din_anul_II_in_III_toate_programele_de_licenta_IF.pdf\" target=\"_blank\" rel=\"noreferrer\">Criteriile de promovare în anul III</a><p>Promovarea din anul II în anul III se face cu un număr limită de restanțe acceptate.</p></li><li><a href=\"http://old.fmi.unibuc.ro/ro/pdf/2017/practica/FMI_Regulament_practica_studenti.pdf\" target=\"_blank\" rel=\"noreferrer\">Regulament de practică al FMI</a><p>Prezentul regulament stabilește cadrul general de organizare, desfășurare, evaluare și recunoaștere a stagiilor de practică profesională, prevăzute în programele de studii și efectuate de studenții Facultății de Matematică și Informatică (FMI) a Universității din București (UB).</p></li></ul>"
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "nume": "9. Cazare și cămine",
-    "descriere": "Eu unde dorm?",
-    "imagineALT": "camine.png",
-    "href": "cazare",
-    "titlu": "Cazare și cămine",
-    "text": [
-      {
-        "type": "p",
-        "content": "Dacă vă întrebați ce opțiuni de cazare sunt disponibile din partea facultății, iar răspunsul vostru este „căminele”, atunci ați răspuns corect 😊. Lăsând glumele la o parte, facultatea oferă studenților, în funcție de cerere și de locurile disponibile, locuri în căminele UB. Acestea sunt răspândite în tot Bucureștiul, de la Grozăvești și până în Titan. Principalele cămine în care facultatea are locuri atribuite se regăsesc:"
-      },
-      {
-        "type": "list",
-        "content": "<ul><li><p>Grozăvești: A1, A, B, D</p></li><li><p>M. Kogălniceanu B</p></li><li><p>Măgurele: G2, G4, G5</p></li><li><p>Theodor Pallady: 1, 2</p></li><li><p>Fundeni</p></li><li><p>Stoian Militaru: 1, 2</p></li><li><p>Poligrafie</p></li></ul>"
-      },
-       {
-        "type": "p",
-        "content": "Taxa lunară pentru un loc în cămine variază între 130 și 160 de lei pentru studenții bugetați, respectiv între 240 și 280 de lei pentru studenții la taxă. De asemenea, puteți accesa <a href=\"https://drive.google.com/file/d/1pc92E-9X3QJFxu5ztd3r8WXsaYT9w8s-/view\" target=\"_blank\" rel=\"noreferrer\">metodologia UB</a> pentru cazarea în căminele universității scanând codul din dreapta."
-      }, 
-      {
-        "type": "p",
-        "content": "Trebuie menționat că, în funcție de cămin, camerele pot fi de 2, 3 sau 4 persoane, așa că mereu vor fi colegi care să ajute oricând este necesar."
-      },
-      {
-        "type": "p",
-        "content": "Dacă nu ați fost repartizați în niciunul dintre căminele menționate deja, există și posibilitatea de cazare în cămine private. Acestea sunt ceva mai scumpe decât cele de stat, însă prețul plătit include diverse beneficii. Câteva opțiuni sunt <a href=\"https://arcca.ro/\" target=\"_blank\" rel=\"noreferrer\">ARCCA</a> și <a href=\"https://www.westgatestudios.ro/\" target=\"_blank\" rel=\"noreferrer\">West Gate Studios</a>."
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "nume": "10. Burse",
+    "id": 11,
+    "nume": "11. Burse",
     "descriere": "A zis cineva bani?",
     "imagineALT": "burse_image",
     "href": "burse",
     "titlu": "Burse",
     "text": [
       {
-        "type": "p",
-        "content": "Un student poate beneficia într-un an universitar de două tipuri diferite de burse doar dacă una dintre ele este socială. Studenții trebuie să depună cerere pentru a beneficia de oricare dintre burse, în caz contrar nu pot figura pe lista de burse (mai puțin în cazul burselor de merit unde în urma afișării listelor se completează o cerere de acceptare)."
-      },
-      {
-        "type": "p",
-        "content": "Tipuri de burse:"
+        "type": "h2",
+        "content": "<h2>Tipuri de burse:</h2>"
       },
       {
         "type": "list",
@@ -429,17 +401,56 @@
       },
       {
         "type": "p",
-        "content": "Burse adresate studenților din anul I:"
+        "content": "Un student poate beneficia de o singură bursă de merit într-un an universitar chiar dacă este înmatriculat la două specializări sau facultăți concomitent. Pe lângă bursa socială acesta mai poate obține și bursă de merit pentru rezultatele obținute. Studenții trebuie să depună cerere pentru a beneficia de oricare dintre burse, în caz contrar nu pot figura pe lista de burse (mai puțin în cazul burselor de merit unde în urma afișării listelor se completează o cerere de acceptare)."
+      },
+      {
+        "type": "p",
+        "content": "Anunțurile pentru depunerea cererilor pentru burse precum şi informaţii privind procesul de selecţie al beneficiarilor sunt afişate pe <a href=\"https://fmi.unibuc.ro/studenti/burse/  \" target=\"_blank\" rel=\"noreferrer\">site-ul FMI</a>. "
+      },
+      {
+        "type": "h2",
+        "content": "<h2>Burse adresate studenților din anul I:</h2>"
       },
       {
         "type": "list",
-        "content": "<ul><li><p>Bursele de performană</p><ul type=\"circle\"><li><p>Cuantum: 1000 lei</p></li><li><p>Criterii: distincţii la olimpiadele şcolare internaţionale, în calitate de elevi în clasa a XII-a, conform documentelor transmise de către Ministerului Educaţiei Naționale.</p></li></li><li><p>Bursele de merit I</p><ul type=\"circle\"><li><p>Cuantum: 800 lei</p></li><li><p>Criterii: media de admitere minim 8</p></li><li><p>Stabilirea listelor cu beneficiari: se acordă unui număr de studenți decis de Comisia de burse a FMI, luați în ordinea descrescătoare a mediei de admitere.</p></li></ul></ul><ul><li><p>Bursele de merit II</p><ul type=\"circle\"><li><p>Cuantum: 900 lei</p></li><li><p>Criterii: media de admitere minim 8</p></li><li><p>Stabilirea listelor cu beneficiari: se acordă unui număr de studenți decis de Comisia de burse a FMI, luați în ordinea descrescătoare a mediei de admitere.</p></li></ul></li><li><p>Burse Sociale</p><ul><li><p>Cuantum: 750 lei</p></li><li><p>Criterii</p><ul type=\"square\"><li><p>Familia studentului nu a realizat în cele 3 luni consecutive anterioare începerii anului universitar un venit lunar mediu net pe membru de familie mai mare decat salariul de bază minim net pe economie.</p></li><li><p>Studentul este orfan de unul sau de ambii părinți și nu realizează venituri peste plafonul pentru acordarea bursei sociale.</p></li><li><p>Studentul suferind de o boală gravă (lista acestora se găsește pe <a href=\"https://unibuc.ro/student-ub/burse/#1544015877067-291323d2-b531\" target=\"_blank\" rel=\"noreferrer\">site-ul UB</a>).</p></li></ul></li><li><p>Stabilirea listelor cu beneficiari: bursa se acordă studenților care se încadrează în condițiile stabilite de <a href=\"https://unibuc.ro/wp-content/uploads/2020/10/Metodologie-pentru-acordarea-burselor-si-altor-forme-de-sprijin-pentru-studentii-Universitatii-din-Bucuresti-licenta-si-masterat-2020-2021-1.pdf\" target=\"_blank\" rel=\"noreferrer\">Metodologia UB</a> și în limita fondului de burse sociale.</p></li></ul></li></ul>"
+        "content": "<ul><li><p>Bursa de performanță</p><ul type=\"circle\"><li><p>Criterii: distincţii la olimpiadele şcolare internaţionale, în calitate de elevi în clasa a XII-a, conform documentelor transmise de către Ministerului Educaţiei Naționale.</p></li></li><li><p>Bursele de merit I</p><ul type=\"circle\"><li><p>Criterii: media de admitere minim 8 și încadrarea în numărul alocat.</p></li></ul><li><p>Burse Sociale</p><ul><li><p>Criterii:</p><ul type=\"square\"><li><p>Familia studentului nu a realizat în cele 3 luni consecutive anterioare începerii anului universitar un venit lunar mediu net pe membru de familie mai mare decat salariul de bază minim net pe economie.</p></li><li><p>Studentul este orfan de unul sau de ambii părinți și nu realizează venituri peste plafonul pentru acordarea bursei sociale.</p></li><li><p>Studentul suferind de o boală gravă (lista acestora se găsește pe <a href=\"https://unibuc.ro/student-ub/burse/#1544015877067-291323d2-b531\" target=\"_blank\" rel=\"noreferrer\">site-ul UB</a>).</p></li></ul></li>"
+      },
+      {
+        "type": "p",
+        "content":"Pentru mai multe detalii puteți consulta <a href=\"https://unibuc.ro/wp-content/uploads/2020/10/Metodologie-pentru-acordarea-burselor-si-altor-forme-de-sprijin-pentru-studentii-Universitatii-din-Bucuresti-licenta-si-masterat-2020-2021-1.pdf \" target=\"_blank\" rel=\"noreferrer\">Metodologia UB</a>"
       }
     ]
   },
   {
-    "id": 11,
-    "nume": "11. Reprezentare Studențească",
+    "id": 12,
+    "nume": "12. Regulamente ",
+    "descriere": "Ce drepturi și ce obligații avem",
+    "imagineALT": "regulament_image",
+    "href": "regulament",
+    "titlu": "Regulamente",
+    "text": [
+      {
+        "type": "p",
+        "content": "Învățământul superior este reglementat la nivel național de Legea Educației Naționale 199/2023. Carta Universității din București este cel mai puternic act normativ emis în Universitate. Studenții vor lua la cunoștință prevederile Codului Drepturilor și Obligațiilor Studentului (CDOS sau Statutul Studentului) și Regulamentul privind Activitatea Profesională a Studentului (RAPS). Acestea sunt urmate de regulamentele specifice facultății noastre care se pot găsi pe <a href=\"https://fmi.unibuc.ro/regulamente/ \" target=\"_blank\" rel=\"noreferrer\">prima pagină a site-ului FMI</a>."
+      },
+      {
+        "type": "p",
+        "content": "În același timp, ASMI derulează la finalul fiecărui an universitar un chestionar, pe care studenții sunt îndrumați să îl completeze. Scopul acestui chestionar este monitorizarea respectării Codului Drepturilor și Obligațiilor Studentului redactat de Universitatea din București. După încheierea perioadei de completare a chestionarului, ASMI pregătește un raport ce va fi prezentat în prima ședință a Consiliului Facultății din noul an universitar, urmând ca acesta să abordeze orice probleme care au apărut în timpul anului universitar."
+      },
+      {
+        "type": "list",
+        "content":"<ul><li><a href=\"https://unibuc.ro/wp-content/uploads/2017/07/Codul-drepturilor-si-obligatiilor-studentului-UB.pdf \" target=\"_blank\" rel=\"noreferrer\">Codul Drepturilor și Obligațiilor Studentului</a></li></ul>"
+      },
+      {
+        "type": "list",
+        "content":"<ul><li><a href=\"https://drive.google.com/file/d/1gw2Fy44KnqaBKqLGh70vZPo3T9-ZdrDi/view?usp=share_link \" target=\"_blank\" rel=\"noreferrer\">Regulamentul de Etică FMI</a></li><//ul>"
+      }
+    ]
+  },
+  
+  {
+    "id": 13,
+    "nume": "13. Reprezentare Studențească",
     "descriere": "Despre și pentru studenți!",
     "imagineALT": "reprezentare_studenteasca_image",
     "href": "reprezentare-studenteasca",
@@ -447,23 +458,11 @@
     "text": [
       {
         "type": "p",
-        "content": "Ca și student al Universității din București, unul dintre cele mai importante drepturi pe care le ai este cel de a alege și de a fi ales, ca și reprezentant al studenților, în Consiliul Facultății, Senatul Universității și toate celelalte structuri decizionale, consultative sau administrative din cadrul acesteia, inclusiv în Consiliul de Administrație al Universității. (<a href=\"https://unibuc.ro/wp-content/uploads/2019/10/Regulament-privind-activitatea-profesional%C4%83-a-studentilor-modificat-2019.pdf\" target=\"_blank\" rel=\"noreferrer\">Regulamentul privind activitatea profesională a studenților</a>, Art.10, lit. F)"
-      },
-      {
-        "type": "h2",
-        "content": "<h2>Ce înseamnă să fii un reprezentant al studenților?</h2>"
-      },
-      {
-        "type": "p",
-        "content": "Pe scurt, rolul unui reprezentant este acela de a media legătura dintre Facultate și Universitate și studenți. Printre atribuțiile studentului reprezentant se numără: informarea și consultarea studenților pe care îi reprezintă despre fiecare aspect al procesului de învățământ, colaborarea constantă cu Asociația Studenților, susținerea în ședințe a tuturor problemelor cu care se confruntă studenții, identificarea de soluții pentru problemele apărute în cadrul procesului de învățământ, dar și promovarea în rândul studenților a tuturor regulamentelor interne Facultății sau Universității, precum <a href=\"https://unibuc.ro/wp-content/uploads/2018/12/CARTA-UB.pdf\" target=\"_blank\" rel=\"noreferrer\">Carta Universitară</a>, <a href=\"https://unibuc.ro/wp-content/uploads/2021/01/CODUL-DE-ETICA-SI-DEONTOLOGIE-AL-UNIVERSITATII-DIN-BUCURESTI-2020-1.pdf\" target=\"_blank\" rel=\"noreferrer\">Codul de Etică</a>, <a href=\"https://unibuc.ro/wp-content/uploads/2018/12/Codul-drepturilor-si-obligatiilor-studentului-UB.pdf\" target=\"_blank\" rel=\"noreferrer\">Codul Drepturilor și Obligațiilor Studentului (CDOS)</a> și <a href=\"https://fs.valahia.ro/images/Documente/raps.pdf\" target=\"_blank\" rel=\"noreferrer\"> Regulamentul privind Activitatea Profesională a Studenților (RAPS)</a>."
-      },
-      {
-        "type": "p",
-        "content": "Un student poate ocupa, în urma unor alegeri organizate la începutul anului universitar în care candidează și este ales cu un mandat de un an universitar, două poziții de reprezentare:"
+        "content": "Ca student al Universității din București, unul dintre cele mai importante drepturi pe care le ai este cel de a alege și de a fi ales, ca reprezentant al studenților, în Consiliul Facultății, Senatul Universității și toate celelalte structuri decizionale, consultative sau administrative din cadrul acesteia, inclusiv în Consiliul de Administrație al Universității."
       },
       {
         "type": "list",
-        "content": "<ol><li><p>Reprezentant al studenților în facultate. Acesta este membru în cadrul Consiliului Facultății, fiind un total de 8 studenți reprezentanți, care constituie un sfert din colectivul acestuia. Reprezentanții studenților în facultate sunt implicați activ în proceduri precum admiterea, cazarea în cămine, a locurilor în tabere și informarea studenților - pe Facebook, informarea are loc prin intermediul paginii <a href=\"https://www.facebook.com/consiliuFMI/\" target=\"_blank\" rel=\"noreferrer\">Studenți Reprezentanți - Consiliu FMI UniBuc</a>.</p></li><li><p>Reprezentant al studenților în Senatul Universității. Acesta face parte, alături de reprezentanții celorlalte facultăți din cadrul Universității, din Consiliul pentru Probleme Studențești (CPS) și participă la ședințele Senatului. Facultatea de Matematică și Informatică are două poziții pentru studenții reprezentanți în Senat, pentru care poate candida orice student al facultății, indiferent de forma de învățământ, domeniu, specializare sau an, atât timp cât îndeplinește condițiile de natură etică și (de neapartenență) politică.</p></li></ol>"
+        "content": "<ol><li><p><b>Reprezentant al studenților în Consiliul Facultății.</b> Acesta face parte din cei  <b>8 studenți reprezentanți</b>. Aceștia sunt implicați activ în proceduri precum admiterea, cazarea în cămine, a locurilor în tabere și informarea studenților cu privire la noile anunțuri.</p></li><li><p><b>Reprezentant al studenților în Senatul Universității.</b> Acesta face parte din Consiliul pentru Probleme Studențești (CPS) și participă la ședințele Senatului. Facultatea de Matematică și Informatică are <b>2 poziții</b> pentru studenții reprezentanți în Senat, pentru care poate candida orice student al facultății.</p></li></ol>"
       },
       {
         "type": "h2",
@@ -471,131 +470,13 @@
       },
       {
         "type": "list",
-        "content": "<ul><li>Depunerea candidaturilor: 3-7 octombrie 2022</li><li>Campania electorală: 8-11 octombrie 2022</li><li>Alegeri: 12-17 octombrie 2022</li></ul>"
-      },
-      {
-        "type": "p",
-        "content": "Un prim factor ce determină validarea alegerilor este întocmirea cvorumului de 30% + 1 din numărul studenților cu drept de vot de la nivelul ciclului de studii, domeniu și an. În cazul în care acesta nu este întocmit, alegerile vor fi reluate , fără a fi depășit însă termenul menționat mai sus, iar cvorumul va fi redus la 15% + 1. Foarte important este faptul că votul din cadrul alegerilor nu este restricționat la alegerea unuia dintre candidați, ci poate consta în exprimarea deciziei de abținere, aceasta participând de asemenea la îndeplinirea cvorumului."
-      },
-      {
-        "type": "p",
-        "content": "Un al doilea factor este, desigur, obținerea unei majorități (50% + 1) în cadrul voturilor exprimate. Rezultatele alegerilor vor fi validate ulterior în cadrul primei ședințe din Consiliul Facultății, respectiv din Senatul Universității. Pentru mai multe detalii, în special destinate celor ce doresc să își asume responsabilitatea de reprezentant, se poate consulta <a href=\"https://unibuc.ro/wp-content/uploads/2018/12/Regulament-alegere-studenti-in-structurile-de-conducere-ale-UB1.pdf\" target=\"_blank\" rel=\"noreferrer\">Regulamentul de Alegeri Studențești în Structuri de Conducere(RASSC)</a>."
-      },
-      {
-        "type": "p",
-        "content": "Dacă doriți să candidați, aveți <a href=\"https://drive.google.com/file/d/1fWtDoXDF8-c9rfvmd_TBX9rUezOo9mG7/view\" target=\"_blank\" rel=\"noreferrer\">aici</a> cererea de candidatură. Pentru a afla mai multe despre alegerile studenților reprezentanți puteți consulta pagina oficială <a href=\"https://fmi.unibuc.ro/studenti/studenti-reprezentanti/\" target=\"_blank\" rel=\"noreferrer\">aici</a>, iar pentru a vedea membri actuali ai Consiliului Facultății poți urmări pagina de <a href=\"https://fmi.unibuc.ro/consiliul-facultatii/\" target=\"_blank\" rel=\"noreferrer\">aici</a>."
+        "content": "<ul><li><p>Depunerea candidaturilor: 2-6 octombrie 2023</p></li><li><p>Campania electorală: 7-10 octombrie 2023</p></li><li><p>Alegeri: 11-16 octombrie 2023</p></li></ul>"
       }
     ]
   },
   {
-    "id": 12,
-    "nume": "12. Facilități",
-    "descriere": "Dacă tot sunt student...",
-    "imagineALT": "facilitati_image",
-    "href": "facilitati",
-    "titlu": "Facilități",
-    "text": [
-      {
-        "type": "h2",
-        "content": "<h2>Transport - Tren</h2>"
-      },
-      {
-        "type": "p",
-        "content": "Tren - Vei beneficia de o reducere de 50%, iar dacă îți iei bilet online, ai nevoie de un id de student. Poți face rost de acesta prezentându-te la casele de bilete din gară cu legitimația de student și cu buletinul sau creându-ți online un cont de student pe CFR Călători, verificat de facultate."
-      },
-      {
-        "type": "h2",
-        "content": "<h2>Transport - STB</h2>"
-      },
-      {
-        "type": "p",
-        "content": "STB - Vei beneficia de o reducere de 50% și la STB. În plus, dacă ești student la buget, abonamentul lunar redus va fi decontat de către facultate. Actele necesare decontării sunt: copie card STB nominal, chitanţa de plată ștampilată a abonamentului în original, actul de identitate și legitimaţia de student."
-      },
-      {
-        "type": "h2",
-        "content": "<h2>Transport - Metrorex</h2>"
-      },
-      {
-        "type": "p",
-        "content": "Metrorex - Poți beneficia de reducere de 50% pe baza legitimației de student și a buletinului. <a href=\"http://www.metrorex.ro/puncte_de_vanzare_a_cartelelor_p1385-1\" target=\"_blank\" rel=\"noreferrer\">Aici</a> găsești stațiile în care poți face abonament redus."
-      },
-      {
-        "type": "h2",
-        "content": "<h2>Biblioteca</h2>"
-      },
-      {
-        "type": "p",
-        "content": "Bineînțeles, în calitate de student, este normal să ai acces și la o bibliotecă unde să poți învăța singur în liniște, ori alături de colegii tăi."
-      },
-      {
-        "type": "p",
-        "content": "Ca student, îți poți face gratuit permis de acces în Biblioteca Facultății, situată la etajul 1. De asemenea, cu acest permis beneficiezi de acces gratuit la Biblioteca Centrală Universitară „Carol I”, al cărei site îl poți accesa <a href=\"https://www.bcub.ro/\" target=\"_blank\" rel=\"noreferrer\">aici</a>."
-      },
-      {
-        "type": "p",
-        "content": "Programul bibliotecii este următorul:"
-      },
-      {
-        "type": "list",
-        "content": "<ul><li><p>Luni – vineri: 8.30 – 20.00</p></li><li><p>Sâmbătă: 8.30 – 16.00</p></li><li><p>Duminică: închis</p></li><ul>"
-      },
-      {
-        "type": "h2",
-        "content": "<h2>Mobilităţi Erasmus</h2>"
-      },
-      {
-        "type": "p",
-        "content": "Dacă vrei să știi cum este să fii student la o altă universitate dintr-o ţară europeană, Universitatea îţi oferă această oportunitate. Astfel, ţi se oferă o bursă lunară pentru ca tu să descoperi viaţa de student european."
-      },
-      {
-        "type": "p",
-        "content": "Erasmus+ este un program de mobilitate academică pe care studenţii îl pot accesa pentru a studia la o altă facultate de profil din Uniunea Europeană. În cadrul programului beneficiezi lunar de o bursă care îţi va asigura o finanţare minimă. Selecţia pentru Erasmus se realizează la începutul semestrului II. Anul trecut s-a decis lansarea selecției centralizate pentru 200 de mobilități de studii Erasmus+ <a href=\"https://fmi.unibuc.ro/civis/\" target=\"_blank\" rel=\"noreferrer\">CIVIS</a> (o alianță care continue în total opt universități), mai multe informații vei putea găsi prin scanarea codurilor QR de mai jos. "
-      },
-      {
-        "type": "h2",
-        "content": "<h2>Platforme de streaming</h2>"
-      },
-      {
-        "type": "list",
-        "content": "<ul><li><p>Spotify Premium Student:  Folosind datele furnizate de Universitate și adresa instituțională, poți sa beneficiezi de reducere 50% la abonamentul Premium, prima lună fiind gratuită.</p></li><li><p>Apple Music: Studenții înscriși la universități și colegii care acordă diplome de absolvire se pot conecta la Apple Music plătind un tarif lunar redus timp de până la 48 de luni. Iar dacă ai un abonament Apple Music pentru studenți, beneficiezi, de asemenea, de Apple TV+ pentru o perioadă de timp limitată. Detalii despre cum poți obține acest abonament găsești pe <a href=\"https://support.apple.com/ro-ro/HT205928\" target=\"_blank\" rel=\"noreferrer\">pagina de suport de la Apple</a>.</p></li></ul>"
-      },
-      {
-        "type": "h2",
-        "content": "<h2>Cardul ISIC</h2>"
-      },
-      {
-        "type": "p",
-        "content": "BRD-ISIC este un card de debit în LEI, emis de Visa, cu validitate de 5 ani care oferă acces unui program internațional de reduceri valid în 140 de tari și care te scapă de plata comisioanelor. Găsești aici lista cu programele de reducere."
-      },
-      {
-        "type": "h2",
-        "content": "<h2>Departament de consiliere psihologică</h2>"
-      },
-      {
-        "type": "p",
-        "content": "Provocările vieţii de student pot fi copleșitoare. De la greutăţile sesiunilor până la problemele personale sau alegerea viitoarei cariere, toate ne pot împiedica să avem un parcurs bun în mediul universitar. De aceea trebuie să știi că problemele au întotdeauna o rezolvare și că poţi beneficia de sprijin și sfaturi pentru a duce totul la bun sfârșit."
-      },
-      {
-        "type": "h2",
-        "content": "<h2>Departamentul de Consiliere și Orientare pentru Carieră (DCOC)</h2>"
-      },
-      {
-        "type": "p",
-        "content": "Departamentul de Consiliere și Orientare Pentru Carieră al Universității îţi oferă ajutor în vederea alegerii unei cariere, orientare vocaţională, informare asupra domeniilor de studiu UB, consiliere și evaluare psihologică și aptitudinală."
-      },
-      {
-        "type": "h2",
-        "content": "<h2>Asigurare medicală</h2>"
-      },
-      {
-        "type": "p",
-        "content": "La fel de importantă ca sănătatea psihică este și cea fizica. În caz de nevoie, poți beneficia de servicii medicale gratuite, asigurate de Cabinetul Medical Universitar aflat în incinta Căminului Studențesc Mihail Kogălniceanu (parter), fără a fi necesară o programare în prealabil."
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "nume": "13. Cariere și internship",
+    "id": 14,
+    "nume": "14. Cariere și internship",
     "descriere": "Planuri de viitor!",
     "imagineALT": "cariere_si_internship_image",
     "href": "cariere-si-internship",
@@ -603,27 +484,27 @@
     "text": [
       {
         "type": "p",
-        "content": "Ca student la Facultatea de Matematică și Informatică, vei dori mereu să fii la curent cu ceea ce se întâmplă pe piața muncii. Cunoștințele acumulate în facultate constituie doar baza pentru ceea ce urmează să experimentezi în cadrul unui job."
+        "content": "Ca student la Facultatea de Matematică și Informatică vei dori mereu să fii la curent cu ceea ce se întâmplă pe piața muncii."
       },
       {
         "type": "p",
-        "content": "Un aspect foarte important este că în perioada studiilor de licență, indiferent de domeniul urmat, va trebui să îndeplinești un număr minim de ore de practică obligatorii. Pentru domeniul Informatică trebuie să acumulezi 160 de ore, pentru Matematică 125 de ore, iar pentru la CTI 240 de ore. Aceste ore pot fi făcute atât prin intermediul programelor desfășurate în facultate, precum și prin intermediul programelor de internship. Pentru mai multe detalii consultați <a href=\"https://fmi.unibuc.ro/practica/\" target=\"_blank\" rel=\"noreferrer\">pagina dedicată stagiilor de practică</a>."
+        "content": "Un aspect foarte important este că în perioada studiilor de licență, indiferent de domeniul urmat, va trebui să îndeplinești un număr minim de ore de practică obligatorii:"
+      },
+      {
+        "type":"list",
+        "content":"<ul><li><p>Matematică - 125 de ore;</p></li><li><p>Informatică - 160 de ore;</p></li><li><p>CTI - 240 de ore;</p></li></ul>"
       },
       {
         "type": "p",
-        "content": "Dacă vrei să echivalezi practica printr-un internship, există multe variante din care poți alege, indiferent de domeniu. Majoritatea celor de la Matematică se orientează spre centre de statistică, în timp ce studenții la Informatică pot găsi un stagiu de practică în zona de dezvoltare software, spre exemplu aplicații web, de mobil, securitate cibernetică dar și altele, iar cei la CTI pot găsi un loc de muncă ce necesită cunoștințe atât pe partea de software, cât și pe partea de hardware. O altă variantă viabilă pentru toți studenții FMI, dar în special pentru cei care urmează modulul psihopedagogic, este cariera didactică, prin practica în școli sau licee, la anumite firme specializate ce oferă meditații pentru elevi , dar și prin tutoriatele ținute pentru studenți."
+        "content": "Conform Regulamentului de Practică al Universității din București, studenților de anul întâi care participă la internship-uri nu li se va putea echivala numărul de ore de practică."
       },
       {
         "type": "p",
-        "content": "Mulți studenți își găsesc cu ușurință un internship pe baza profilului specific facultății. Studenții se fac remarcați prin dorința de a învăța lucruri noi, însă criteriile de selecție ale angajatorului depind de cele mai multe ori de rezultatele unor testări și interviuri în cadrul companiei. Oportunitatea de a intra astfel în piața muncii nu oferă doar experiență în domeniu, ci și șansa de a-ți dezvolta noi abilități profesionale."
+        "content": "Pentru mai multe detalii consultați <a href=\"https://fmi.unibuc.ro/practica/ \" target=\"_blank\" rel=\"noreferrer\">pagina dedicată stagiilor de practică</a>."
       },
       {
-        "type": "p",
-        "content": "O posibilitate de a afla despre oportunitățile de internship e reprezentată de conferințele ținute în cadrul facultății de diverse firme angajatoare care vin pe parcursul anului universitar, așa că nu ezita să participi la aceste evenimente. Ele sunt anunțate cu câteva zile înainte prin afișe puse pe holurile facultății sau pe site-ul facultății și cu siguranță pe <a href=\"https://www.asmi.ro/\" target=\"_blank\" rel=\"noreferrer\">site-ul Asociației Studenților</a> și pe Facebook, așa că nu ai cum să le ratezi!"
-      },
-      {
-        "type": "p",
-        "content": "Această posibilitate de a intra în contact cu firmele este reprezentată de proiectul organizat de ASMI numit Cariere, eveniment în care aceasta aduce în facultate firme din domeniu care își prezintă ofertele de internship."
+        "type":"p",
+        "content":"Este important să aveți în vedere faptul că în decursul anului III studenții înscriși la modulul psihopedagogic vor participa la practică în cadrul acestuia. Aceste ore nu echivalează practica cerută de facultate."
       },
       {
         "type": "h2",
@@ -631,15 +512,11 @@
       },
       {
         "type": "p",
-        "content": "Cariere este un proiect ASMI aflat la a 12-a ediție ce pune în contact angajatorii din domeniu și studenții facultății, prin prezentări și workshop-uri. Pe perioada acestui proiect, studenții au libertatea de a participa la toate prezentările ținute de firme, de unde vor afla detalii despre companie, dar și despre oferta pusă la dispoziție, precum și cerințele ce trebuie îndeplinite pentru a putea fi acceptați."
+        "content": "Târgul de joburi „Cariere” este un proiect ASMI aflat la a 13-a ediție ce pune în contact angajatorii din domeniu și studenții facultății, prin prezentări și workshop-uri. Pe perioada acestui proiect, studenții au libertatea de a participa la toate prezentările ținute de firme, de unde vor afla detalii despre companie, ofertele de angajare, precum și cerințele ce trebuie îndeplinite pentru a putea fi acceptați."
       },
       {
         "type": "p",
-        "content": "Workshopurile specifice organizate de companiile invitate la Cariere ajută studenții să înțeleagă mai bine cum e să fii angajat, cum să își îmbunătățească șansele de a fi selectat pentru un interviu, aducând în același timp noi informații din domeniul IT. Sfatul nostru este să nu eziți să aplici și la internshipuri la firme cu renume, cum ar fi Google, Microsoft, IBM, Oracle. Din facultatea noastră mulți studenți ambițioși au aplicat și au reușit să obțină un internship care, pentru mulți a continuat într-un job. Pentru mai multe detalii despre acest proiect, accesează acest <a href=\"https://cariere.vfairs.com/\" target=\"_blank\" rel=\"noreferrer\">link</a>."
-      },
-      {
-        "type": "p",
-        "content": "De asemenea, în cazul în care consideri că nu este momentul potrivit să aplici la o firmă, poți să iei ore de tutoriat în care explici materia altor studenți sau, și mai bine, ASMI vine încă o dată în sprijinul studenților unde, cu ajutorul cadrelor didactice din Facultate, organizează proiectul Practica. "
+        "content": "Workshopurile specifice organizate în cadrul proiectului „Cariere” (How to CV, How to Interview și Integrare profesională, How to Git) ajută studenții să înțeleagă mai bine procesul de angajare. Sfatul nostru este să nu eziți să aplici și la internshipuri la firme cu renume, cum ar fi Adobe, Softbinator, Deloitte, Bitdefender. Din facultatea noastră mulți studenți ambițioși au aplicat și au reușit să obțină un internship care, pentru mulți a continuat într-un job."
       },
       {
         "type": "h2",
@@ -647,93 +524,144 @@
       },
       {
         "type": "p",
-        "content": "Practica este un proiect ASMI aflat la a doua ediție în care poți lucra la diverse proiecte în sprijinul facultății, a instituțiilor sau firmelor partenere cu aceasta precum Centrul de Statistică al Universității din București, fiind coordonați de diverse cadre didactice. Prin intermediul acestui proiect, îți poți echivala orele de practică, dar și să înveți cum se realizează procesul de dezvoltare al diverselor aplicații, cum să îți îmbogățești cunoștințele acumulate în facultate într-un mediu familiar, precum și munca în echipă, un aspect foarte important în dezvoltarea pe partea profesională. Printre activități se numără:"
+        "content": "Proiectul ASMI se află la cea de-a patra ediție și oferă oportunitatea de a lucra la diverse proiecte în colaborare cu facultatea, instituții sau companii partenere. Acest proiect vizează nu doar echivalarea orelor de practică, ci și dezvoltarea abilităților necesare în crearea diferitelor aplicații, precum și consolidarea cunoștințelor acumulate în timpul facultății într-un mediu familiar. Printre activitățile desfășurate în cadrul acestui proiect se includ:"
       },
       {
         "type": "list",
-        "content": "<ul class=\"sectiuneList\"><li><p>Aplicații web pentru admitere, burse, cămine etc.</p></li><li><p>Ore de pregătire pentru elevii de clasa a XII-a pentru Bacalaureat și Admitere</p></li><li><p>Firme IT partenere</p></li><li><p>Dezvoltarea diverselor site-uri (federația de polo)</p></li></ul>"
+        "content": "<ul class=\"sectiuneList\"><li><p>Aplicații web pentru admitere, burse, cămine etc.</p></li><li><p>Ore de pregătire pentru elevii de clasa a XII-a pentru Bacalaureat și Admitere</p></li><li><p>Firme partenere (din domenii precum: IT, economic)</p></li><li><p>Dezvoltarea diverselor site-uri</p></li><li><p>Tutoriate (proiect organizat de ASMI, în cadrul căruia poți deveni tutore și îți poți echivala numărul de ore de practică).</p></li></ul>"
       }
     ]
   },
   {
-    "id": 14,
-    "nume": "14. Extracurriculare",
-    "descriere": "Prea mult timp liber? Nu mai ai.",
+    "id": 15,
+    "nume": "15. Facilități",
+    "descriere": "Dacă tot sunt student...",
+    "imagineALT": "facilitati_image",
+    "href": "facilitati",
+    "titlu": "Facilități",
+    "text": [
+      {
+        "type": "h2",
+        "content": "<h2>Transport</h2>"
+      },
+      {
+        "type": "list",
+        "content": "<ul><li><p><b>Tren</b> - Vei beneficia de o reducere de 90%;</p></li><li><p><b>STB</b> - Vei beneficia de o reducere de 100%, abonamentul fiind decontat de Universitate.</p></li><li><p><span>Metrorex</span> - Poți beneficia de reducere de 90% pe baza legitimației de student și a buletinului.</p></li></ul>"
+      },
+      {
+        "type": "h2",
+        "content": "<h2>Biblioteca</h2>"
+      },
+      {
+        "type": "p",
+        "content": "Ca student, îți poți face gratuit permis de acces în Biblioteca Facultății, situată la etajul 1. De asemenea, cu acest permis beneficiezi de acces gratuit la Biblioteca Centrală Universitară „Carol I”."
+      },
+      {
+        "type": "h2",
+        "content": "<h2>Erasmus</h2>"
+      },
+      {
+        "type": "p",
+        "content": "Dacă vrei să știi cum este să fii student la o altă universitate dintr-o ţară europeană, facultatea îţi oferă această oportunitate. Astfel, ţi se oferă o bursă lunară pentru ca tu să descoperi viaţa de student european. Pentru mai multe informații puteți scana codul QR: *cod QR cu pagina erasmus de pe site*."
+      },
+      {
+        "type": "p",
+        "content":"La platforme de streaming Spotify Premium, Apple Music, Youtube (Music și Premium)  ai reducere 50% cu adresa instituțională. "
+      },
+      {
+        "type":"p",
+        "content":"Găsești resurse pentru studenți puse la dispoziție de Universitatea din București pe <a href=\"https://fmi.unibuc.ro/studenti/ \" target=\"_blank\" rel=\"noreferrer\">site-ul FMI</a>"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "nume": "16. Extracurriculare",
     "imagineALT": "extracurriculare_image",
     "href": "extracurriculare",
     "titlu": "Extracurriculare",
     "text": [
       {
         "type": "p",
-        "content": "Pentu cei care vor să experimenteze online, comunitățile IT atât din București cât și din toată țara organizează deseori workshop-uri pentru studenți și nu numai. Așa că cel mai bine e să fiți cu ochii pe paginile lor."
+        "content": "Pentru a lua o pauză de la rutina zilnică, capitala vă oferă oportunităţi variate de a vă petrece timpul liber. Fiecare locaţie îţi oferă o reducere pe baza carnetului de student sau a legitimaţiei. Când vine vorba de cultură, îți oferim următoarele variante:"
       },
       {
         "type": "p",
-        "content": "Câteva exemple de comunități IT sunt:"
+        "content": "<h2>Muzee:</h2>"
       },
       {
         "type": "p",
-        "content": "<ul><li><a href=\"https://www.facebook.com/secespresso\" target=\"_blank\" rel=\"noreferrer\">Security Espresso</a></li><li><a href=\"https://www.facebook.com/jsleague.ro\" target=\"_blank\" rel=\"noreferrer\">JS League</a></li><li><a href=\"https://www.facebook.com/groups/BucharestJS\" target=\"_blank\" rel=\"noreferrer\">BucharestJS</a></li><li><a href=\"https://www.facebook.com/codette.ro\" target=\"_blank\" rel=\"noreferrer\">Codette</a></li><li><a href=\"https://www.facebook.com/groups/GoogleAtelierulDigital\" target=\"_blank\" rel=\"noreferrer\">Google Developers</a></li><li><a href=\"https://www.facebook.com/Tabara.de.Testare\" target=\"_blank\" rel=\"noreferrer\">Tabara de testare</a></li><li><a href=\"https://www.facebook.com/CocoaHeadsBucharest\" target=\"_blank\" rel=\"noreferrer\">cocoaHeads bucharest</a></li></ul>"
+        "content": "<ul><li>Muzeul Teatrului Național I.L. Caragiale,</li><li>Muzeul Național de Istorie a României</li><li>Muzeul Național de Artă a României</li></ul>"
       },
       {
         "type": "p",
-        "content": "Pentru a lua o pauză de la rutina zilnică, capitala vă oferă oportunităţi de petrecere a timpului liber. Fiecare locaţie îţi oferă o reducere pe baza carnetului de student și al legitimaţiei. În varianta offline, Bucureștiul este plin de oportunități, dar în funcție de cum avansează lucrurile îți oferim niște variante culturale:"
+        "content": "<h2>Teatre</h2>"
       },
       {
         "type": "p",
-        "content": "<ul><li><p>Galeriile de Arta Orizont - Aici poți să vii să privești tablouri și sculpturi</p></li><li><p>Muzeul Teatrului Național I.L. Caragiale (Chiar la Universitate)</p></li><li><p>Muzeul Național de Istorie a României (Calea Victoriei, Nr.12, Sector 3)</p></li><li><p>Muzeul Național de Artă al României (Calea Victoriei 49-53, sector 1)</p></li><li><p>Muzeul Țăranului Român (Sos Kiseleff, Nr. 3, Sector 1)</p></li></ul>"
+        "content": "<ul><li>Teatrul Național <q>Ion Luca Caragiale</q> (sau <q>TNB</q>)</li><li>Teatrul Odeon</li><li>Teatrul de Comedie</li><li>Teatrul Excelsior</li></ul>"
       },
       {
         "type": "p",
-        "content": "De asemenea, poți vizita Grădina Zoologică sau Grădina Botanică. Strada Xenofon este singura stradă din București de acest tip, numărul 70 de trepte. Este unul din obiectivele care merită vizitate mai ales de cei pasionați de fotografie. Pentru cei care preferă să iasă în compania unei cărți bune pot alege Parcul Kiseleff, Parcul Herăstrău, Cișmigiu, Parcul Carol I sau IOR sau să se bucure de vremea frumoasă într-o plimbare pe bicicletă."
+        "content": "Totodată, cei care preferă lectura în aer liber, pot alege Parcul Kiseleff, Parcul Herăstrău, Cișmigiu, Parcul Carol I sau IOR."
       },
       {
         "type": "p",
-        "content": "Pentru cei ce doresc să se distreze alături de prieteni recomandăm Escape Room-urile din oraș, biliard și bowling (Club Texas, MaxFun, IDM Club), cinematografele, teatrele (Teatrul Național „Ion Luca Caragiale\", Teatrul Odeon, Teatrul de Comedie, Teatrul Excelsior, Arcub etc.) sau Opera Națională."
+        "content": "Pentru cei ce doresc să se distreze alături de prieteni recomandăm Escape Room-urile din oraș, biliard, bowling (Club Texas, MaxFun, IDM Club) și cinematografe."
       },
       {
         "type": "p",
-        "content": "În cazul celor cu personalități mai boeme, aceștia pot să-și petreacă timpul în frumoasele cafenele din oraș (Bob Coffee Lab, Beans&Dots, Ted's Coffee, Second Cup, Acuarela, Antipa Cafe and Terrace, Artichoke Coffee Shop, Camera din Fata, Forma, Sonder, Erbario, etc), care constituie și locuri foarte bune pentru învățat."
+        "content": "În cazul celor cu personalități mai boeme, aceștia pot să-și petreacă timpul în frumoasele cafenele din oraș, care constituie și locuri foarte bune pentru învățat:"
       },
       {
         "type": "p",
-        "content": "Și în cazul acesta, ASMI vine cu multe proiecte în întâmpinare, printre care se numără Artă’n Dar și Zilele ASMI. La acestea se adaugă și o multitudine de petreceri pentru a le oferi studenților oportunitatea de a socializa și de a se distra, precum Bumtzi (prima petrecere din anul universitar), FeMeI Party, ASMI Party și Petrecerea de Trecere."
+        "content": "<ul style=list-style-type:square><li>Bob Coffee Lab,</li><li>Second Cup,</li><li>Antipa Cafe and Terrce,</li><li>Camera din Față</li><li>Forma.</li></ul>"
       },
       {
         "type": "p",
-        "content": "În zilele călduroase te poți bucura de discuțiile cu prietenii la o bere sau la o limonadă răcoroasă în Curtea Berarilor, OktoberFest Pub, Fire Club, Halftime Pub, Quantic etc."
-      }
-      ,
+        "content": "În zilele călduroase te poți bucura de discuțiile cu prietenii la o bere sau la o limonadă răcoroasă în:"
+      },
       {
         "type": "p",
-        "content": "Și, nu în ultimul rând, pentru petrecăreții înrăiți, noaptea, în Centrul Vechi e locul perfect pentru a te distra. Amintim aici câteva dintre cele mai apreciate pub-uri din rândul studenților: Kulturhaus, Revenge Club, Beraria H etc."
+        "content": "<ul style=list-style-type:square><li>Curtea Berarilor,</li><li>OktoberFest Pub,</li><li>Fire Club,</li><li>Halftime Pub,</li><li>Quantic.</li></ul>"
+      },
+      {
+        "type":"p",
+        "content":"În același timp dacă dorești să afli despre concertele, festivalurile sau ce evenimente se petrec în București în weekend-uri sau chiar în cursul săptămânii, poți intra pe site-ul <a href=\"https://zilesinopti.ro/bucuresti/ \" target=\"_blank\" rel=\"noreferrer\">Zile și Nopți</a>."
+      },
+      {
+        "type":"p",
+        "content":"În fiecare an ASMI organizează două proiecte de suflet și anume „Artă`n Dar” și „Zilele ASMI”. În cadrul acestora se desfășoară seri tematice, unele dintre ele asociate proiectului, precum: Seara de Boardgames (prezentă în ambele proiecte), Seara de Împodobit (Artă`n Dar), Seara Emisiunilor (Zilele ASMI) și multe altele. Atât la „Artă`n Dar”, cât și la „Zilele ASMI” se organizează o petrecere tematică pentru a le oferi studenților oportunitatea de a socializa și de a se distra. "
+      },
+      {
+        "type":"p",
+        "content":"<b>Artă`n Dar</b> este un proiect caritabil ce urmează să fie desfășurat în primul semestru, în luna decembrie.  Acesta ocupă un loc special în inimile tuturor studenților și profesorilor deoarece prin atmosfera festivă putem să ajutăm o cauză caritabilă."
+      },
+      {
+        "type":"p",
+        "content":"<b>Zilele ASMI</b> reprezintă proiectul aniversar al Asociației. Prin desfășurarea acestuia sărbătorim împreună cu studenții facultății, încă un an de activitate al Asociației. Proiectul acesta ne aduce pe toți studenții la un loc, iar serile tematice sunt oportunitatea perfectă de a crea prieteni noi și de a te distra alături de ei. "
       }
     ]
   },
   {
-    "id": 15,
-    "nume": "15. Echipa ghidul bobocului 2022",
+    "id": 17,
+    "nume": "17. Echipa ghidul bobocului 2023",
     "descriere": "Regia, traducerea și subtitrarea",
     "imagineALT": "echipa_image",
     "href": "echipa",
-    "titlu": "Echipa ghidul bobocului 2022",
-    "text": []
+    "titlu": "Echipa ghidul bobocului 2023",
+    "text": [ ]
   },
   {
-    "id": 16,
-    "nume": "16. SOFTBINATOR",
-    "descriere": "Companiile aproape de studenți",
+    "id": 18,
+    "nume": "18. Harta FMI",
     "imagineALT": "dictionar_image2",
-    "href": "softbinator",
-    "titlu": "Softbinator",
+    "href": "harta",
+    "titlu": "Harta FMI",
     "text": [
       {
         "type": "p",
-        "content": "Una dintre cele mai importante companii care recrutează activ studenți de la FMI este  Softbinator Technologies. Mai jos găsiți prezentarea acestora:"
-      },
-      {
-        "type": "list",
-        "content": "<ul type=\"circle\"><li><p>Există o singură misiune pentru noi: să scriem cod pentru a crea schimbări în bine și pentru a ajuta lumea să țină pasul cu progresul pozitiv. Întotdeauna suntem la curent cu ultimele tendințe în tehnologie, deoarece aceasta este singura modalitate de a crea viitorul... și suntem creatori de viitor.</p></li><li><p>Ce puteți găsi la Softbinator Technologies? User Experience, Design, Software Development, DevOps process, Agile testing, servicii de consultanță</p></li><li><p>Care este povestea noastră? Un concept care a început în 2011. Softbinator nu este doar o companie tech, este un concept care a fost început cu scopul de a demonstra că dezvoltatorii nu sunt doar niște geeks care lucrează într-o fabrică de software - sunt creatori și reprezintă una dintre cele mai importante forțe în transformarea lumii</p></li></ul>"
+        "content": "Cauți o anume sală din facultate și nu știi unde o poți găsi? Consultă harta facultății <a href=\"https://drive.google.com/drive/u/2/folders/1TRGE2RB4dZowA9rPBn6Y8H2W1vs4Xf3U?fbclid=IwAR0jh_jqsZpXOolUHF_M6N_usWnzSW3WSmdXSK-ABZQsKJIy4EK6yUY5wXU \" target=\"_blank\" rel=\"noreferrer\">aici</a>."
       }
     ]
   }

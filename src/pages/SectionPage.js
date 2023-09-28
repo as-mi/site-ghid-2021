@@ -103,26 +103,17 @@ const SectionPage = () => {
 
               
 
-              {content && content.id === 15 && (
+              {content && content.id === 17 && (
                 <motion.div className="cardImages">
-                  <p className="imageText">Alpetri Iulita</p>
-                  <p className="imageText">Ghinea Alexandra</p>
-                  <p className="imageText">Andriciuc Andreea</p>
-                  <p className="imageText">Badea Bianca</p>
-                  <p className="imageText">Bârsan Andreia</p>
-                  <p className="imageText">Bouruc Liviu</p>
-                  <p className="imageText">Ciurescu Andreea</p>
-                  <p className="imageText">Cordun Diana</p>
-                  <p className="imageText">Lăzăroiu Teodora</p>
-                  <p className="imageText">Moarcăs  Cosmin</p>
-                  <p className="imageText">Nedelcu Radu</p>
-                  <p className="imageText">Muscalu Diana</p>
-                  <p className="imageText">Nechita Maria Ilinca</p>
-                  <p className="imageText">Nimară Dan</p>
-                  <p className="imageText">Pătrânjel David</p>
-                  <p className="imageText">Păun Liviu</p>
-                  <p className="imageText">Sorescu Mihai</p>
-                  <p className="imageText">Timotei Andrei</p>
+                  <p className="imageText">Andrada Elena Bejenaru</p>
+                  <p className="imageText">Andrei Alexandru Botea</p>
+                  <p className="imageText">Liviu Petru Bouruc</p>
+                  <p className="imageText">Eduardo Ștefan Dragomir</p>
+                  <p className="imageText">Anca Teodora Ichim</p>
+                  <p className="imageText">Eric Alexandru Moroșan</p>
+                  <p className="imageText">David George Pătrânjel</p>
+                  <p className="imageText">Ioana Potlog</p>
+                  <p className="imageText">Radu Nedelcu</p>
                 </motion.div>
               )}
             </div>
