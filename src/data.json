@@ -4,6 +4,8 @@
     "nume": "1. Mesajul Președintelui ASMI",
     "imagineALT":"mesaj-liviu",
     "href":"mesajul-presedintelui-asmi",
+    "next": "mesajul-decanatului",
+    "back": "echipa",
     "titlu":"Mesajul Președintelui ASMI",
     "text": [
       {
@@ -12,19 +14,19 @@
       },
       {
         "type": "p",
-        "content": "Bine ați venit la Facultatea de Matematică și Informatică! Printre sutele de emoții și felicitări, care vi se cuvin pe deplin acum odată ajunși la facultate, și care prea curând vor deveni doar amintiri, încep aceste rânduri prin a vă spune că acum ia startul de fapt o cu totul nouă etapă, diferită față de ceea ce erați obișnuiți."
+        "content": "Vă urez un prietenos Bun venit la Facultatea de Matematică şi Informatică. Dedicarea pe care aţi avut-o în toţi anii care au trecut se încoronează prin acest moment plin de emoţii, în care aţi devenit, cu toate felicitările meritate, studenţi. Nu va dura mult până veţi realiza că aceste clipe sunt doar începutul unei perioade care, pentru mulţi dintre voi, va fi cea mai bogată în experienţe şi momente impresionante de care vă veţi aduce mereu aminte."
       },
       {
         "type": "p",
-        "content": "Cumva, cel mai bun sfat pentru un student la început de drum, și nu numai, ar fi să nu intre în panică. Am ajuns cu toții la momentul în care trebuie să ne descurcăm singuri, și, ca de obicei, începutul poate fi cel mai greu. Cereți mereu ajutorul de la colegi, de la profesori sau de la ASMI, întrucât toți am trecut la un moment dat prin experiența de boboc și am văzut cât de mult poate face asta diferența. Exprimarea opiniei, feedback-ul constructiv și simpla dorință de a schimba ceva sau a ajuta pe cei din jurul nostru pot sta la baza dezvoltării acestei facultăți."
+        "content": "Ce doresc să vă transmit sunt câteva sfaturi de care cred că vă veţi putea folosi în aceşti ani. În primul rând, încercaţi să faceţi cât mai multe din lucrurile pe care vi le doriţi: mergeţi la activităţi, seri de socializare, party-uri, dar aveţi grijă de voi şi de cei din jur. Studenţia este o perioadă în care fiecare moment pe care nu îl trăiţi din plin poate fi unul regretat. Totuşi, motivul principal pentru care sunteţi aici este să vă dezvoltaţi în domeniul pe care l-aţi ales, deci luaţi deciziile gândindu-vă, în prim plan, la acest lucru. Participaţi la concursuri, exploraţi mai mult materiile care vă atrag, mergeţi la târguri de job-uri, daţi interviuri şi aşa veţi realiza ce vă doriţi să faceţi după ce terminaţi anii de facultate."
       },
       {
         "type": "p",
-        "content": "În final, sunt convins că succesul constă în capacitatea de a cunoaște cât mai multe din tot ceea ce vă înconjoară și a alege ce vă place. Să acumulați cât mai multe cunoștințe de la facultate, dar să nu ignorați celelalte aspecte ale vieții de student. Să mergeți la toate petrecerile, dar să nu plecați neștiind de voi. Să vă dezvoltați în cât mai multe companii sau instituții, pe varii domenii, până găsiți ceea ce vă place, dar să nu faceți din muncă o obsesie. Să legați prietenii și să formați amintiri, cât mai multe și diverse, dar să nu faceți din asta un scop, ci o consecință."
+        "content": "În încheiere, vă transmit că dorinţa cea mai mare pe care o am pentru voi este să marcaţi aceşti ani ca o perioadă memorabilă a vieţii voastre. Sper să ne vedem cât mai curând la evenimente!"
       },
       {
         "type": "div",
-        "content": "<p>Cu prietenie,</p><p>Liviu</p>"
+        "content": "<p>Cu multă dorinţă de implicare,</p><p>Eric-Alexandru Moroşan</p>"
       }
     ]
     
@@ -34,6 +36,8 @@
     "nume": "2. Mesajul Decanatului",
     "href":"mesajul-decanatului",
     "titlu":"Mesajul Decanatului",
+    "next": "dictionar",
+    "back": "mesajul-presedintelui-asmi",
     "text": [
       {
         "type": "p",
@@ -55,6 +59,8 @@
     "nume": "3. DICȚIONAR STUDENȚESC",
     "imagineALT": "dictionar_image",
     "href": "dictionar",
+    "next": "matematica",
+    "back": "mesajul-decanatului",
     "titlu": "Dicționar Studențesc",
     "text": [
       {
@@ -137,6 +143,8 @@
     "descriere": "fie x un număr real…",
     "imagineALT": "matematica_image",
     "href": "matematica",
+    "next": "informatica",
+    "back": "dictionar",
     "titlu": "Matematică",
     "text": [
       {
@@ -159,6 +167,8 @@
     "descriere": "print(„Bun venit la FMI!”)",
     "imagineALT": "informatica_image",
     "href": "informatica",
+    "next": "cti",
+    "back": "matematica",
     "titlu": "Informatică",
     "text": [
       {
@@ -185,6 +195,8 @@
     "descriere": "Un alt tip de rețea",
     "imagineALT": "cti_image",
     "href": "cti",
+    "next": "asmi",
+    "back": "informatica",
     "titlu": "CTI",
     "text": [
       {
@@ -214,6 +226,8 @@
     "nume": "7. Asociația studenților la matematică și Informatică - ASMI",
     "imagineALT": "asmi_image",
     "href": "asmi",
+    "next": "activitate-didactica",
+    "back": "cti",
     "titlu": "Asociația studenților la matematică și Informatică - ASMI",
     "text": [
       {
@@ -273,6 +287,8 @@
     "descriere": "Mic ghid de supraviețuire de-a lungul anilor",
     "imagineALT": "activitate_didactica_image",
     "href": "activitate-didactica",
+    "next": "cazare",
+    "back": "asmi",
     "titlu": "Activitate Didactică",
     "text": [
       {
@@ -310,7 +326,9 @@
     "nume": "9. Cazare și cămine",
     "imagineALT": "camine.png",
     "href": "cazare",
+    "next": "conducere-fmi",
     "titlu": "Cazare și cămine",
+    "back": "activitate-didactica",
     "text": [
       {
         "type": "p",
@@ -339,6 +357,8 @@
     "nume": "10. Conducerea Facultății",
     "imagineALT": "conducere_image",
     "href": "conducere-fmi",
+    "next": "burse",
+    "back": "cazare",
     "titlu": "Conducerea Facultății",
     "text": [
       {
@@ -389,6 +409,8 @@
     "descriere": "A zis cineva bani?",
     "imagineALT": "burse_image",
     "href": "burse",
+    "next": "regulament",
+    "back": "conducere-fmi",
     "titlu": "Burse",
     "text": [
       {
@@ -427,6 +449,8 @@
     "descriere": "Ce drepturi și ce obligații avem",
     "imagineALT": "regulament_image",
     "href": "regulament",
+    "next": "reprezentare-studenteasca",
+    "back": "burse",
     "titlu": "Regulamente",
     "text": [
       {
@@ -454,6 +478,8 @@
     "descriere": "Despre și pentru studenți!",
     "imagineALT": "reprezentare_studenteasca_image",
     "href": "reprezentare-studenteasca",
+    "next": "cariere-si-internship",
+    "back": "regulament",
     "titlu": "Reprezentare Studențească",
     "text": [
       {
@@ -480,6 +506,8 @@
     "descriere": "Planuri de viitor!",
     "imagineALT": "cariere_si_internship_image",
     "href": "cariere-si-internship",
+    "next": "facilitati",
+    "back": "reprezentare-studenteasca",
     "titlu": "Cariere și Internship",
     "text": [
       {
@@ -538,6 +566,8 @@
     "descriere": "Dacă tot sunt student...",
     "imagineALT": "facilitati_image",
     "href": "facilitati",
+    "back": "cariere-si-internship",
+    "next": "extracurriculare",
     "titlu": "Facilități",
     "text": [
       {
@@ -579,6 +609,8 @@
     "nume": "16. Extracurriculare",
     "imagineALT": "extracurriculare_image",
     "href": "extracurriculare",
+    "next": "echipa",
+    "back": "facilitati",
     "titlu": "Extracurriculare",
     "text": [
       {
@@ -645,11 +677,13 @@
   },
   {
     "id": 17,
-    "nume": "17. Echipa ghidul bobocului 2023",
+    "nume": "17. Echipa ghidul bobocului 2024",
     "descriere": "Regia, traducerea și subtitrarea",
     "imagineALT": "echipa_image",
     "href": "echipa",
-    "titlu": "Echipa ghidul bobocului 2023",
+    "back": "extracurriculare",
+    "next": "dictionar",
+    "titlu": "Echipa ghidul bobocului 2024",
     "text": [ ]
   },
   {

@@ -83,6 +83,7 @@ const SectionPage = () => {
             <div className="square mask bottom_m"></div>
 
             <div className="section__content__text">
+              
               {content &&
                 content.text.map((each) => {
                   if (each.type === "p") {
@@ -100,22 +101,41 @@ const SectionPage = () => {
                     return ReactHtmlParser(each.content);
                   }
                 })}
-
+                
               
-
               {content && content.id === 17 && (
-                <motion.div className="cardImages">
-                  <p className="imageText">Andrada Elena Bejenaru</p>
-                  <p className="imageText">Andrei Alexandru Botea</p>
-                  <p className="imageText">Liviu Petru Bouruc</p>
-                  <p className="imageText">Eduardo Ștefan Dragomir</p>
-                  <p className="imageText">Anca Teodora Ichim</p>
-                  <p className="imageText">Eric Alexandru Moroșan</p>
-                  <p className="imageText">David George Pătrânjel</p>
-                  <p className="imageText">Ioana Potlog</p>
-                  <p className="imageText">Radu Nedelcu</p>
-                </motion.div>
+                <>
+                  <motion.div className="cardImages">
+                    <p className="imageText">Matei Andrei</p>
+                    <p className="imageText">Tudor Chițu</p>
+                    <p className="imageText">Carolina-Andreea Costache</p>
+                    <p className="imageText">Miruna Dragomir</p>
+                    <p className="imageText">Ștefan Maftei</p>
+                    <p className="imageText">Eric Alexandru Moroșan</p>
+                    <p className="imageText">Alexandru Cristian Ingeaua</p>
+                    <p className="imageText">Radu Nedelcu</p>
+                    <p className="imageText">Ioana-Anamaria Stoichița</p>
+                    <p className="imageText">Alexia Tanislav</p>
+                    
+
+                  </motion.div>
+                  
+                </>
+                
               )}
+              <div style={{ display: "flex", justifyContent: "center", gap: "10px", paddingTop: "20px"}}>
+              <Link to={`/pages/${content && content.back}`} className="nextButton">
+                  <button style={{ padding: "20px", fontSize: "18px", backgroundColor: "#5490f0", color: "white", borderRadius: "10px", boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)" }}>Previous Page</button>
+                </Link>
+                
+                <Link to="/" className="backButton">
+                  <button style={{ padding: "20px", fontSize: "18px", backgroundColor: "#5490f0", color: "white", borderRadius: "10px", boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)" }}>Main Page</button>
+                </Link>
+                <Link to={`/pages/${content && content.next}`} className="nextButton">
+                  <button style={{ padding: "20px", fontSize: "18px", backgroundColor: "#5490f0", color: "white", borderRadius: "10px", boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)" }}>Next Page</button>
+                </Link>
+                
+              </div>
             </div>
           </motion.section>
         </motion.div>
