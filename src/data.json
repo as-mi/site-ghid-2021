@@ -59,7 +59,7 @@
     "nume": "3. DICȚIONAR STUDENȚESC",
     "imagineALT": "dictionar_image",
     "href": "dictionar",
-    "next": "matematica",
+    "next": "introducere",
     "back": "mesajul-decanatului",
     "titlu": "Dicționar Studențesc",
     "text": [
@@ -139,41 +139,33 @@
   },
   {
     "id": 4,
-    "nume": "4.Matematică",
-    "descriere": "fie x un număr real…",
+    "nume": "4.Introducere",
+    "descriere": "Începutul...",
     "imagineALT": "matematica_image",
-    "href": "matematica",
-    "next": "informatica",
+    "href": "introducere",
+    "next": "specializari",
     "back": "dictionar",
-    "titlu": "Matematică",
+    "titlu": "Introducere",
     "text": [
       {
         "type": "p",
-        "content": "Primele zile ca student sunt presărate cu sentimente diverse, de la entuziasm, la confuzie; nerăbdare și… teamă. Pentru a o mai tempera pe cea din urmă, îți prezentăm parcursul unui boboc la domeniul Matematică."
-      },
-      {
-        "type": "p",
-        "content": "Să discutăm puțin despre materii: predarea începe exact din punctul în care s-a terminat la liceu. Remarcăm, astfel, structurile algebrice și polinoamele la Algebră I, continuitatea și convergența la Analiză I și noțiuni vectoriale în Geometria I. Treptat, lucrurile se detașează de noțiunile familiare din liceu, dar observăm în continuare legăturile dintre diverse materii. De exemplu, Algebra Liniară din semestrul I pune bazele Elementelor de Calcul Științific din semestrul II. Iar Programarea Procedurală și noul limbaj de programare abordat, Python,  deschid alte noi uși."
-      },
-      {
-        "type": "p",
-        "content": "Predarea în anul I este în trunchi comun, urmând o regrupare pe specialități în anul II: Matematică, Matematică-Informatică și Matematici Aplicate. Toate trei specializările oferă aceleași posibilități de viitor, deși diferențele dintre ele sunt esențiale. Vor fi 3-4 cursuri de bază, întâlnite indiferent de alegere, diversitatea fiind în cursurile specifice și opționale. Studenții ce vor urma specializarea Matematică-Informatică vor obține licența în domeniul Matematică la absolvirea facultății. "
+        "content": "Știm că primele zile de facultate pot părea intimidante, încărcate cu multe activități, oameni și informații noi, motiv pentru care am pregătit pentru tine, dragă boboc, acest Ghid, care sperăm să îți fie hartă în aventura în care urmează să pornești! Perioada studenției va fi plină de numeroase oportunități și provocări, atât pe plan academic, cât și social. Vei avea ocazia să te dezvolți mai mult pe plan personal, să afli lucruri noi despre ariile în care dorești să îți desfășori activitatea și totodată să cunoști persoane cu interese și pasiuni comune. Dar să luăm lucrurile pas cu pas! Vom începe prin a discuta despre specializările facultății noastre și ce presupune fiecare în parte…"
       }
     ]
   },
   {
     "id": 5,
-    "nume": "5.Informatică",
-    "descriere": "print(„Bun venit la FMI!”)",
+    "nume": "5.Specializări",
+    "descriere": "Ce se întâmplă",
     "imagineALT": "informatica_image",
-    "href": "informatica",
-    "next": "cti",
-    "back": "matematica",
-    "titlu": "Informatică",
+    "href": "specializari",
+    "next": "structura",
+    "back": "introducere",
+    "titlu": "Specializări",
     "text": [
       {
-        "type": "p",
-        "content": "Poate primele zile de facultate vor părea intimidante, căci este, de fapt, un nou capitol din viața ta. Urmează perioada în care te vei maturiza cel mai mult, vei cunoaște diverși oameni cu interese comune, așa că sfatul nostru este să profiți din plin de această experiență."
+        "type": "h1",
+        "content": "<h1 style=\"font-size: 3em; padding-top: 20px;\">Informatică</h1>"
       },
       {
         "type": "p",
@@ -186,53 +178,71 @@
       {
         "type": "p",
         "content": "Așa cum a fost și în liceu, fiecare își alege cât de greu sau cât de ușor îi va fi în facultate. Recomandăm să mergi la laboratoare, seminare și cursuri pentru că, pe lângă punctele bonus pe care le poți obține pe activitate (răspunsuri corecte, participare activă, etc.), aici se sedimentează noțiunile de care vei avea nevoie pe parcursul anilor și vei vedea că toate au legătură între ele. Și mai este un aspect foarte important: e mai ușor să-ți faci prieteni dacă ești prezent alături de ei la ore, decât dacă doar scrii pe WhatsApp. Gândește-te că oamenii pe care-i vei vedea pe holurile facultății vor fi oamenii pe care-i vei vedea în 5 ani la job-ul tău!"
+      },
+      {
+        "type": "h1",
+        "content": "<h1 style=\"font-size: 3em; padding-top: 20px;\">Matematică</h1>"
+      },
+      {
+        "type": "p",
+        "content": "Pentru început, să vorbim puțin despre materii: predarea pornește exact din punctul în care s-a terminat la liceu. Remarcăm, astfel, structurile algebrice și polinoamele la Algebră I, continuitatea și convergența la Analiză I și noțiuni vectoriale în Geometrie I. Treptat, lucrurile se detașează de noțiunile familiare din liceu, dar observăm în continuare legături între diverse materii. De exemplu, Algebra Liniară din semestrul I pune bazele Elementelor de Calcul Științific din semestrul II. În plus, materii precum Programarea Procedurală și limbajul de programare Python,  deschid alte noi uși pentru studenții de la acest domeniu."
+      },
+      {
+        "type": "p",
+        "content": "Predarea în anul I este în trunchi comun, urmând o regrupare pe specializări în anul II, în funcție de medie și preferințe: Matematică, Matematică-Informatică și Matematici Aplicate. Toate trei specializările oferă aceleași posibilități de viitor, deși diferențele dintre ele sunt esențiale. Vor fi 3-4 cursuri de bază, întâlnite indiferent de alegere, diversitatea fiind în cursurile specifice și opționale. Indiferent de specializarea aleasă, studenții vor obține licența tot în domeniul Matematică la absolvirea facultății."
+      },
+      {
+        
+        "type": "h1",
+        "content": "<h1 style=\"font-size: 3em; padding-top: 20px;\">CTI</h1>"
+       
+      },
+      {
+        "type": "p",
+        "content": "CTI este un domeniu foarte variat, având foarte multe materii cu aplicabilitate practică, așa că te poți baza pe el că o să găsești ceva ce îți place, fie că este legat de programare sau inginerie. La prima vedere, poate părea copleșitor, ținând cont că este și singurul domeniu cu durată de 4 ani, dar acesta este, totuși, un avantaj. Materiile sunt predate pe parcursul unei perioade mai lungi de timp, așa că orarul este destul de îngăduitor, oferindu-ți mai puțin stres și mai mult timp la dispoziție să te bucuri de această perioadă din viața ta. În plus, având la dispoziție încă un an de facultate față de celelalte domenii, există mai multe oportunități de a câștiga experiență, aplicând la mai multe internship-uri."
+      },
+      {
+        "type": "p",
+        "content": "Ceea ce face marea diferență dintre domeniul CTI și celelalte este legătura cu Facultatea de Fizică de la Măgurele, unde se vor ține cursurile, seminarele și laboratoarele de fizică. Vei avea o zi din orar dedicată Facultății de Fizică unde vei face multe lucrări practice și experimente foarte interesante. Nu trebuie să îți fie teamă de fizică, întrucât profesorii sunt înțelegători, reiau noțiunile de la început și îți formează o bază, chiar dacă nu o aveai din liceu, așa că, dacă ești prezent la cursuri, seminarii și laboratoare nu o să fie niciun fel de problemă. Te poți aștepta la sfârșitul FMI, ca absolvent al domeniul CTI, să ai cunoștințe vaste despre programare, proiectare, electronică, rețelistică și multe altele, având astfel un orizont larg și multe oportunități de carieră."
       }
     ]
   },
   {
     "id": 6,
-    "nume": "6.CTI",
-    "descriere": "Un alt tip de rețea",
+    "nume": "6.Structura anului universitar",
+    "descriere": "Când sunt vacanțele?",
     "imagineALT": "cti_image",
-    "href": "cti",
-    "next": "asmi",
-    "back": "informatica",
-    "titlu": "CTI",
+    "href": "structura",
+    "next": "regulamente",
+    "back": "specializari",
+    "titlu": "Structura anului universitar",
     "text": [
       {
         "type": "p",
-        "content": "CTI este un domeniu foarte variat, având foarte multe materii cu aplicabilitate practică, așa că te poți baza pe el că o să găsești ceva ce îți place, fie că este legat de programare sau inginerie."
+        "content": "Fiecare semestru este împărțit, de obicei, în 14 săptămâni, prima va fi săptămână impară, a doua va fi săptămână pară și, tot așa,  alternând.  Semestrul se finalizează cu sesiunea de examene: 3 săptămâni în care au loc evaluările, în date alese de voi. Activitatea didactică se încheie înaintea acesteia, deci tot timpul este dedicat învățării."
       },
       {
         "type": "p",
-        "content": "La prima vedere, poate părea copleșitor, ținând cont că este și singurul domeniu cu durată de 4 ani, dar acesta este, totuși, un avantaj. Materiile sunt predate pe parcursul unei perioade mai lungi de timp, așa că orarul este destul de îngăduitor, oferindu-ți mai puțin stres și mai mult timp la dispoziție să te bucuri de studenție. În plus, având la dispoziție încă un an de facultate față de celelalte domenii, există mai multe oportunități de a câștiga experiență în domeniu, aplicând la mai multe internship-uri."
+        "content": "Diversele informații referitoare la procesul educațional vor fi publicate pe site-ul facultății și canalul general MS Teams, unde se recomandă accesarea în mod regulat pentru a fi la curent cu toate noutățile. Pentru descrierea completă a planului de învățământ, poți consulta site-ul facultății."
       },
       {
         "type": "p",
-        "content": "Ceea ce face marea diferență dintre domeniul CTI și celelalte este legătura cu Facultatea de Fizică de la Măgurele, unde se vor ține cursurile, seminarele și laboratoarele de fizică. Vei avea o zi din orar dedicată Facultății de Fizică unde vei face multe lucrări practice și experimente foarte interesante. Fizica nu trebuie să te intimideze, întrucât profesorii sunt înțelegători, reiau noțiunile de la început și îți formează o bază, chiar dacă nu o aveai din liceu, așa că, dacă ești prezent la cursuri, seminarii și laboratoare nu o să fie niciun fel de problemă."
-      },
-      {
-        "type": "p",
-        "content": "Recomandăm prezența și implicarea la cursuri, seminare și laboratoare, deoarece la majoritatea materiilor este foarte importantă activitatea din timpul semestrului pentru nota finală la examen. În plus, prin prezența fizică la facultate, încurajăm și interacțiunea între colegi, respectiv formarea prieteniilor. Un aspect care nu trebuie neglijat este faptul că vei fi alături de ei pe piața muncii peste câțiva ani."
-      },
-      {
-        "type": "p",
-        "content": "Te poți aștepta la sfârșitul FMI, ca absolvent al domeniul CTI, să ai cunoștințe vaste despre programare, proiectare, electronică, rețelistică și multe altele, având astfel un orizont larg și multe oportunități de carieră."
+        "content": "Te vei conecta pe MS Teams folosind adresa de email instituțională (prenume.nume@s.unibuc.ro) pe care o vei primi la începutul anului universitar și o vei folosi întotdeauna în interacțiunile tale academice."
       }
     ]
   },
   {
     "id": 7,
-    "nume": "7. Asociația studenților la matematică și Informatică - ASMI",
+    "nume": "7. Regulamente",
     "imagineALT": "asmi_image",
-    "href": "asmi",
-    "next": "activitate-didactica",
-    "back": "cti",
-    "titlu": "Asociația studenților la matematică și Informatică - ASMI",
+    "href": "regulamente",
+    "next": "cdos",
+    "back": "structura",
+    "titlu": "Regulamente",
     "text": [
       {
         "type": "p",
-        "content": "Dacă îți dorești ca studenția ta să fie mai mult decât un drum între cămin, facultate și cantină, avem o veste foarte bună pentru tine!"
+        "content": "Învățământul superior este reglementat la nivel național de Legea Educației Naționale 199/2023. Carta Universității din București este cel mai puternic act normativ emis în Universitate. Studenții vor lua la cunoștință prevederile Codului Drepturilor și Obligațiilor Studentului (CDOS sau Statutul Studentului) și Regulamentul privind Activitatea Profesională a Studentului (RAPS). Acestea sunt urmate de regulamentele specifice facultății noastre care se pot găsi pe prima pagină a site-ului FMI: <a href=\"https://fmi.unibuc.ro/regulamente/ \" target=\"_blank\" rel=\"noreferrer\">Regulamente</a>"
       },
      
       {
@@ -283,72 +293,48 @@
   },
   {
     "id": 8,
-    "nume": "8. Activitatea Didactică",
-    "descriere": "Mic ghid de supraviețuire de-a lungul anilor",
+    "nume": "8. Codul Drepturilor și Obligațiilor Studentului",
+    "descriere": "Cum pot aduce schimbarea?",
     "imagineALT": "activitate_didactica_image",
-    "href": "activitate-didactica",
-    "next": "cazare",
-    "back": "asmi",
-    "titlu": "Activitate Didactică",
+    "href": "cdos",
+    "next": "drepturi",
+    "back": "regulamente",
+    "titlu": "Codul Drepturilor și Obligațiilor Studentului",
     "text": [
       {
-        "type": "h2",
-        "content": "<h2>Generalități</h2>"
+        "type": "p",
+        "content": "CDOS, cunoscut și sub numele de Statutul Studentului, reglementează toate drepturile, obligațiile, dar și responsabilitățile pe care le au studenții Universității din București. Vă încurajăm să îl citiți, încă de la începutul anului, pentru a fi bine informați și a putea sesiza imediat o neregulă dacă și atunci când aceasta apare."
       },
       {
         "type": "p",
-        "content": "Fiecare semestru este împărțit, de obicei, în 14 săptămâni, prima fiind săptămână impară, a doua va fi săptămână pară, alternând.  Semestrul se finalizează cu sesiunea de examene: 3 săptămâni în care au loc evaluările, în date alese de voi. Activitatea didactică se încheie înaintea acesteia, deci tot timpul este dedicat învățării."
-      },
-      {
-        "type": "p",
-        "content": "Diversele informații referitoare la procesul educațional vor fi publicate pe <a href=\"https://fmi.unibuc.ro/planuri-de-invatamant/  \" target=\"_blank\" rel=\"noreferrer\">site-ul facultății</a>  și canalul general MS Teams, unde se recomandă accesarea în mod regulat pentru a fi la curent cu toate noutățile. Pentru descrierea completă a planului de învățământ, poți consulta site-ul facultății."
-      },
-      {
-        "type": "p",
-        "content": "număr credite materie * cu notă obținută la materia respectivă."
-      },
-      {
-        "type": "p",
-        "content": "Taxa în cazul învățământului cu frecvență este 4300 RON pentru domeniile Matematică și Informatică, respectiv 4700 RON pentru domeniul CTI. Taxa pentru Informatică, forma de învățământ la distanță este de 4000 RON. Taxa își va păstra valoarea conformă primului an pe toata perioada ciclului de învățământ."
-      },
-      {
-        "type": "h2",
-        "content": "<h2>Structura anului universitar</h2>"
-      },
-      {
-        "type": "p",
-        "content": "De asemenea, Universitatea din București utilizează o platformă de e-learning numită MoodleUB unde fiecare dintre voi va avea acces. Aici, unii profesori își vor urca materialele de curs, temele, vor anunța deadline-uri, datele examenelor și multe altele. Te vei conecta pe Moodle folosind adresa de e-mail instituțională (prenume.nume@s.unibuc.ro) pe care o vei primi la începutul anului universitar și o vei folosi întotdeauna în interacțiunile tale academice."
+        "content": "Formularul CDOS se completează în mod anonim, la sfârșitul anului, de către studenți, aceștia contribuind astfel la o schimbare. Prin intermediul acestuia, fiecare dintre noi își poate exprima nemulțumirile și poate aduce la cunoștința conducerii facultății problemele existente în mediul academic, scopul raportului fiind acela de a monitoriza respectarea prezentului cod, dar și de a identifica problemele care apar pe parcursul anului universitar. Formularul va cuprinde întrebări pe diverse teme ce țin de facultate și de încălcarea drepturilor studentului: dacă te-ai simțit vreodată discriminat la examene, dacă ești mulțumit de dotările facultății, dacă specializarea pe care o urmezi se ridică la nivelul așteptărilor tale și multe altele."
       }
     ]
   },
   {
     "id": 9,
-    "nume": "9. Cazare și cămine",
+    "nume": "9. Drepturi și obligații",
     "imagineALT": "camine.png",
-    "href": "cazare",
-    "next": "conducere-fmi",
-    "titlu": "Cazare și cămine",
-    "back": "activitate-didactica",
+    "href": "drepturi",
+    "next": "conducere-fm",
+    "titlu": "Drepturi și obligații",
+    "back": "cdos",
     "text": [
       {
-        "type": "p",
-        "content": "Dacă vă întrebați ce opțiuni de cazare sunt disponibile din partea facultății, iar răspunsul vostru este „căminele”, atunci ați răspuns corect 😊 Lăsând glumele la o parte, facultatea oferă studenților, în funcție de cerere și de locurile disponibile, locuri în căminele UB. Acestea sunt răspândite în tot Bucureștiul, de la Grozăvești și până în Titan. Principalele cămine în care facultatea are locuri atribuite se regăsesc:"
+        "type": "h1",
+        "content": "<h1 style=\"font-size: 3em; padding-top: 20px;\">Drepturi</h1>"
       },
       {
         "type": "list",
-        "content": "<ul><li><p>Grozăvești: A1, A, B, D</p></li><li><p>M. Kogălniceanu A</p></li><li><p>Theodor Pallady: 1, 2</p></li><li><p>Fundeni</p></li><li><p>Stoian Militaru: 1, 2</p></li><li><p>Poligrafie</p></li></ul>"
-      },
-       {
-        "type": "p",
-        "content": "Taxa lunară pentru un loc în cămine variază între 160 și 230 lei pentru studenții bugetați, respectiv între 280 și 320 de lei pentru studenții la taxă."
-      }, 
-      {
-        "type": "p",
-        "content": "Trebuie menționat că, în funcție de cămin, camerele pot fi de 2, 3 sau 4 persoane, așa că mereu vor fi colegi care să ajute oricând este necesar."
+        "content": "<ul><li><p>Dreptul la suport de curs gratuit în format fizic sau electronic, reprezentând notițe, prezentări sau alte materiale care rezumă conținutul predat și care acoperă în manieră suficientă tematicile din fișele de disciplină. Acesta este pus la dispoziția studenților în primele două săptămâni de la începerea fiecărui semestru.</p></li><li><p>Dreptul de a fi informați, în primele două săptămâni de la începerea semestrului, cu privire la conținutul fișei fiecărei discipline, care include: obiectivele/ rezultatele așteptate ale învățării formate prin disciplina respectivă, conținutul procesului educațional aferent disciplinei și tematicile abordate în cadrul fiecărei activități didactice, metodele de predare-învățare, bibliografie minimală și bibliografie opțională, precum și modalitățile de evaluare și examinare, cerințele minime de promovare și ponderea diferitor tipuri de evaluare și examinare în rezultatul final. Orice modificare ulterioară a modalităților de evaluare și examinare poate fi făcută doar cu acordul scris al majorității studenților înscriși la cursul respectiv. </p></li><li><p>Dreptul de a avea acces la situația școlară personală. </p></li><li><p>Dreptul de a i se comunica rezultatul evaluării în termen de cel mult 7 zile calendaristice de la data susţinerii probei de verificare a competenţelor.</p></li><li><p>Dreptul de a fi consultați de cadrele didactice cu privire la programarea datelor de examinare, atunci și acolo unde este posibil; </p></li><li><p>Dreptul de a avea acces la software specializat pentru stabilirea gradului de similitudine, pus la dispoziție de Universitate, în elaborarea lucrărilor academice, conform reglementărilor instituționale. </p></li></ul> <ul><li><p>Studenții nu pot fi constrânși să participe la mai mult de 8 ore pe zi de activități didactice prevăzute în planul de învățământ al programului de studii la care sunt înmatriculați, cu excepția disciplinelor facultative sau care fac obiectul unui alt contract de studii.</p></li></ul> <ul><li><p>Dreptul de acces la principalele cărți de specialitate și publicații științifice, la bibliotecile universitare și bibliotecile centrale universitare, acces gratuit la internet wireless pentru toți membrii comunității universitare în întreg spațiul universitar.</p></li></ul> <ul><li><p>Dreptul la protecţia datelor cu caracter personal, în conformitate cu legislația europeană și națională, inclusiv a rezultatelor academice. </p></li></ul> <ul><li><p>Dreptul la o evaluare obiectivă și nediscriminatorie a rezultatelor învățării dobândite,procesul de evaluare a cunoștințelor studenților realizându-se în prezența a cel puțin două cadre didactice. Cadrele didactice pun la dispoziția studenților baremul de evaluare pentru fiecare disciplină la care s-a desfășurat evaluarea, imediat după finalizarea acesteia, în termen de maximum 24 de ore.</p></li></ul>"
       },
       {
-        "type":"p",
-        "content": "Dacă nu ați fost repartizați în niciunul dintre căminele menționate deja, există atât mai multe etape de cazare organizate de UB, dar și o subvenție individuală de cazare, oferită de Universitatea din București. Nu în ultimul rând, există și posibilitatea de cazare în cămine private. Acestea sunt ceva mai scumpe decât cele de stat, însă prețul plătit include diverse beneficii. Câteva opțiuni sunt <a href=\"https://arcca.ro/\" target=\"_blank\" rel=\"noreferrer\">ARCCA</a> și <a href=\"https://www.westgatestudios.ro/\" target=\"_blank\" rel=\"noreferrer\">West Gate Studios</a>."
+        "type": "h1",
+        "content": "<h1 style=\"font-size: 3em; padding-top: 20px;\">Obligații</h1>"
+      },
+      {
+        "type": "list",
+        "content": "<ul><li><p>Să îndeplinească toate îndatoririle ce îi revin potrivit planului de învăţământ şi fișei disciplinei, în bune condiţii şi la timp, în scopul unei temeinice pregătiri profesionale. </p></li></ul> <ul><li><p>Să respecte normele de disciplină și etică universitară cuprinse în Legea nr.199/2023, Codul studentului, Carta Universitară, Regulamentul privind activitatea profesională a studenților, Codul de Etică și Deontologie al Universității din București, în celelalte regulamente ale instituției, în contractul de școlarizare, precum și în toate actele normative incidente. </p></li></ul> <ul><li><p>Să folosească cu grijă bunurile materiale existente în spațiile de învățământ, cămine, cantine, biblioteci și să le păstreze în bună stare și de a suporta plata eventualelor prejudicii aduse bazei materiale puse la dispoziţia lor de către instituţia de învăţământ superior.</p></li></ul> <ul><li><p>Să achite taxele stabilite în baza art. 9 din Legea nr. 199/2023, în cuantumul stabilit de Senatul Universităţii. Taxele de şcolarizare se achită anual, de regulă în două tranşe, în primele 30 de zile ale fiecărui semestru, conform prevederilor contractuale.</p></li></ul> <ul><li><p></p></li></ul> <ul><li><p>Să informeze secretariatul facultății asupra oricăror modificări ale datelor personale (nume, adresă, telefon etc.), în termen de maximum 30 de zile de la producerea acestora.</p></li></ul> <ul><li><p>Să se informeze asupra comunicărilor transmise studenților de către facultate prin toate mijloacele hotărâte de aceasta (panotaj, pagină web etc.).</p></li></ul>"
       }
     ]
   },
