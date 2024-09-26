@@ -5,7 +5,7 @@
     "imagineALT":"mesaj-liviu",
     "href":"mesajul-presedintelui-asmi",
     "next": "mesajul-decanatului",
-    "back": "echipa",
+    "back": "harta",
     "titlu":"Mesajul Președintelui ASMI",
     "text": [
       {
@@ -243,51 +243,6 @@
       {
         "type": "p",
         "content": "Învățământul superior este reglementat la nivel național de Legea Educației Naționale 199/2023. Carta Universității din București este cel mai puternic act normativ emis în Universitate. Studenții vor lua la cunoștință prevederile Codului Drepturilor și Obligațiilor Studentului (CDOS sau Statutul Studentului) și Regulamentul privind Activitatea Profesională a Studentului (RAPS). Acestea sunt urmate de regulamentele specifice facultății noastre care se pot găsi pe prima pagină a site-ului FMI: <a href=\"https://fmi.unibuc.ro/regulamente/ \" target=\"_blank\" rel=\"noreferrer\">Regulamente</a>"
-      },
-     
-      {
-        "type": "p",
-        "content": "Asociația Studenților la Matematică și Informatică (ASMI) susține conceptul de voluntariat, încurajează implicarea tinerilor în organizații studențești și vizează un dublu impact: pe de-o parte, relaționarea cu studenți de aceeași vârstă și cu preocupări comune, cu scopul organizării de proiecte socio-culturale pentru studenți, pe de altă parte, dezvoltarea unor abilități esențiale în viitoarea carieră. Asociația promovează spiritul de lucru în echipă, solidaritatea, responsabilizarea studenților din cadrul FMI și dorința de a progresa. În perioada următoare vei lua contact cu o serie întreagă de evenimente, pregătite special pentru tine."
-      },
-      {
-        "type": "p",
-        "content": "Proiecte viitoare din cadrul ASMI:"
-      },
-      {
-        "type": "list",
-        "content": "<ul><li><p><span>Dialog Deschis: </span>Ne strângem marți, 3 octombrie pentru ca studenții mai mari să povestească câteva experiențe petrecute până acum din studenție.</p></li></ul>"
-      },
-      {
-        "type": "list",
-        "content": "<ul><li><p><span>Bumtzi: </span>Pentru a sărbători începutul facultății, vă invităm joi, 5 octombrie la prima petrecere în calitate de studenți!</p></li></ul>"
-      },
-      {
-        "type": "list",
-        "content": "<ul><li><p><span>Tre' să caut: </span>reprezintă un treasure hunt care se desfășoară în București, sâmbătă, 7 octombrie, cu scopul de a familiariza noii studenți cu locurile importante din jurul zonei universității.</p></li></ul>"
-      },
-      {
-        "type": "list",
-        "content": "<ul><li><p><span>Meet ASMI: </span> Nu ești hotărât dacă vrei să intri în ASMI? Stai liniștit deoarece se apropie Meet ASMI, care este o întâlnire ce va avea loc luni, 9 octombrie, unde puteți lua contact direct cu voluntarii Asociației.</p></li></ul>"
-      },
-      {
-        "type": "list",
-        "content": "<ul><li><p><span>Balul Bobocilor: </span> Reprezintă o petrecere dedicată bobocilor, iar preselecțiile vor avea loc în luna octombrie. </p></li></ul>"
-      },
-      {
-        "type": "list",
-        "content": "<ul><li><p><span>SMARTHACK: </span> Un hackathon de 24 ore în care mai multe echipe lucrează la dezvoltarea unui produs software pe baza unei teme, care se finalizează cu jurizarea și premierea celei mai bune echipe. Competiția se va desfășura în perioada 11-12 noiembrie 2023.</p></li></ul>"
-      },
-      {
-        "type": "p",
-        "content": "Asociația noastră face parte din ANOSR (Alianța Națională a Organizațiilor Studențești din România), aceasta fiind o federație națională studențească, non-guvernamentală și non-partizană care, de peste 23 de ani, are ca scop principal atât reprezentarea intereselor comune ale studenților din România, apărarea și promovarea drepturilor și obligațiilor acestora, cât și stimularea participării lor la actul educațional și la viața socială, economică și culturală."
-      },
-      {
-        "type": "p",
-        "content": "Ei reunesc studenți din 19 centre universitare, 30 de universități și 112 organizații studențești. Mai multe informații despre ANOSR găsiți pe <a href=\"https://anosr.ro/  \" target=\"_blank\" rel=\"noreferrer\">anosr.ro</a>."
-      },
-      {
-        "type": "p",
-        "content":"Dacă dorești mai multe informații despre Asociația Studenților la Matematică și Informatică, poți vizita <a href=\"https://www.asmi.ro/  \" target=\"_blank\" rel=\"noreferrer\">site-ul nostru</a> și ne poți urmări activitatea pe <a href=\"https://www.facebook.com/asmi.ub/  \" target=\"_blank\" rel=\"noreferrer\">Facebook</a>, dar și pe <a href=\"https://www.instagram.com/asmi.ub/?hl=en  \" target=\"_blank\" rel=\"noreferrer\">Instagram</a>. Te așteptăm cu drag să ni te alături!"
       }
     ]
   },
@@ -316,7 +271,7 @@
     "nume": "9. Drepturi și obligații",
     "imagineALT": "camine.png",
     "href": "drepturi",
-    "next": "conducere-fm",
+    "next": "butonrosu",
     "titlu": "Drepturi și obligații",
     "back": "cdos",
     "text": [
@@ -334,69 +289,96 @@
       },
       {
         "type": "list",
-        "content": "<ul><li><p>Să îndeplinească toate îndatoririle ce îi revin potrivit planului de învăţământ şi fișei disciplinei, în bune condiţii şi la timp, în scopul unei temeinice pregătiri profesionale. </p></li></ul> <ul><li><p>Să respecte normele de disciplină și etică universitară cuprinse în Legea nr.199/2023, Codul studentului, Carta Universitară, Regulamentul privind activitatea profesională a studenților, Codul de Etică și Deontologie al Universității din București, în celelalte regulamente ale instituției, în contractul de școlarizare, precum și în toate actele normative incidente. </p></li></ul> <ul><li><p>Să folosească cu grijă bunurile materiale existente în spațiile de învățământ, cămine, cantine, biblioteci și să le păstreze în bună stare și de a suporta plata eventualelor prejudicii aduse bazei materiale puse la dispoziţia lor de către instituţia de învăţământ superior.</p></li></ul> <ul><li><p>Să achite taxele stabilite în baza art. 9 din Legea nr. 199/2023, în cuantumul stabilit de Senatul Universităţii. Taxele de şcolarizare se achită anual, de regulă în două tranşe, în primele 30 de zile ale fiecărui semestru, conform prevederilor contractuale.</p></li></ul> <ul><li><p></p></li></ul> <ul><li><p>Să informeze secretariatul facultății asupra oricăror modificări ale datelor personale (nume, adresă, telefon etc.), în termen de maximum 30 de zile de la producerea acestora.</p></li></ul> <ul><li><p>Să se informeze asupra comunicărilor transmise studenților de către facultate prin toate mijloacele hotărâte de aceasta (panotaj, pagină web etc.).</p></li></ul>"
+        "content": "<ul><li><p>Să îndeplinească toate îndatoririle ce îi revin potrivit planului de învăţământ şi fișei disciplinei, în bune condiţii şi la timp, în scopul unei temeinice pregătiri profesionale. </p></li></ul> <ul><li><p>Să respecte normele de disciplină și etică universitară cuprinse în Legea nr.199/2023, Codul studentului, Carta Universitară, Regulamentul privind activitatea profesională a studenților, Codul de Etică și Deontologie al Universității din București, în celelalte regulamente ale instituției, în contractul de școlarizare, precum și în toate actele normative incidente. </p></li></ul> <ul><li><p>Să folosească cu grijă bunurile materiale existente în spațiile de învățământ, cămine, cantine, biblioteci și să le păstreze în bună stare și de a suporta plata eventualelor prejudicii aduse bazei materiale puse la dispoziţia lor de către instituţia de învăţământ superior.</p></li></ul> <ul><li><p>Să achite taxele stabilite în baza art. 9 din Legea nr. 199/2023, în cuantumul stabilit de Senatul Universităţii. Taxele de şcolarizare se achită anual, de regulă în două tranşe, în primele 30 de zile ale fiecărui semestru, conform prevederilor contractuale.</p></li></ul> <ul><li><p>Să informeze secretariatul facultății asupra oricăror modificări ale datelor personale (nume, adresă, telefon etc.), în termen de maximum 30 de zile de la producerea acestora.</p></li></ul> <ul><li><p>Să se informeze asupra comunicărilor transmise studenților de către facultate prin toate mijloacele hotărâte de aceasta (panotaj, pagină web etc.).</p></li></ul>"
       }
     ]
   },
   {
     "id": 10,
-    "nume": "10. Conducerea Facultății",
+    "nume": "10. Butonul Roșu",
     "imagineALT": "conducere_image",
-    "href": "conducere-fmi",
-    "next": "burse",
-    "back": "cazare",
-    "titlu": "Conducerea Facultății",
+    "href": "butonrosu",
+    "next": "reprezentare",
+    "back": "drepturi",
+    "titlu": "Buton Roșu",
     "text": [
       {
         "type": "h2",
-        "content": "<h2>Consiliul facultății</h2>"
+        "content": "<h2>Ai o problemă în timpul anului? Ți-au fost încălcate drepturile sau ai fost victima unui caz de hărțuire/abuz?</h2>"
       },
       {
         "type": "p",
-        "content": "Consiliul Facultății este organismul principal de conducere al facultăţii. El defineşte strategia de dezvoltare, propune numărul de studenţi pe specializări şi forme de învăţământ, aprobă planurile de învăţământ și disciplinele pentru licenţă, masterat şi doctorat. Acesta este format din Biroul de Conducere al Consiliului (Decanatul Facultății), Directorii Departamentelor de Matematică și Informatică și studenții reprezentanți ."
+        "content": "Am creat pentru tine Butonul Roșu! Acesta este un buton de panică, pe care ești încurajat să îl apeși dacă ai vreo problemă referitoare la mediul studențesc (drepturi academice/sociale încălcate, hărțuiri/abuzuri, etc). Vom încerca să te ajutăm sau să te redirecționăm către oamenii potriviți, în funcție de situație. Sperăm că nu o să fie cazul, dar dacă va fi vreodată nevoie, suntem aici să te sprijinim și te încurajăm să completezi formularul! Îl găsești chiar pe site-ul ASMI, dar îți lăsăm mai jos și o scurtătură către el."
       },
       {
-        "type":"p",
+        "type": "p",
+        "content": "Formularul Butonul Roșu poate fi accesat aici: <a href=\"https://www.asmi.ro/ButonulRosu  \" target=\"_blank\" rel=\"noreferrer\">Butonul Roșu</a>"
+      }
+    ]
+    
+  },
+
+  {
+    "id": 11,
+    "nume": "11. Reprezentarea studențească ",
+    "descriere": "Cine ne reprezintă?",
+    "imagineALT": "regulament_image",
+    "href": "reprezentare",
+    "next": "burse",
+    "back": "butonrosu",
+    "titlu": "Reprezentarea studențească",
+    "text": [
+      {
+        "type": "p",
+        "content": "Ca student al Universității din București, unul dintre cele mai importante drepturi pe care le ai este cel de a alege și de a fi ales, ca reprezentant al studenților, în Consiliul Facultății, Senatul Universității și toate celelalte structuri decizionale, consultative sau administrative din cadrul acesteia, inclusiv în Consiliul de Administrație al Universității."
+      },
+      {
+        "type": "h2",
+        "content": "<h2>De ce este importantă reprezentarea studențească? De ce ar trebui să îmi pese?</h2>"
+      },
+      {
+        "type": "p",
+        "content":"Reprezentarea studențească este esențială deoarece oferă studenților o voce în procesul decizional al universităților, asigurându-se că nevoile, preocupările și interesele lor sunt luate în considerare. Prin intermediul reprezentanților, studenții pot influența politica educațională, pot îmbunătăți condițiile de studiu și promova un mediu universitar mai incluziv și echitabil. Această participare activă consolidează legătura dintre studenți și instituțiile de învățământ, contribuind la creșterea calității educației și la dezvoltarea unei comunități academice responsabile și bine informate."
+      },
+      {
+        "type": "p",
+        "content":"Astfel că, dacă ai probleme referitoare la mediul academic, poți apela la studentul reprezentant să te ajute să rezolvi situația sau poți deveni chiar tu vocea colegilor tăi și să le faci experiența de facultate una mai frumoasă, în care le sunt ascultate nevoile și dorințele."
+      },
+      {
+        "type": "p",
+        "content":"Aceștia sunt implicați activ în proceduri precum admiterea, cazarea în cămine, a locurilor în tabere și informarea studenților cu privire la schimbări și noi oportunități. "
+      },
+      {
+        "type": "h2",
+        "content": "<h2>Poate candida oricine? Cum?</h2>"
+      },
+      {
+        "type": "p",
+        "content":"Da! Poți să fii chiar tu student reprezentant și să ajuți la soluționarea problemelor pe care le întâlniți tu și colegii tăi pe parcursul anului. "
+      },
+      {
+        "type": "p",
+        "content":"Tot ce trebuie să faci pentru început este să verifici site-ul facultății în această perioadă, deoarece acolo vor fi postate toate anunțurile și informațiile legate de candidaturi, campania electorală și alegeri."
+      },
+      {
+        "type": "h2",
+        "content": "<h2>Cum pot fi ales ca student reprezentant?</h2>"
+      },
+      {
+        "type": "p",
         "content":"Reprezentanții studenților sunt aleși la începutul fiecărui an universitar prin vot secret de către toți studenții pe care îi reprezintă. De exemplu, pentru alegerea studentului care va reprezenta anul II de licenţă, specializarea Informatică, vor vota doar studenții anului II la specializarea Informatică."
-      },
-      {
-        "type": "h2",
-        "content": "<h2>Decanul</h2>"
-      },
-      {
-        "type": "p",
-        "content": "Decanul Facultății, doamna Prof. Dr. Ioana Leuștean, răspunde de calitatea întregului proces de învăţământ şi cercetare din facultate și este preşedinte al Consiliului Facultăţii."
-      },
-      {
-        "type": "h2",
-        "content": "<h2>Prodecanii</h2>"
-      },
-      {
-        "type": "p",
-        "content": "Prodecanii sunt responsabili de domeniile de activitate ale facultăţii şi răspund de conducerea acestora."
-      },
-      {
-        "type": "list",
-        "content": "<ul><li><p>Domnul Lect. Dr. Paul Irofti - prodecan pentru cercetare, informatizare, coordonare departament IT, relația cu mediul de afaceri.</p></li><li><p>Domnul Conf. Dr. Cătălin Gherghe - prodecan pentru activitate didactică, resurse umane, relația cu mediul preuniversitar.</p></li><li><p>Domnul Lect. Dr. Alexandru Amărioarei – prodecan pentru acreditări, internaționalizare, practică, raportări anuale.</p></li><li><p>Doamna Lect. Dr. Anca Dobrovăț – prodecan pentru studenți, internaționalizare, practică, licență, admitere.</p></li></ul>"
-      },
-      {
-        "type": "h2",
-        "content": "<h2>Senatul Universității</h2>"
-      },
-      {
-        "type": "p",
-        "content": "Senatul Universității constituie cel mai înalt for de reprezentare al comunității universitare în mediul academic național și internațional, fiind, totodată, forul de decizie și deliberare de la nivelul universității. Senatul are în componența sa și membri din partea Facultății de Matematică și Informatică."
       }
     ]
   },
+
   {
-    "id": 11,
-    "nume": "11. Burse",
+    "id": 12,
+    "nume": "12. Burse",
     "descriere": "A zis cineva bani?",
     "imagineALT": "burse_image",
     "href": "burse",
-    "next": "regulament",
-    "back": "conducere-fmi",
+    "next": "cazare",
+    "back": "reprezentare",
     "titlu": "Burse",
     "text": [
       {
@@ -429,71 +411,101 @@
       }
     ]
   },
-  {
-    "id": 12,
-    "nume": "12. Regulamente ",
-    "descriere": "Ce drepturi și ce obligații avem",
-    "imagineALT": "regulament_image",
-    "href": "regulament",
-    "next": "reprezentare-studenteasca",
-    "back": "burse",
-    "titlu": "Regulamente",
-    "text": [
-      {
-        "type": "p",
-        "content": "Învățământul superior este reglementat la nivel național de Legea Educației Naționale 199/2023. Carta Universității din București este cel mai puternic act normativ emis în Universitate. Studenții vor lua la cunoștință prevederile Codului Drepturilor și Obligațiilor Studentului (CDOS sau Statutul Studentului) și Regulamentul privind Activitatea Profesională a Studentului (RAPS). Acestea sunt urmate de regulamentele specifice facultății noastre care se pot găsi pe <a href=\"https://fmi.unibuc.ro/regulamente/ \" target=\"_blank\" rel=\"noreferrer\">prima pagină a site-ului FMI</a>."
-      },
-      {
-        "type": "p",
-        "content": "În același timp, ASMI derulează la finalul fiecărui an universitar un chestionar, pe care studenții sunt îndrumați să îl completeze. Scopul acestui chestionar este monitorizarea respectării Codului Drepturilor și Obligațiilor Studentului redactat de Universitatea din București. După încheierea perioadei de completare a chestionarului, ASMI pregătește un raport ce va fi prezentat în prima ședință a Consiliului Facultății din noul an universitar, urmând ca acesta să abordeze orice probleme care au apărut în timpul anului universitar."
-      },
-      {
-        "type": "list",
-        "content":"<ul><li><a href=\"https://unibuc.ro/wp-content/uploads/2017/07/Codul-drepturilor-si-obligatiilor-studentului-UB.pdf \" target=\"_blank\" rel=\"noreferrer\">Codul Drepturilor și Obligațiilor Studentului</a></li></ul>"
-      },
-      {
-        "type": "list",
-        "content":"<ul><li><a href=\"https://drive.google.com/file/d/1gw2Fy44KnqaBKqLGh70vZPo3T9-ZdrDi/view?usp=share_link \" target=\"_blank\" rel=\"noreferrer\">Regulamentul de Etică FMI</a></li><//ul>"
-      }
-    ]
-  },
+  
   
   {
     "id": 13,
-    "nume": "13. Reprezentare Studențească",
-    "descriere": "Despre și pentru studenți!",
+    "nume": "13. Cămine și cantină",
+    "descriere": "Unde mâncăm și dormim?",
     "imagineALT": "reprezentare_studenteasca_image",
-    "href": "reprezentare-studenteasca",
-    "next": "cariere-si-internship",
-    "back": "regulament",
-    "titlu": "Reprezentare Studențească",
+    "href": "cazare",
+    "next": "facilitati",
+    "back": "burse",
+    "titlu": "Cămine și cantină",
     "text": [
       {
         "type": "p",
-        "content": "Ca student al Universității din București, unul dintre cele mai importante drepturi pe care le ai este cel de a alege și de a fi ales, ca reprezentant al studenților, în Consiliul Facultății, Senatul Universității și toate celelalte structuri decizionale, consultative sau administrative din cadrul acesteia, inclusiv în Consiliul de Administrație al Universității."
+        "content": "Dacă ați ales să părăsiți locurile în care ați copilărit și v-ați petrecut adolescența pentru a veni la studii în alt oraș, FMI vă susține, oferindu-vă posibilitatea de cazare, în cadrul căminelor Universității din București, în funcție de cerere și de locurile disponibile. Căminele UB sunt răspândite prin tot Bucureștiul, de la Grozăvești și până în Fundeni. Principalele cămine în care facultatea are locuri atribuite sunt următoarele:"
       },
       {
         "type": "list",
-        "content": "<ol><li><p><b>Reprezentant al studenților în Consiliul Facultății.</b> Acesta face parte din cei  <b>8 studenți reprezentanți</b>. Aceștia sunt implicați activ în proceduri precum admiterea, cazarea în cămine, a locurilor în tabere și informarea studenților cu privire la noile anunțuri.</p></li><li><p><b>Reprezentant al studenților în Senatul Universității.</b> Acesta face parte din Consiliul pentru Probleme Studențești (CPS) și participă la ședințele Senatului. Facultatea de Matematică și Informatică are <b>2 poziții</b> pentru studenții reprezentanți în Senat, pentru care poate candida orice student al facultății.</p></li></ol>"
+        "content": "<ol><li><p>Grozăvești: A1, A, B, D</p></li><li><p>M. Kogălniceanu A</p></li><li><p>Theodor Pallady: 1, 2</p></li><li><p>Fundeni</p></li><li><p>Stoian Militaru: 1, 2</p></li><li><p>Poligrafie</p></li></ol>"
       },
       {
-        "type": "h2",
-        "content": "<h2>Calendarul Alegerilor Studențești:</h2>"
+        "type": "p",
+        "content": "Trebuie menționat că, în funcție de cămin, camerele pot fi de 2, 3 sau chiar 4 persoane, așa că mereu vor fi colegi care să ajute oricând este necesar și să îți țină companie pentru a nu duce prea tare dorul casei tale. "
       },
       {
-        "type": "list",
-        "content": "<ul><li><p>Depunerea candidaturilor: 2-6 octombrie 2023</p></li><li><p>Campania electorală: 7-10 octombrie 2023</p></li><li><p>Alegeri: 11-16 octombrie 2023</p></li></ul>"
+        "type": "p",
+        "content": "Dacă nu ați fost repartizați în niciunul dintre căminele menționate deja, există atât mai multe etape de cazare organizate de UB, cât și o subvenție individuală de cazare, oferită de Universitatea din București. Nu în ultimul rând, există și posibilitatea de cazare în cămine private. Acestea sunt ceva mai scumpe decât cele de stat, însă prețul plătit include diverse beneficii. Câteva opțiuni sunt ARCCA și West Gate Studios."
+      },
+      {
+        "type": "p",
+        "content": "Cât despre cantină, există una singură situată lângă Facultatea de Drept, la doar 20 de minute de mers la pas, anume  Cantina „Mihail Kogălniceanu”, unde poți merge în orice zi să mănânci, la prețuri extrem de accesibile, mâncare caldă „ca la mama acasă”. Tot ce trebuie să faci este să prezinți la intrare legitimația de student al UB și ușa ți se va deschide."
       }
     ]
   },
   {
     "id": 14,
-    "nume": "14. Cariere și internship",
+    "nume": "14. Facilități",
+    "descriere": "Dacă tot sunt student...",
+    "imagineALT": "facilitati_image",
+    "href": "facilitati",
+    "back": "cazare",
+    "next": "cariere",
+    "titlu": "Facilități",
+    "text": [
+      {
+        "type": "h2",
+        "content": "<h2>Transport</h2>"
+      },
+      {
+        "type": "list",
+        "content": "<ul><li><p><b>Tren</b> - Vei beneficia de o reducere de 90%;</p></li><li><p><b>STB</b> - Vei beneficia de o reducere de 90%, abonamentul fiind decontat de Universitate.</p></li><li><p><span>Metrorex</span> - Poți beneficia de reducere de 90% pe baza legitimației de student și a buletinului.</p></li></ul>"
+      },
+      {
+        "type": "h2",
+        "content": "<h2>Biblioteca</h2>"
+      },
+      {
+        "type": "p",
+        "content": "Ca student, îți poți face gratuit permis de acces în Biblioteca Facultății, situată la etajul 1. De asemenea, cu acest permis beneficiezi de acces gratuit la Biblioteca Centrală Universitară „Carol I”."
+      },
+      {
+        "type": "h2",
+        "content": "<h2>Erasmus</h2>"
+      },
+      {
+        "type": "p",
+        "content": "Dacă vrei să știi cum este să fii student la o altă universitate dintr-o ţară europeană, facultatea îţi oferă această oportunitate. Astfel, ţi se oferă o bursă lunară pentru ca tu să descoperi viaţa de student european. Pentru mai multe informații puteți scana codul QR: *cod QR cu pagina erasmus de pe site*."
+      },
+      {
+        "type": "p",
+        "content":"La platforme de streaming Spotify Premium, Apple Music, Youtube (Music și Premium)  ai reducere 50% cu adresa instituțională. "
+      },
+      {
+        "type":"p",
+        "content":"Găsești resurse pentru studenți puse la dispoziție de Universitatea din București pe <a href=\"https://fmi.unibuc.ro/studenti/ \" target=\"_blank\" rel=\"noreferrer\">site-ul FMI</a>"
+      },
+      {
+        "type": "h2",
+        "content": "<h2>Platforme de streaming</h2>"
+      },
+      {
+        "type":"p",
+        "content":"La platforme de streaming precum Spotify Premium, Apple Music, Youtube (Music și Premium)  ai reducere 50% reducere cu adresa instituțională."
+      }
+    ]
+  },
+
+  {
+    "id": 15,
+    "nume": "15. Cariere și internship",
     "descriere": "Planuri de viitor!",
     "imagineALT": "cariere_si_internship_image",
-    "href": "cariere-si-internship",
-    "next": "facilitati",
-    "back": "reprezentare-studenteasca",
+    "href": "cariere",
+    "next": "conducere",
+    "back": "facilitati",
     "titlu": "Cariere și Internship",
     "text": [
       {
@@ -546,70 +558,73 @@
       }
     ]
   },
+  
   {
-    "id": 15,
-    "nume": "15. Facilități",
-    "descriere": "Dacă tot sunt student...",
-    "imagineALT": "facilitati_image",
-    "href": "facilitati",
-    "back": "cariere-si-internship",
-    "next": "extracurriculare",
-    "titlu": "Facilități",
+    "id": 16,
+    "nume": "16. Conducere facultății",
+    "descriere": "Conducere",
+    "imagineALT": "reprezentare_studenteasca_image",
+    "href": "conducere",
+    "next": "secretariat",
+    "back": "cariere",
+    "titlu": "Conducere facultății",
     "text": [
       {
-        "type": "h2",
-        "content": "<h2>Transport</h2>"
+        "type": "p",
+        "content": "Consiliul Facultății este organismul principal de conducere al facultăţii. El defineşte strategia de dezvoltare, propune numărul de studenţi pe specializări şi forme de învăţământ, aprobă planurile de învăţământ și disciplinele pentru licenţă, masterat şi doctorat. Acesta este format din Biroul de Conducere al Consiliului (Decanatul Facultății), Directorii Departamentelor de Matematică și Informatică și studenții reprezentanți."
+      },
+
+      {
+        "type": "p",
+        "content": "Decanul Facultății, domnul Conf. Dr. Cătălin Gherghe, răspunde de calitatea întregului proces de învăţământ şi cercetare din facultate și este preşedinte al Consiliului Facultăţii. Prodecanii sunt responsabili de domeniile de activitate ale facultăţii şi răspund de conducerea acestora: "
       },
       {
         "type": "list",
-        "content": "<ul><li><p><b>Tren</b> - Vei beneficia de o reducere de 90%;</p></li><li><p><b>STB</b> - Vei beneficia de o reducere de 100%, abonamentul fiind decontat de Universitate.</p></li><li><p><span>Metrorex</span> - Poți beneficia de reducere de 90% pe baza legitimației de student și a buletinului.</p></li></ul>"
-      },
-      {
-        "type": "h2",
-        "content": "<h2>Biblioteca</h2>"
+        "content": "<ol><li><p>Domnul Lect. Dr. Alexandru Amărioarei – prodecan pentru acreditări, internaționalizare, raportări anuale;</p></li><li><p>Doamna Lect. Dr. Anca Dobrovăț – prodecan pentru cercetare, relația cu mediul de afaceri, internaționalizare;</p></li><li><p>Doamna Lect. Dr. Ruxandra Marinescu-Ghemeci – prodecan pentru relația cu studenții, practică, licență;</p></li><li><p>Domnul Lect. Dr. Răzvan Sfetcu – prodecan pentru activitate didactică, resurse umane, relația cu mediul preuniversitar, perfecționarea profesorilor, practică.</p></li></ol>"
       },
       {
         "type": "p",
-        "content": "Ca student, îți poți face gratuit permis de acces în Biblioteca Facultății, situată la etajul 1. De asemenea, cu acest permis beneficiezi de acces gratuit la Biblioteca Centrală Universitară „Carol I”."
-      },
-      {
-        "type": "h2",
-        "content": "<h2>Erasmus</h2>"
-      },
-      {
-        "type": "p",
-        "content": "Dacă vrei să știi cum este să fii student la o altă universitate dintr-o ţară europeană, facultatea îţi oferă această oportunitate. Astfel, ţi se oferă o bursă lunară pentru ca tu să descoperi viaţa de student european. Pentru mai multe informații puteți scana codul QR: *cod QR cu pagina erasmus de pe site*."
-      },
-      {
-        "type": "p",
-        "content":"La platforme de streaming Spotify Premium, Apple Music, Youtube (Music și Premium)  ai reducere 50% cu adresa instituțională. "
-      },
-      {
-        "type":"p",
-        "content":"Găsești resurse pentru studenți puse la dispoziție de Universitatea din București pe <a href=\"https://fmi.unibuc.ro/studenti/ \" target=\"_blank\" rel=\"noreferrer\">site-ul FMI</a>"
+        "content": "Senatul Universității constituie cel mai înalt for de reprezentare al comunității universitare în mediul academic național și internațional, fiind, totodată, forul de decizie și deliberare de la nivelul universității. Senatul are în componența sa și membri din partea Facultății de Matematică și Informatică."
       }
     ]
   },
+
   {
-    "id": 16,
-    "nume": "16. Extracurriculare",
+    "id": 17,
+    "nume": "17. Secretariat",
     "imagineALT": "extracurriculare_image",
-    "href": "extracurriculare",
-    "next": "echipa",
-    "back": "facilitati",
-    "titlu": "Extracurriculare",
+    "href": "secretariat",
+    "next": "asmi",
+    "back": "conducere",
+    "titlu": "Secretariat",
     "text": [
       {
         "type": "p",
-        "content": "Pentru a lua o pauză de la rutina zilnică, capitala vă oferă oportunităţi variate de a vă petrece timpul liber. Fiecare locaţie îţi oferă o reducere pe baza carnetului de student sau a legitimaţiei. Când vine vorba de cultură, îți oferim următoarele variante:"
+        "content": "Adresa de e-mail generală pentru secretariat: secretariat@fmi.unibuc.ro"
+      },
+      {
+        "type": "h2",
+        "content": "<h2>Programul cu publicul</h2>"
       },
       {
         "type": "p",
-        "content": "<h2>Muzee:</h2>"
-      },
+        "content": "<ul><li>LUNI: 12:00 – 14:00</li><li>MARȚI: 12:00 – 14:00</li><li>MIERCURI: 12:00 – 14:00</li><li>JOI: 12:00 – 14:00</li><li>VINERI: 10:00 – 12:00</li></ul>"
+      }
+    ]
+  },
+
+  {
+    "id": 18,
+    "nume": "18. Activități extracurriculare",
+    "imagineALT": "extracurriculare_image",
+    "href": "extracurricular",
+    "next": "asmi",
+    "back": "secretariat",
+    "titlu": "Activități extracurriculare",
+    "text": [
       {
         "type": "p",
-        "content": "<ul><li>Muzeul Teatrului Național I.L. Caragiale,</li><li>Muzeul Național de Istorie a României</li><li>Muzeul Național de Artă a României</li></ul>"
+        "content": "Pentru a lua o pauză de la rutina zilnică, capitala îți oferă oportunităţi variate de a te recrea. Multe locaţii îţi oferă o reducere pe baza carnetului de student sau a legitimaţiei. Când vine vorba de cultură, îți oferim următoarele variante"
       },
       {
         "type": "p",
@@ -661,22 +676,81 @@
       }
     ]
   },
+  
   {
-    "id": 17,
-    "nume": "17. Echipa ghidul bobocului 2024",
+    "id": 19,
+    "nume": "19. Asoaciația Studenților la Matematică și Informatică",
+    "imagineALT": "extracurriculare_image",
+    "href": "asmi",
+    "next": "echipa",
+    "back": "extracurricular",
+    "titlu": "Asociația Studenților la Matematică și Informatică",
+    "text": [
+      {
+        "type": "p",
+        "content": "Asociația Studenților la Matematică și Informatică (ASMI) susține conceptul de voluntariat, încurajează implicarea tinerilor în organizații studențești și vizează un dublu impact: pe de-o parte, relaționarea cu studenți de aceeași vârstă și cu preocupări comune, cu scopul organizării de proiecte socio-culturale pentru studenți, pe de altă parte, dezvoltarea unor abilități esențiale în viitoarea carieră. Asociația promovează spiritul de lucru în echipă, solidaritatea, responsabilizarea studenților din cadrul FMI și dorința de a progresa. În perioada următoare vei lua contact cu o serie întreagă de evenimente, pregătite special pentru tine."
+      },
+      {
+        "type": "p",
+        "content": "Proiecte viitoare din cadrul ASMI:"
+      },
+      {
+        "type": "list",
+        "content": "<ul><li><p><span>Dialog Deschis: </span>Ne strângem marți, 1 octombrie pentru ca studenții mai mari să povestească câteva experiențe petrecute până acum din studenție.</p></li></ul>"
+      },
+      {
+        "type": "list",
+        "content": "<ul><li><p><span>Bumtzi: </span>Pentru a sărbători începutul facultății, vă invităm joi, 3 octombrie la prima petrecere în calitate de studenți!</p></li></ul>"
+      },
+      {
+        "type": "list",
+        "content": "<ul><li><p><span>Tre' să caut: </span>reprezintă un treasure hunt care se desfășoară în București, sâmbătă, 5 octombrie, cu scopul de a familiariza noii studenți cu locurile importante din jurul zonei universității.</p></li></ul>"
+      },
+      {
+        "type": "list",
+        "content": "<ul><li><p><span>Meet ASMI: </span> Nu ești hotărât dacă vrei să intri în ASMI? Stai liniștit deoarece se apropie Meet ASMI, care este o întâlnire ce va avea loc marți, 8 octombrie, unde puteți lua contact direct cu voluntarii Asociației.</p></li></ul>"
+      },
+      {
+        "type": "list",
+        "content": "<ul><li><p><span>Balul Bobocilor: </span> Reprezintă o petrecere dedicată bobocilor, iar preselecțiile vor avea loc în luna octombrie. </p></li></ul>"
+      },
+      {
+        "type": "list",
+        "content": "<ul><li><p><span>SMARTHACK: </span> Un hackathon de 24 ore în care mai multe echipe lucrează la dezvoltarea unui produs software pe baza unei teme, care se finalizează cu jurizarea și premierea celei mai bune echipe. Competiția se va desfășura în perioada 2-3 noiembrie 2024.</p></li></ul>"
+      },
+      {
+        "type": "p",
+        "content": "Asociația noastră face parte din ANOSR (Alianța Națională a Organizațiilor Studențești din România), aceasta fiind o federație națională studențească, non-guvernamentală și non-partizană care, de peste 23 de ani, are ca scop principal atât reprezentarea intereselor comune ale studenților din România, apărarea și promovarea drepturilor și obligațiilor acestora, cât și stimularea participării lor la actul educațional și la viața socială, economică și culturală."
+      },
+      {
+        "type": "p",
+        "content": "Ei reunesc studenți din 19 centre universitare, 30 de universități și 112 organizații studențești. Mai multe informații despre ANOSR găsiți pe <a href=\"https://anosr.ro/  \" target=\"_blank\" rel=\"noreferrer\">anosr.ro</a>."
+      },
+      {
+        "type": "p",
+        "content":"Dacă dorești mai multe informații despre Asociația Studenților la Matematică și Informatică, poți vizita <a href=\"https://www.asmi.ro/  \" target=\"_blank\" rel=\"noreferrer\">site-ul nostru</a> și ne poți urmări activitatea pe <a href=\"https://www.facebook.com/asmi.ub/  \" target=\"_blank\" rel=\"noreferrer\">Facebook</a>, dar și pe <a href=\"https://www.instagram.com/asmi.ub/?hl=en  \" target=\"_blank\" rel=\"noreferrer\">Instagram</a>. Te așteptăm cu drag să ni te alături!"
+      }
+    ]
+  },
+
+  {
+    "id": 20,
+    "nume": "20. Echipa ghidul bobocului 2024",
     "descriere": "Regia, traducerea și subtitrarea",
     "imagineALT": "echipa_image",
     "href": "echipa",
-    "back": "extracurriculare",
-    "next": "dictionar",
+    "back": "asmi",
+    "next": "harta",
     "titlu": "Echipa ghidul bobocului 2024",
     "text": [ ]
   },
   {
-    "id": 18,
-    "nume": "18. Harta FMI",
+    "id": 21,
+    "nume": "22. Harta FMI",
     "imagineALT": "dictionar_image2",
     "href": "harta",
+    "back": "echipa",
+    "next": "mesajul-presedintelui-asmi",
     "titlu": "Harta FMI",
     "text": [
       {

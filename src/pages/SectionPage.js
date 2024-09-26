@@ -103,17 +103,18 @@ const SectionPage = () => {
                 })}
                 
               
-              {content && content.id === 17 && (
+              {content && content.id === 20 && (
                 <>
                   <motion.div className="cardImages">
-                    <p className="imageText">Matei Andrei</p>
                     <p className="imageText">Tudor Chițu</p>
                     <p className="imageText">Carolina-Andreea Costache</p>
                     <p className="imageText">Miruna Dragomir</p>
                     <p className="imageText">Ștefan Maftei</p>
                     <p className="imageText">Eric Alexandru Moroșan</p>
-                    <p className="imageText">Alexandru Cristian Ingeaua</p>
+                    <p className="imageText">Alexandru-Cristian Ingeaua</p>
+                    <p className="imageText">Irina Iordache</p>
                     <p className="imageText">Radu Nedelcu</p>
+                    <p className="imageText">Ana-Teodora Panait</p>
                     <p className="imageText">Ioana-Anamaria Stoichița</p>
                     <p className="imageText">Alexia Tanislav</p>
                     
