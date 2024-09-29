@@ -63,7 +63,7 @@ const SectiuneComponent = ({ sectiune, index }) => {
       return cariere_si_internship;
     } else if (url === 16) {
       return extracurriculare;
-    } else if (url === 17) {
+    } else if (url === 20) {
       return echipa;
     }else if (url === 18) {
       return schita;
@@ -107,7 +107,7 @@ const SectiuneComponent = ({ sectiune, index }) => {
       return "facilitati";
     }if (index === 15) {
       return "extracurriculare";
-    }if (index === 16) {
+    }if (index === 20) {
       return "echipa";
     }if (index === 17) {
       return "harta";

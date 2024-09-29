@@ -17,7 +17,7 @@ const CuprinsComponent = ({ sectiuni }) => {
       <h1>Cuprins</h1>
         <div
           className="main__cuprins__content__element"
-          onClick={() => window.location.replace("/#mesajul-presedintelui-asmi")}
+          onClick={() => window.location.replace("/pages/mesajul-presedintelui-asmi")}
         >
           <h3>Mesajul Președintelui ASMI</h3>
           <h2>1</h2>
@@ -25,7 +25,7 @@ const CuprinsComponent = ({ sectiuni }) => {
 
         <div
           className="main__cuprins__content__element"
-          onClick={() => window.location.replace("/#mesajul-decanatului")}
+          onClick={() => window.location.replace("/pages/mesajul-decanatului")}
         >
           <h3>Mesajul Decanatului</h3>
           <h2>2</h2>
@@ -33,7 +33,7 @@ const CuprinsComponent = ({ sectiuni }) => {
 
         <div
           className="main__cuprins__content__element"
-          onClick={() => window.location.replace("/#dictionar")}
+          onClick={() => window.location.replace("/pages/dictionar")}
         >
           <h3>Dicționar studențesc</h3>
           <h2>3</h2>
@@ -41,125 +41,160 @@ const CuprinsComponent = ({ sectiuni }) => {
 
         <div
           className="main__cuprins__content__element"
-          onClick={() => window.location.replace("/#matematica")}
+          onClick={() => window.location.replace("/pages/introducere")}
         >
-          <h3>Matematică</h3>
+          <h3>Introducere</h3>
           <h2>4</h2>
         </div>
 
         <div
           className="main__cuprins__content__element"
-          onClick={() => window.location.replace("/#informatica")}
+          onClick={() => window.location.replace("/pages/specializari")}
         >
-          <h3>Informatică</h3>
+          <h3>Specializări</h3>
           <h2>5</h2>
         </div>
 
         <div
           className="main__cuprins__content__element"
-          onClick={() => window.location.replace("/#cti")}
+          onClick={() => window.location.replace("/pages/structura")}
         >
-          <h3>CTI</h3>
+          <h3>Structura anului universitar</h3>
           <h2>6</h2>
         </div>
 
+         
         <div
           className="main__cuprins__content__element"
-          onClick={() => window.location.replace("/#asmi")}
+          onClick={() => window.location.replace("/pages/regulamente")}
         >
-          <h3>ASMI</h3>
+          <h3>Regulamente</h3>
           <h2>7</h2>
         </div>
 
         <div
           className="main__cuprins__content__element"
-          onClick={() => window.location.replace("/#activitate-didactica")}
+          onClick={() => window.location.replace("/pages/cdos")}
         >
-          <h3>Activitatea Didactică</h3>
+          <h3>Codul drepturilor și obligațiilor studențești</h3>
           <h2>8</h2>
         </div>
 
         <div
           className="main__cuprins__content__element"
-          onClick={() => window.location.replace("/#cazare")}
+          onClick={() => window.location.replace("/pages/drepturi")}
         >
-          <h3>Cazare și cămine</h3>
+          <h3>Drepturi și obligații</h3>
           <h2>9</h2>
         </div>
-
+        
         <div
           className="main__cuprins__content__element"
-          onClick={() => window.location.replace("/#conducere-fmi")}
+          onClick={() => window.location.replace("/pages/butonrosu")}
         >
-          <h3>Conducerea Facultății</h3>
+          <h3>Butonul roșu</h3>
           <h2>10</h2>
         </div>
 
         <div
           className="main__cuprins__content__element"
-          onClick={() => window.location.replace("/#burse")}
+          onClick={() => window.location.replace("/pages/reprezentare")}
         >
-          <h3>Burse</h3>
+          <h3>Studenți reprezentanți</h3>
           <h2>11</h2>
         </div>
 
         <div
           className="main__cuprins__content__element"
-          onClick={() => window.location.replace("/#regulament")}
+          onClick={() => window.location.replace("/pages/burse")}
         >
-          <h3>Regulamente FMI</h3>
+          <h3>Burse</h3>
           <h2>12</h2>
         </div>
 
         <div
           className="main__cuprins__content__element"
-          onClick={() => window.location.replace("/#reprezentare-studenteasca")}
+          onClick={() => window.location.replace("/pages/cazare")}
         >
-          <h3>Reprezentare Studențească</h3>
+          <h3>Cămine și cantină</h3>
           <h2>13</h2>
         </div>
-
+        
         <div
           className="main__cuprins__content__element"
-          onClick={() => window.location.replace("/#cariere-si-internship")}
+          onClick={() => window.location.replace("/pages/facilitati")}
         >
-          <h3>Cariere și internship</h3>
+          <h3>Facilități</h3>
           <h2>14</h2>
         </div>
 
         <div
           className="main__cuprins__content__element"
-          onClick={() => window.location.replace("/#facilitati")}
+          onClick={() => window.location.replace("/pages/cariere")}
         >
-          <h3>Facilități</h3>
+          <h3>Cariere</h3>
           <h2>15</h2>
         </div>
 
         <div
           className="main__cuprins__content__element"
-          onClick={() => window.location.replace("/#extracurriculare")}
+          onClick={() => window.location.replace("/pages/conducere")}
         >
-          <h3>Extracurriculare</h3>
+          <h3>Conducerea Facultății</h3>
           <h2>16</h2>
         </div>
-
-        <div
-          className="main__cuprins__content__element"
-          onClick={() => window.location.replace("/#echipa")}
-        >
-          <h3>Echipa ghidul bobocului 2023</h3>
-          <h2>17</h2>
-        </div>
-
+        
         <div className="main__cuprins__content">
         <div
           className="main__cuprins__content__element"
-          onClick={() => window.location.replace("/#harta")}
+          onClick={() => window.location.replace("/pages/secretariat")}
         >
-          <h3>Harta FMI</h3>
+          <h3>Secretariatul Facultății</h3>
+          <h2>17</h2>
+        </div>
+      </div>
+
+      <div className="main__cuprins__content">
+        <div
+          className="main__cuprins__content__element"
+          onClick={() => window.location.replace("/pages/extracurricular")}
+        >
+          <h3>Activități extracurriculare</h3>
           <h2>18</h2>
         </div>
       </div>
+
+      <div className="main__cuprins__content">
+        <div
+          className="main__cuprins__content__element"
+          onClick={() => window.location.replace("/pages/asmi")}
+        >
+          <h3>ASMI</h3>
+          <h2>19</h2>
+        </div>
+      </div>
+
+      <div className="main__cuprins__content">
+        <div
+          className="main__cuprins__content__element"
+          onClick={() => window.location.replace("/pages/echipa")}
+        >
+          <h3>Echipa ghidul bobocului 2024</h3>
+          <h2>20</h2>
+        </div>
+      </div>
+
+      <div className="main__cuprins__content">
+        <div
+          className="main__cuprins__content__element"
+          onClick={() => window.location.replace("/pages/harta")}
+        >
+          <h3>Harta Facultății</h3>
+          <h2>21</h2>
+        </div>
+      </div>
+
+
     </motion.section>
   );
 };
