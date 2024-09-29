@@ -194,7 +194,15 @@ const CuprinsComponent = ({ sectiuni }) => {
         </div>
       </div>
 
-
+      <div className="main__cuprins__content">
+        <div
+          className="main__cuprins__content__element"
+          onClick={() => window.open("https://drive.google.com/file/d/1VRQW5Pbve4d8QMUixN4gMQmU-jcdYj4G/view?usp=drive_link ")}
+        >
+          <h3>Ghidul Bobocului pentru Master</h3>
+          <h2>22</h2>
+        </div>
+      </div>
     </motion.section>
   );
 };
