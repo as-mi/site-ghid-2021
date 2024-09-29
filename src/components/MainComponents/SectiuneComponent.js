@@ -19,6 +19,10 @@ import cazare from "../../assets/main/camine.png";
 import reprezentare_studenteasca from "../../assets/main/reprezentare_studenteasca.webp";
 import mesaj_liviu from "../../assets/main/admitere_editat_5.png";
 import mesaj_decanat from "../../assets/main/haret-1-1190x396.jpg"
+import decanat from "../../assets/main/decanat.jpg";
+import butonrosu from "../../assets/main/buttonrosu.png";
+import introducere from "../../assets/main/introducere.png";
+import secretariat from "../../assets/main/secretariat.jpg";
 
 // Import Animations
 import { motion } from "framer-motion";
@@ -40,37 +44,43 @@ const SectiuneComponent = ({ sectiune, index }) => {
     } else if (url === 5) {
       return informatica;
     } else if (url === 4) {
-      return matematica;
+      return introducere;
     } else if (url === 6) {
-      return cti;
+      return matematica;
     } else if (url === 7) {
-      return asmi;
+      return regulament;
     } else if (url === 8) {
       return activitate;
     } else if (url === 10) {
-      return conducere;
+      return butonrosu;
     } else if (url === 12) {
       return regulament;
     } else if (url === 9) {
-      return cazare;
+      return dictionar;
     } else if (url === 11) {
-      return burse;
-    } else if (url === 13) {
       return reprezentare_studenteasca;
+    } else if (url === 13) {
+      return cazare;
     } else if (url === 15) {
-      return facilitati;
-    } else if (url === 14) {
       return cariere_si_internship;
+    } else if (url === 14) {
+      return facilitati;
     } else if (url === 16) {
-      return extracurriculare;
+      return decanat;
     } else if (url === 20) {
       return echipa;
     }else if (url === 18) {
-      return schita;
+      return extracurriculare;
     }else if (url === 1) {
       return mesaj_liviu;
     }else if (url === 2) {
       return mesaj_decanat;
+    }else if (url === 21) {
+      return schita;
+    }else if (url === 19) {
+      return asmi;}
+    else if (url === 17) {
+      return secretariat;
     }
   };
 
